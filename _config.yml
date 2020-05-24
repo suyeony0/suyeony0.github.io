@@ -4,9 +4,9 @@ highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 # Jekyll Defaults
-title: Artist Theme
-email: your-email@domain.com
-description: A small and simple site I made to test out Jekyll. Watch out! I'm going to make a material design theme next!
+title: Loui's Record
+email: gjsgud2@gmail.com
+description: Loui's CS History. Algorithm, Data Mining, Game, Etc...
 baseurl: ""
 
 # Where can people find your site?
