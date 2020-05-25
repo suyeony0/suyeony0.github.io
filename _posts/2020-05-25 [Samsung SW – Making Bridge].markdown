@@ -1,4 +1,15 @@
-[202. [SAMSUNG SW ? Making Bridge]
+---
+layout: post
+title:  "[202. [SAMSUNG SW ? Making Bridge]"
+date:   2020-05-25 20:00:00
+description: Minimum Spanning Tree Problem.
+thumbnail: person1.jpeg
+categories: category1
+
+# Information for the author block
+author: Loui
+---
+
 - It was a minimum spanning tree problem.
 - when I solved this problem. I thought time limit exceeded might have occurred. but it¡¯s not.
 - First, I named all the district respectively.
