@@ -17,6 +17,7 @@ author: Loui
 - see the code.  
   
 {
+
 #include<iostream>
 #include<vector>
 #include<queue>
@@ -28,6 +29,7 @@ int dir[4][2] = { {-1,0},{0,-1},{1,0},{0,1} };
 int N;
 int d_num = 2;
 int answer = 987654321;
+	
 void makeDistriction() {
 	queue<vector<int>> que;
 	for (int i = 0; i < N; i++) {
