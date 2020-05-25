@@ -4,7 +4,7 @@ title:  "202.[SAMSUNG SW - Making Bridge]"
 date:   2020-05-25
 description: Minimum Spanning Tree Problem.
 thumbnail: person1.jpeg
-categories: site.category.[thisValue]
+categories: category1
 
 # Information for the author block
 author: Loui
