@@ -16,7 +16,7 @@ author: Loui
 - Second, for each shell that is one of a district, find minimum path to another district using BFS.
 - see the code.  
   
-
+{
 
 	#include<iostream>
 	#include<vector>
@@ -84,6 +84,7 @@ author: Loui
 	}
 
 	int main() {
+	
 		ios_base::sync_with_stdio(false);
 		cin.tie(NULL); cout.tie(NULL);
 
@@ -104,4 +105,4 @@ author: Loui
 
 	}
 
-
+}
