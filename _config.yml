@@ -7,6 +7,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 title: Loui's Record
 email: gjsgud2@gmail.com
 description: Loui's CS History. Algorithm, Data Mining, Game, Etc...
+encoding: UTF-8
 baseurl: ""
 
 # Where can people find your site?
