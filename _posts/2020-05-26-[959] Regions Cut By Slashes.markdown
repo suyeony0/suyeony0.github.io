@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [959] Regions Cut By Slashes
+title: [959 Regions Cut By Slashes]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg
