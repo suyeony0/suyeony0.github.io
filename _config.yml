@@ -2,7 +2,7 @@
 markdown: kramdown
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-
+ 
 # Jekyll Defaults
 title: Loui's Record
 email: gjsgud2@gmail.com
