@@ -1,0 +1,111 @@
+---
+layout: post
+title: [1140] Stone Game II
+data: 2020-05-26
+desciption: txt to markdown
+thumbnail: person1.jpeg
+categories: Algorithm
+
+# Information for the author block
+author : Loui
+---
+
+	﻿[97/ [1140] Stone Game II – return the most stones alex can win]
+	- Finally, I’ve solved this problem!!! I took almost 5 hours…
+	- I refered to discussion about (sum+helper())/2
+	- To resolve time limit exceeded, I used dp.
+	-see the code.
+	class Solution {
+	public:
+	    int helper(vector<int>& piles,int x,int M,bool alex,vector<vector<int>>& dp){
+	        if(dp[x][M]!=INT_MIN) return dp[x][M];
+	        if(piles.size()-x<=2*M){
+	            int sum=0;
+	            for(int i=x;i<piles.size();i++)
+	                sum+=piles[i];
+	            return sum;
+	        }
+	        int res=INT_MIN;
+	        int cur_sum=0;
+	        for(int i=x;i<x+2*M;i++){
+	            cur_sum+=piles[i];
+	            res=max(res,cur_sum-helper(piles,i+1,max(M,i-x+1),!alex,dp));
+	        }
+	        dp[x][M]=res;
+	        return res;
+	    }
+	    
+	    int stoneGameII(vector<int>& piles) {
+	        vector<vector<int>> dp(piles.size()+1,vector<int>(piles.size()+1,INT_MIN));
+	        int sum=std::accumulate(piles.begin(),piles.end(),0);
+	        int aa=helper(piles,0,1,true,dp);
+	        int res=(sum+aa)/2;
+	        return res;
+	    }
+	};    
+	    int stoneGameII(vector<int>& piles) {
+	        vector<vector<int>> dp(piles.size()+1,vector<int>(piles.size()+1,INT_MIN));
+	        int sum=std::accumulate(piles.begin(),piles.end(),0);
+	        int aa=helper(piles,0,1,true,dp);
+	        int res=(sum+aa)/2;
+	        return res;
+	    }
+	};
+	
+	- At first, I took brute force. But the time limit exceeded occurred.
+	class Solution {
+	public:
+	    int helper(vector<int>& piles,int x,int M){
+	        //if the rest stones are less then 2M, return all the rest stones
+	        if(piles.size()-x<=2*M){
+	            int sum=0;
+	            for(int i=x;i<piles.size();i++)
+	                sum+=piles[i];
+	            return sum;
+	        }
+	        //else do brute force.
+	        int sum=INT_MIN;// this variable will be returned.
+	        int cur_sum=0;
+	        int i;
+	        for(int m=1;m<=2*M;m++){ //for every m where 1<=m<=2M, find all the possible case.
+	            cur_sum=0;
+	            for(i=x;i<x+m;i++)
+	                cur_sum+=piles[i];
+	            sum=max(sum,cur_sum-helper(piles,i,max(M,m)));
+	        }
+	        return sum;
+	    }
+	    
+	    int stoneGameII(vector<int>& piles) {
+	        int sum=std::accumulate(piles.begin(),piles.end(),0);
+	        // i think I have to do brute force.
+	        return (sum+helper(piles,0,1))/2;
+	    }
+	};
+	- I don’t understand the algorithm. I gave up…
+	- they say like, dp[i][j] is the maximum stones alex can get where starting at index I with M=j.
+	- fxxking DP!!!
+	- see the code.
+	class Solution {
+	public:
+	    int stoneGameII(vector<int>& piles) {
+	        int length = piles.size();
+	        vector<vector<int>>dp(length + 1, vector<int>(length + 1,0));
+	        vector<int> sufsum (length + 1, 0);
+	        for (int i = length - 1; i >= 0; i--) {
+	            sufsum[i] = sufsum[i + 1] + piles[i];
+	        }
+	        for (int i = 0; i <= length; i++) {
+	            dp[i][length] = sufsum[i];
+	        }
+	        for (int i = length - 1; i >= 0; i--) {
+	            for (int j = length - 1; j >= 1; j--) {
+	                for (int X = 1; X <= 2 * j && i + X <= length; X++) {
+	                    dp[i][j] = max(dp[i][j], sufsum[i] - dp[i + X][max(j, X)]);
+	                }
+	            }
+	        }
+	        return dp[0][1];
+	    }
+	};
+	
