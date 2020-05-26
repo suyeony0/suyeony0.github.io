@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [442] Find All Duplicates in an Array
+title: [442  Find All Duplicates in an Array]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

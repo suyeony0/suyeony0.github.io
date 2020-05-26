@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [986] Interval List Intersections
+title: [986  Interval List Intersections]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

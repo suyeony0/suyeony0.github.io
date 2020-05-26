@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [695] Max Area of Island]
+title: [695  Max Area of Island]]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg
