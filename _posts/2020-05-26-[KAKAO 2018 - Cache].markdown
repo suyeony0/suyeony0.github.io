@@ -1,0 +1,52 @@
+---
+layout: post
+title: [KAKAO 2018 - Cache]
+data: 2020-05-26
+desciption: txt to markdown
+thumbnail: person1.jpeg
+categories: Algorithm
+
+# Information for the author block
+author : Loui
+---
+
+{% raw %}
+	﻿[138. [Programmers– KAKAO 2018 :Cache]]
+	- Honestly. it was shame I couldn’t solve this problem directly due to LRU.
+	- Making LRU is quite fresh in a bad way. so I spent 20~30 minutes.
+	- see the code.
+	#include <cstring>
+	#include <vector>
+	#include<algorithm>
+	#include<iostream>
+	
+	using namespace std;
+	
+	int solution(int cacheSize, vector<string> cities) {
+	    if(cacheSize==0) return cities.size()*5;
+	    int answer = 0;
+	    //tolower
+	    for(int i=0;i<cities.size();i++) transform(cities[i].begin(),cities[i].end(),cities[i].begin(),::tolower);
+	    //make cache
+	    vector<string> res;
+	    for(int i=0;i<cities.size();i++){
+	        vector<string>::iterator iter=find(res.begin(),res.end(),cities[i]);
+	        //if cache doesn't have current city.
+	        if(iter==res.end()){
+	            answer+=5;
+	            res.push_back(cities[i]);
+	            if(res.size()>cacheSize) res.erase(res.begin());
+	        }
+	        //when cache has the city.
+	        else{
+	            answer++;
+	            res.erase(iter);
+	            res.push_back(cities[i]);
+	            
+	        }
+	    }
+	    return answer;
+	}
+	
+	
+{% endraw %}
