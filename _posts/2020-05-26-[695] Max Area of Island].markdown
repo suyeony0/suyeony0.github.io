@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [695  Max Area of Island]]
+title: {% raw %}[695] Max Area of Island]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

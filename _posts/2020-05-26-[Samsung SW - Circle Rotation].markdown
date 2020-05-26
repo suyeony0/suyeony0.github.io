@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Circle Rotation]
+title: {% raw %}[Samsung SW - Circle Rotation]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

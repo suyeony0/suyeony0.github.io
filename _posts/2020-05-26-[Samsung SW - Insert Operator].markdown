@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Insert Operator]
+title: {% raw %}[Samsung SW - Insert Operator]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

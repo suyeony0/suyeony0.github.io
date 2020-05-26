@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2018 - Compression]
+title: {% raw %}[KAKAO 2018 - Compression]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

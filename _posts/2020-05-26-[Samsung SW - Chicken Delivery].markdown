@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Chicken Delivery]
+title: {% raw %}[Samsung SW - Chicken Delivery]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

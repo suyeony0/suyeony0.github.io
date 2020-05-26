@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Make Bridge 2]
+title: {% raw %}[Samsung SW - Make Bridge 2]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [951  Flip Equivalent Binary Trees]
+title: {% raw %}[951] Flip Equivalent Binary Trees{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Brainfuck Interpreter]
+title: {% raw %}[Samsung SW - Brainfuck Interpreter]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - The Longest Sequence]
+title: {% raw %}[Samsung SW - The Longest Sequence]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

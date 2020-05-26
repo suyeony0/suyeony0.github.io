@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [931  Minimum Falling Path Sum]
+title: {% raw %}[931] Minimum Falling Path Sum{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

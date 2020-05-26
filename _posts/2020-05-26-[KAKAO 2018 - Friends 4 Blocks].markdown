@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2018 - Friends 4 Blocks]
+title: {% raw %}[KAKAO 2018 - Friends 4 Blocks]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

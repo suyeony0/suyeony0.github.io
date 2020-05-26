@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [988  Maximum Binary Tree II]
+title: {% raw %}[988] Maximum Binary Tree II{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

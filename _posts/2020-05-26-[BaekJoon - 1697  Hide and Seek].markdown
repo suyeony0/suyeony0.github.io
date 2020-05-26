@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [BaekJoon - 1697  Hide and Seek]
+title: {% raw %}[BaekJoon - 1697  Hide and Seek]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

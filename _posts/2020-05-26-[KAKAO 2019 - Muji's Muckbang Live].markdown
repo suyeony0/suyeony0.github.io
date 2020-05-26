@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2019 - Muji's Muckbang Live]
+title: {% raw %}[KAKAO 2019 - Muji's Muckbang Live]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

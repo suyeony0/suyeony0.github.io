@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [442  Find All Duplicates in an Array]
+title: {% raw %}[442] Find All Duplicates in an Array{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

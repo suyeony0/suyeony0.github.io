@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Move Pipe 1]
+title: {% raw %}[Samsung SW - Move Pipe 1]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

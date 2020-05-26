@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Dice Yut Play]
+title: {% raw %}[Samsung SW - Dice Yut Play]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

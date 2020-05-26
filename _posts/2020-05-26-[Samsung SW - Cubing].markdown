@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Cubing]
+title: {% raw %}[Samsung SW - Cubing]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

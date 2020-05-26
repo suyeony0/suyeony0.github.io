@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Dragon Curve]
+title: {% raw %}[Samsung SW - Dragon Curve]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

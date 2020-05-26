@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Haji Prediction]
+title: {% raw %}[Samsung SW - Haji Prediction]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

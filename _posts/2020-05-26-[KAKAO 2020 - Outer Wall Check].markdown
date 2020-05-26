@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2020 - Outer Wall Check]
+title: {% raw %}[KAKAO 2020 - Outer Wall Check]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2019 Winter Internship - Banned User]
+title: {% raw %}[KAKAO 2019 Winter Internship - Banned User]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2019 - Fail Rate]
+title: {% raw %}[KAKAO 2019 - Fail Rate]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

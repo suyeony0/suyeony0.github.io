@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Start and Link]
+title: {% raw %}[Samsung SW - Start and Link]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Gears]
+title: {% raw %}[Samsung SW - Gears]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - 2D Array Calculation]
+title: {% raw %}[Samsung SW - 2D Array Calculation]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

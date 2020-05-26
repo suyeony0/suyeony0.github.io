@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Addition Problem]
+title: {% raw %}[Samsung SW - Addition Problem]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

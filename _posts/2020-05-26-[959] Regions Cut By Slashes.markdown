@@ -1,10 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD:_posts/2020-05-26-[959  Regions Cut By Slashes].markdown
-title: [959  Regions Cut By Slashes]
-=======
-title: [959 Regions Cut By Slashes]
->>>>>>> 2a9dca37335c1ffaf2fd78594ae7b8bb36d8879d:_posts/2020-05-26-[959] Regions Cut By Slashes.markdown
+title: {% raw %}[959] Regions Cut By Slashes{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

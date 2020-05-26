@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Monitoring]
+title: {% raw %}[Samsung SW - Monitoring]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Exam invigilator]
+title: {% raw %}[Samsung SW - Exam invigilator]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

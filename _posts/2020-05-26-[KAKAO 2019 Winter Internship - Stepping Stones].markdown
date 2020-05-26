@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2019 Winter Internship - Stepping Stones]
+title: {% raw %}[KAKAO 2019 Winter Internship - Stepping Stones]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

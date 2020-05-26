@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [791  Custom Sort String]
+title: {% raw %}[791] Custom Sort String{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

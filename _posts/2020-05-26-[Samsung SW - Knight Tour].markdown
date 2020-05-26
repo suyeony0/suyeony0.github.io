@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Knight Tour]
+title: {% raw %}[Samsung SW - Knight Tour]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [1318  Minimum Flips to Make a OR b Equal to c]
+title: {% raw %}[1318] Minimum Flips to Make a OR b Equal to c{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

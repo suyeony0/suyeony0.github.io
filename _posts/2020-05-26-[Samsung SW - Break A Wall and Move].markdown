@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Break A Wall and Move]
+title: {% raw %}[Samsung SW - Break A Wall and Move]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

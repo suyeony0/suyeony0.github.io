@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [1238  Circular Permutation in Binary Representation]
+title: {% raw %}[1238] Circular Permutation in Binary Representation{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

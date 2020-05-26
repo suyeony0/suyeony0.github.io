@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2018 - Sort Timetable]
+title: {% raw %}[KAKAO 2018 - Sort Timetable]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

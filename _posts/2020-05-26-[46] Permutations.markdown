@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [46  Permutations]
+title: {% raw %}[46] Permutations{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

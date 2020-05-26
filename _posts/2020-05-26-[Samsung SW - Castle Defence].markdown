@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Castle Defence]
+title: {% raw %}[Samsung SW - Castle Defence]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

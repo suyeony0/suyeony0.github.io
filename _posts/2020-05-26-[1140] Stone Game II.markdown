@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [1140  Stone Game II]
+title: {% raw %}[1140] Stone Game II{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

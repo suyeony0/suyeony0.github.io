@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Samsung SW - Attach Sugar Paper]
+title: {% raw %}[Samsung SW - Attach Sugar Paper]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

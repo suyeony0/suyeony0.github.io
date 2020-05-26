@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [986  Interval List Intersections]
+title: {% raw %}[986] Interval List Intersections{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

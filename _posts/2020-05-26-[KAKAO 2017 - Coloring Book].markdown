@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [KAKAO 2017 - Coloring Book]
+title: {% raw %}[KAKAO 2017 - Coloring Book]{% endraw %}
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg
