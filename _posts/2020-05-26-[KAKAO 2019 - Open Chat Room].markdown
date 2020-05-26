@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2019 - Open Chat Room]{% endraw %}
+title: [KAKAO 2019 - Open Chat Room]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2020 - Lyrics Searcing]{% endraw %}
+title: [KAKAO 2020 - Lyrics Searcing]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

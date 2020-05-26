@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Rolling Dice]{% endraw %}
+title: [Samsung SW - Rolling Dice]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Chocolate and Raisin]{% endraw %}
+title: [Samsung SW - Chocolate and Raisin]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

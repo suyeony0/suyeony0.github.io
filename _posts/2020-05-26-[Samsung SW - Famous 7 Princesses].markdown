@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Famous 7 Princesses]{% endraw %}
+title: [Samsung SW - Famous 7 Princesses]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

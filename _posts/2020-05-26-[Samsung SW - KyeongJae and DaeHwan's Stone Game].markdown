@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - KyeongJae and DaeHwan's Stone Game]{% endraw %}
+title: [Samsung SW - KyeongJae and DaeHwan's Stone Game]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

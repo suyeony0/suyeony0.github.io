@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Baby Shark]{% endraw %}
+title: [Samsung SW - Baby Shark]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

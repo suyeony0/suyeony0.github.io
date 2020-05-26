@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[889] Construct Binary Tree from Preorder and Postorder Traversal{% endraw %}
+title: [889 Construct Binary Tree from Preorder and Postorder Traversal]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

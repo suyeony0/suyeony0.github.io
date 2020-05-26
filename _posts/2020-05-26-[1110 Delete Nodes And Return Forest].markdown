@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1110] Delete Nodes And Return Forest{% endraw %}
+title: [1110 Delete Nodes And Return Forest]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

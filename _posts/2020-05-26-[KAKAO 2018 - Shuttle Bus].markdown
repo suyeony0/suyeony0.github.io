@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2018 - Shuttle Bus]{% endraw %}
+title: [KAKAO 2018 - Shuttle Bus]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

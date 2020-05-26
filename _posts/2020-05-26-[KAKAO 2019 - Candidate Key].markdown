@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2019 - Candidate Key]{% endraw %}
+title: [KAKAO 2019 - Candidate Key]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

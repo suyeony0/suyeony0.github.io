@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Gerrymandering 1]{% endraw %}
+title: [Samsung SW - Gerrymandering 1]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

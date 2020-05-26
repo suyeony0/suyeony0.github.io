@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1043] Partition Array for Maximum Sum{% endraw %}
+title: [1043 Partition Array for Maximum Sum]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

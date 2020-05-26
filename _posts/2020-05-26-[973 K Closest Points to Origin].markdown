@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[973] K Closest Points to Origin{% endraw %}
+title: [973 K Closest Points to Origin]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

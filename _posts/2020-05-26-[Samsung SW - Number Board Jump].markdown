@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Number Board Jump]{% endraw %}
+title: [Samsung SW - Number Board Jump]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

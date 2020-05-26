@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1219] Path with Maximum Gold{% endraw %}
+title: [1219 Path with Maximum Gold]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

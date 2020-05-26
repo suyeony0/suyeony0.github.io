@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Add Parenthesis]{% endraw %}
+title: [Samsung SW - Add Parenthesis]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

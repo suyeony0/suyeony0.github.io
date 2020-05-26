@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Goodbye Finedust!]{% endraw %}
+title: [Samsung SW - Goodbye Finedust!]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

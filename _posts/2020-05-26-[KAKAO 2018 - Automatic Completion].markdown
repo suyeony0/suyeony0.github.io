@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2018 - Automatic Completion]{% endraw %}
+title: [KAKAO 2018 - Automatic Completion]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

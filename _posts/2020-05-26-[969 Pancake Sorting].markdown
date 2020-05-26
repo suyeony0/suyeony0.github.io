@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[969] Pancake Sorting{% endraw %}
+title: [969 Pancake Sorting]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

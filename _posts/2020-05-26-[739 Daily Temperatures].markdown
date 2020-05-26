@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[739] Daily Temperatures{% endraw %}
+title: [739 Daily Temperatures]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

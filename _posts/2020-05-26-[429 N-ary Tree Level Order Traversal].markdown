@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[429] N-ary Tree Level Order Traversal{% endraw %}
+title: [429 N-ary Tree Level Order Traversal]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

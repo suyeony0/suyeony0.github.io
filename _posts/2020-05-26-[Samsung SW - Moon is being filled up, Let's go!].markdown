@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Moon is being filled up, Let's go!]{% endraw %}
+title: [Samsung SW - Moon is being filled up, Let's go!]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

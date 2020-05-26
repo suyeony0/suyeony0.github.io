@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[406] Queue Reconstruction by Height{% endraw %}
+title: [406 Queue Reconstruction by Height]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Chess Board Re-Painting]{% endraw %}
+title: [Samsung SW - Chess Board Re-Painting]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

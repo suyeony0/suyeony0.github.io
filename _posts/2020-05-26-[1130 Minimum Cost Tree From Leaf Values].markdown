@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1130] Minimum Cost Tree From Leaf Values{% endraw %}
+title: [1130 Minimum Cost Tree From Leaf Values]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

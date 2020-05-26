@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1026] Maximum Difference Between Node and Ancestor{% endraw %}
+title: [1026 Maximum Difference Between Node and Ancestor]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

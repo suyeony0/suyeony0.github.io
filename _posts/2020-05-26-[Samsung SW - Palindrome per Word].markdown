@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Palindrome per Word]{% endraw %}
+title: [Samsung SW - Palindrome per Word]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

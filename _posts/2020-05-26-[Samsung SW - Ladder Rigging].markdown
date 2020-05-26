@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Ladder Rigging]{% endraw %}
+title: [Samsung SW - Ladder Rigging]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

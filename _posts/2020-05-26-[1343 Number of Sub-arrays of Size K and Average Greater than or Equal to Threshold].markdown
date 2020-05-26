@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1343] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold{% endraw %}
+title: [1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

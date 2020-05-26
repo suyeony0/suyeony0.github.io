@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[1123] Lowest Common Ancestor of Deepest Leaves{% endraw %}
+title: [1123 Lowest Common Ancestor of Deepest Leaves]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

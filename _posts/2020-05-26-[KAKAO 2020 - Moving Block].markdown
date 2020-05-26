@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2020 - Moving Block]{% endraw %}
+title: [KAKAO 2020 - Moving Block]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

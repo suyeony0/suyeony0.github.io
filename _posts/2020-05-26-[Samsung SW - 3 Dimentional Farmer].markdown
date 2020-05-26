@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - 3 Dimentional Farmer]{% endraw %}
+title: [Samsung SW - 3 Dimentional Farmer]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

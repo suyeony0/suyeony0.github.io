@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[Samsung SW - Palindrome Phobia]{% endraw %}
+title: [Samsung SW - Palindrome Phobia]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg

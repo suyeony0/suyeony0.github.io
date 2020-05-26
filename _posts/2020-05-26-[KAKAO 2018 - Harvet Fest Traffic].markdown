@@ -1,6 +1,6 @@
 ---
 layout: post
-title: {% raw %}[KAKAO 2018 - Harvet Fest Traffic]{% endraw %}
+title: [KAKAO 2018 - Harvet Fest Traffic]
 data: 2020-05-26
 desciption: txt to markdown
 thumbnail: person1.jpeg
