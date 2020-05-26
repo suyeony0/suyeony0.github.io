@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿
 	[145. [SAMSUNG – SW :2D Array Calculation]]
 	- this was weird. when I used unordered_map, abort occurred at 9% of submission.
@@ -116,3 +117,4 @@ author : Loui
 		
 	}
 	
+{% endraw %}

@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[98. [Samsung SW – A : connect processor]]
 	- I spent almost 5 hours for debugging…
 	- see the code.
@@ -163,3 +164,4 @@ author : Loui
 		return 0;//정상종료시 반드시 0을 리턴해야합니다.
 	}	
 	
+{% endraw %}

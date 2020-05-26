@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[203. [SAMSUNG SW – Break A Wall and Move]
 	- It was a simulation problem to find the shortest path from start to end position.
 	- I used DFS first, but I failed since there is no insurance that a path I found is minimum path when we use DFS.
@@ -78,3 +79,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

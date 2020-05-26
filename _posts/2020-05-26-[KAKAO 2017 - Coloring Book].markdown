@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[180. [KAKAO 2017 : Coloring Book]
 	- this was a simulation problem. I solved using BFS.
 	- it’s quite long time since I used BFS lastly. so It took much more time.
@@ -76,3 +77,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

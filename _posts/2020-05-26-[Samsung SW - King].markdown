@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿
 	[187. [SAMSUNG SW – KING]
 	- it was an easy simulation problem. I had to just follow given moving order.
@@ -55,3 +56,4 @@ author : Loui
 	
 	}
 	
+{% endraw %}

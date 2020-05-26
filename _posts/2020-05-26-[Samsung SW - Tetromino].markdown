@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[106. [BACKJOON – SAMSUNG SW : Tetromino]]
 	- I struggled to implement slinding. I spent 1 hour or so.
 	- it was a quite dirty problem, since I had to make all the possible tetromino with my own hands.
@@ -120,3 +121,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

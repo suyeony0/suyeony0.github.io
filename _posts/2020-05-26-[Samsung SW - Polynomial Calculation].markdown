@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿#include<iostream>
 	#include<vector>
 	
@@ -67,3 +68,4 @@ author : Loui
 		}
 		return 0;
 	}
+{% endraw %}

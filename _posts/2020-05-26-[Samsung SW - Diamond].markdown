@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[158. [SAMSUNG - SW : Diamond]
 	  I’ve misunderstood. but it wasn’t only me. so it’s SAMSUNG’s problem haha.
 	- using set and map, I made an algorithm easily. there was no DFS, DP, etc, but just caculation.
@@ -69,3 +70,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[140. [Programmers– KAKAO 2018 :Dart Game]]
 	- String parsing and caculate using given rule is the way to solve this problem.
 	- parsing part was pretty naughty. since I had to check all the index of the string. but given string was short. So I could follow where an index is and there was no time issue either.
@@ -79,3 +80,4 @@ author : Loui
 	    return answer;
 	}
 	
+{% endraw %}

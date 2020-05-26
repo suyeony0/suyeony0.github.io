@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[181. [SAMSUNG SW – Rotate Array 4]
 	- this was a simulation problem.
 	- I had to rotate part of given 2D array clock-wisely, and caclutate minimum value among each row.
@@ -86,3 +87,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

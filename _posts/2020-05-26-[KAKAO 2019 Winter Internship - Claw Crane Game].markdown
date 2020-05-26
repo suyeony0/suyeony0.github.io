@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[175. [KAKAO 2019 – Winter Internship : Claw Crane Game]
 	- this was so easy. I think I don’t need comment for this problem.
 	- see the code.
@@ -57,3 +58,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

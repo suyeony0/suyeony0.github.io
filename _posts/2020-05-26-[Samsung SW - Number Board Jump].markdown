@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[204. [SAMSUNG SW – Number Board Jump]
 	- it was just a DFS problem. there was no restriction so easy.
 	- see the code.
@@ -63,3 +64,4 @@ author : Loui
 	
 	}
 	
+{% endraw %}

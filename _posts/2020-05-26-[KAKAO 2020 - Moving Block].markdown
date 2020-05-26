@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[125. [Programmers– KAKAO 2020 : Moving Block]]
 	- At first, I used DFS to implement brute force, but I failed lots of test case and time limit exceeded occurred.
 	- see the code.
@@ -391,3 +392,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

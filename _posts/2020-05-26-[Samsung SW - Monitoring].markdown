@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[114. [BACKJOON – SAMSUNG SW : Monitoring ]]
 	- just following rules, removing blind spot is the main point of this problem.
 	- DFS is needed.
@@ -195,3 +196,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

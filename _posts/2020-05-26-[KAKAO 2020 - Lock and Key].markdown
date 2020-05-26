@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[121. [Programmers– KAKAO 2020 : Lock and Key]]
 	- implementing slicing using C++ is quite hard for me.
 	- I made slicing to determine whether the given key is valid or not. 
@@ -113,3 +114,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

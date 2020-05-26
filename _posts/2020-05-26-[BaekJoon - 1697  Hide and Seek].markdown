@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[135. [BaekJoon– 1697 : Hide and Seek]]
 	- it was just BFS problem, we just sholud be careful of memory using visit hash.
 	- see the code.
@@ -45,3 +46,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

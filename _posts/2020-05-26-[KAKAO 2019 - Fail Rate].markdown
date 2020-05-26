@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[127. [Programmers– KAKAO 2019 :Fail Rate]]
 	- This problem’s point was to find order of index using fail rate.
 	- I used map, since map dose sort automatically.
@@ -75,3 +76,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

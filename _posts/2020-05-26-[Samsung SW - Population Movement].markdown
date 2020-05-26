@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[141. [SAMSUNG – SW : Population Movement]]
 	- handling visit table and BFS is the point.
 	- To avoid time limit exceeded, i need to have a habit using call by reference.
@@ -125,3 +126,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

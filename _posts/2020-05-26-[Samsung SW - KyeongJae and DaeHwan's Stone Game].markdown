@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[168. [SAMSUNG - SW : KyeonJae and DaeHwan’s Stone Game]
 	- we can’t use DFS for this problem due to time complexity.
 	- so we must find a rule, the rule was if abs(r-b)<2 then, DH win, otherwise KyeongJae win.
@@ -31,3 +32,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

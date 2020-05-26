@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿#include<iostream>
 	#include<fstream>
 	#include<vector>
@@ -179,3 +180,4 @@ author : Loui
 	
 	
 	
+{% endraw %}

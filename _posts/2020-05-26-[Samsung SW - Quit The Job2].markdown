@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[183. [SAMSUNG SW – Quit The Job 2]
 	- it has been a while since I’ve met DP problem.
 	- it was not that ambiguous and complex, but one condition has held my back
@@ -51,3 +52,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

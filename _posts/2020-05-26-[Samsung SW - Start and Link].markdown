@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿
 	[111. [BACKJOON – SAMSUNG SW : Start and Link]]
 	- at first, I solved using next_permuation but time limit exceeded occurred.
@@ -215,3 +216,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

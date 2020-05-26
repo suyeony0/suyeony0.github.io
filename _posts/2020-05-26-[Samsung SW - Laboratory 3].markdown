@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[147. [SAMSUNG – SW : Laboratory 3 ]]
 	- huh… so much edge case!
 	- I used DFS for permutation of viruses and BFS for contagion.
@@ -144,3 +145,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

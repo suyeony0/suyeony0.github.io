@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[109. [BACKJOON – SAMSUNG SW : Robot Vacuum Cleaner]]
 	- this problem’s hardest point was to determine when cleaning is end.
 	- without it, not that hard, just followed given rules.
@@ -104,3 +105,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

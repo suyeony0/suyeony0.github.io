@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[119. [Programmers– KAKAO 2020 : String Compression]]
 	- we need to be careful when we handle how many substring occurred.
 	- I used std::to_string to convert int to string.
@@ -63,3 +64,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

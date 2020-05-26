@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[174. [SAMSUNG - SW : Brainfuck Interpreter]
 	- like the name, it was a fucking interpreter.
 	- they gave an ambiguous rule about infinite loop. because of that, I struggled to solve it hard.
@@ -140,3 +141,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

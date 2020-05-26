@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[194. [SAMSUNG SW – Making Maze]
 	- this was a simulation problem with a different start position.
 	- if player move over the limit of array, he can’t make a maze.
@@ -82,3 +83,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	[202. [SAMSUNG SW ? Making Bridge]
 	- It was a minimum spanning tree problem.
 	- when I solved this problem. I thought time limit exceeded might have occurred. but it¡¯s not.
@@ -102,3 +103,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

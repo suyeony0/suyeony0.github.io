@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[189. [SAMSUNG SW – Mafia]
 	- I felt that I have to read Question more deeply. since I’ve missed a restriction that if rest number of people is even, mafia turn. Otherwise, citizen’s turn.
 	- because of that, I spent so much time.
@@ -94,3 +95,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

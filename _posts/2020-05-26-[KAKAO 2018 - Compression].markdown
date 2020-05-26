@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[153. [KAKAO – 2018 : Compression]] 
 	- For two days from last problem, I had no time to solve algorithm until today.
 	- And this problem was quite confusing. Making dictionary was the hardest thing.
@@ -73,3 +74,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

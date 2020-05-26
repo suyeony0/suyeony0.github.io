@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[157. [SAMSUNG - SW : Chocolate and Raisin]
 	- it was D4 problem. I mean it was quite hard to solve.
 	- time was the most difficult one to reach the given condition.
@@ -81,3 +82,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

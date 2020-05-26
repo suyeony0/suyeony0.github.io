@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿
 	[160. [SAMSUNG - SW : The Longest Sequence]
 	-At first, I used next_permutation for brute force. but time limit exceeded occurred.
@@ -116,3 +117,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

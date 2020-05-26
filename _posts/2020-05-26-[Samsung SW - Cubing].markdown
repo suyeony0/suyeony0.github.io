@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[118. [BACKJOON – SAMSUNG SW : Cubing]]
 	- it was not a solving algorhthm! I think it was just a time consuming work actually.
 	- making cube and make it move following the given rules. was suck!
@@ -218,3 +219,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

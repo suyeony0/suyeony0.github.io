@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[178. [KAKAO 2019 – Winter Internship : Allocate Hotel Room]
 	- this problem has efficiency test. the key was the union-find structure.
 	- but without knowing union-find structure, we colud solve it. I’ve solved this problem using recursion with unorderd_map.
@@ -45,3 +46,4 @@ author : Loui
 		return answer;
 	}
 	
+{% endraw %}

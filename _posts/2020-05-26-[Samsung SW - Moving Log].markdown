@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[199. [SAMSUNG SW – Moving Log]
 	- this was a simulation problem to find the shortest path to move a log.
 	- the log’s size is 3, I mean horizontally. so there was a few restriction. but those was okay.
@@ -123,3 +124,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[112. [BACKJOON – SAMSUNG SW : Ramp]]
 	- there was lots of error in this problem. I mean the errors the problem has.
 	- this problem didn’t describe exactly. Even having wrong information.
@@ -143,3 +144,4 @@ author : Loui
 	
 	
 	
+{% endraw %}

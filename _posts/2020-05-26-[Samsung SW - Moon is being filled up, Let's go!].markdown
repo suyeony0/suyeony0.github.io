@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿#include<iostream>
 	#include<vector>
 	#include<unordered_map>
@@ -102,3 +103,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

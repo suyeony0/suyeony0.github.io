@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[164. [SAMSUNG - SW : 3 Dimentional Farmer]
 	- I did brute force at first, but time was problem, so I made binary search tree, but same problem 
 	occurred. I think I should’ve balanced binary search tree.
@@ -365,3 +366,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

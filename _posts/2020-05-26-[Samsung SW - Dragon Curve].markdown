@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[116. [BACKJOON – SAMSUNG SW : Dragon Curve]]
 	- this problem’s main point was the way to make the dragon curve with generation.
 	- I used a stack to record previous directions and take it all when new generation was started with rotating the directions 90 degrees.
@@ -108,3 +109,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

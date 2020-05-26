@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[107. [BACKJOON – SAMSUNG SW : Quit The Job]]
 	- it was dp problem. I made dp from the last day.
 	- dp[i] has the maximum money we can earn after ith day.
@@ -78,3 +79,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

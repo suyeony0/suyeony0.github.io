@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[132. [Programmers– KAKAO 2019 :Block Game]]
 	- Even though it was level 4 problem, it was easy for me.
 	- I was happy it was not a fucking string parsing :)
@@ -112,3 +113,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

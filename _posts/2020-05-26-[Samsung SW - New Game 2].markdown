@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[149. [SAMSUNG – SW : New Game 2]] 
 	- it was a stack handling problem. each shell of 2d array has stack for recoding pieces.
 	- see the code.
@@ -133,3 +134,4 @@ author : Loui
 	
 	
 	
+{% endraw %}

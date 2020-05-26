@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[124. [Programmers– KAKAO 2020 : Outer Wall Check]]
 	- I first used DFS to implement a brutr force, but time limit exceeded occurred.
 	- see the DFS code.
@@ -158,3 +159,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

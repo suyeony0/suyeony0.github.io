@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[195. [SAMSUNG SW – Downhill]
 	- it was an easy simulation problem. just using memozation is the key to satisfy time limit.
 	- see the code.
@@ -63,3 +64,4 @@ author : Loui
 	
 	}
 	
+{% endraw %}

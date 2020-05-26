@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[138. [Programmers– KAKAO 2018 :Cache]]
 	- Honestly. it was shame I couldn’t solve this problem directly due to LRU.
 	- Making LRU is quite fresh in a bad way. so I spent 20~30 minutes.
@@ -48,3 +49,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

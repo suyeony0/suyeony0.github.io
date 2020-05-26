@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[104. [BACKJOON – SAMSUNG SW : Rolling Dice]]
 	- I spent less than 1 hour. it was not that hard to solve.
 	- see the code.
@@ -110,3 +111,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

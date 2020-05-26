@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[146. [SAMSUNG – SW :Fishing King]]
 	- I have a so much curiousity of SAMSUNG’s simulation algorithm test cases.
 	- this problem also has some weird things.
@@ -145,3 +146,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

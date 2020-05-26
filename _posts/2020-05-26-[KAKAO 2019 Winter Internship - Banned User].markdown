@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[177. [KAKAO 2019 – Winter Internship : Banned User]
 	- doing permutation was the key point.
 	- thanks to time limit was not that restric. I’ve solved easily using DFS – permutation.
@@ -68,3 +69,4 @@ author : Loui
 		return answer;
 	}
 	
+{% endraw %}

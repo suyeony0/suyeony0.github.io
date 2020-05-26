@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[172. [SAMSUNG - SW : Attach Sugar Paper]
 	- below code is my wrong algorithm. I used BFS to find maximu size of block we can attach with current connected block. but it consider just first max block. so it’s wrong.
 	- see the code.
@@ -186,3 +187,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

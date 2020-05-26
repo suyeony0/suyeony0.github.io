@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[167. [SAMSUNG - SW : Addition Problem]
 	- I felt like level 4 problem’s in SAMSUNG SW expert don’t ask brute force. there is always a tricked rule.
 	- this problem has trick as well. the key calculation was (b-a) * (n-2) +1.
@@ -36,3 +37,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

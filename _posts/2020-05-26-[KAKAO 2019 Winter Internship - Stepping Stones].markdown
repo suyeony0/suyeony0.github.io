@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[179. [KAKAO 2019 – Winter Internship : Stepping Stones]
 	- this problem also has efficiency test. my first try pass all the accuracy test, but not efficiency test.
 	- see my first code.
@@ -112,3 +113,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

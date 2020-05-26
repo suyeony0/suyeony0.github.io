@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[122. [Programmers– KAKAO 2020 : Lyrics Searcing]]
 	- I had solved correctly, but time limit exceeded occurred. so I had to change my algorithm for efficiency.
 	- below code is before changing the code.
@@ -185,3 +186,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}

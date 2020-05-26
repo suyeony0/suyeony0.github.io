@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿#include<iostream>
 	#include<algorithm>
 	#include<climits>
@@ -64,3 +65,4 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}

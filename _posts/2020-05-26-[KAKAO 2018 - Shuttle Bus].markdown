@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[136. [Programmers– KAKAO 2018 :Shuttle Bus]]
 	- handling time is always naughty for me lol :).
 	- I changed all the bus schedule to unit of minute. <- is this english right? haha.
@@ -63,3 +64,4 @@ author : Loui
 	    return answer;
 	}
 	
+{% endraw %}

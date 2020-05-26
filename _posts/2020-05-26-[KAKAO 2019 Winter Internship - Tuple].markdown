@@ -10,6 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
+{% raw %}
 	﻿[176. [KAKAO 2019 – Winter Internship : Tuple]
 	- just testing that I know the use of vector and find algorithm.
 	- string parsing was the key point. 
@@ -67,3 +68,4 @@ author : Loui
 	}
 	
 	
+{% endraw %}
