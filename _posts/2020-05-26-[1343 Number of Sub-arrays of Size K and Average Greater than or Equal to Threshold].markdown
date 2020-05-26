@@ -2,7 +2,7 @@
 layout: post
 title: [1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
 data: 2020-05-26
-desciption: txt to markdown
+description: txt to markdown
 thumbnail: person1.jpeg
 categories: Algorithm
 

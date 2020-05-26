@@ -2,7 +2,7 @@
 layout: post
 title: [429 N-ary Tree Level Order Traversal]
 data: 2020-05-26
-desciption: txt to markdown
+description: txt to markdown
 thumbnail: person1.jpeg
 categories: Algorithm
 

@@ -2,7 +2,7 @@
 layout: post
 title: [Samsung SW - KyeongJae and DaeHwan's Stone Game]
 data: 2020-05-26
-desciption: txt to markdown
+description: txt to markdown
 thumbnail: person1.jpeg
 categories: Algorithm
 

@@ -2,7 +2,7 @@
 layout: post
 title: [KAKAO 2019 Winter Internship - Banned User]
 data: 2020-05-26
-desciption: txt to markdown
+description: txt to markdown
 thumbnail: person1.jpeg
 categories: Algorithm
 
