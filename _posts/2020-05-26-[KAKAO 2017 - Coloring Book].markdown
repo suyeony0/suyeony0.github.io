@@ -10,9 +10,9 @@ categories: Algorithm
 author : Loui
 ---
 
-	ï»¿[180. [KAKAO 2017 : Coloring Book]
+	ï»?180. [KAKAO 2017 : Coloring Book]
 	- this was a simulation problem. I solved using BFS.
-	- itâ€™s quite long time since I used BFS lastly. so It took much more time.
+	- it?™s quite long time since I used BFS lastly. so It took much more time.
 	- see the code.
 	#include <vector>
 	#include<queue>
@@ -75,7 +75,7 @@ author : Loui
 		solution(6, 4, { {1, 1, 1, 0},{1, 2, 2, 0},{1, 0, 0, 1},{0, 0, 0, 1},{0, 0, 0, 3},{0, 0, 0, 3} });
 	
 		//solution(6, 4, { {1, 1, 1, 0},{1, 1, 1, 0},{0, 0, 0, 1},{0, 0, 0, 1},{0, 0, 0, 1},{0, 0, 0, 1} });
-		//solution(4, 6, {{1,1,1,1,0,0},	{1,1,1,0,0,0},{2,2,0,0,3,3},	{2,0,1,0,3,3}	});
+	
 		return 0;
 	}
 	
