@@ -10,7 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-	﻿[86. [1026] Maximum Difference Between Node and Ancestor – find the greatest difference between an ancestor and decendant]
+	[86. [1026] Maximum Difference Between Node and Ancestor – find the greatest difference between an ancestor and decendant]
 	- In my algorithm, I should’ve used both DFS and BFS for brute-force.
 	- The algorithm is quite vivid. For each node, I check differeces between the current node and its decendants.
 	- see the code. the speed was bad. It was just 5.20% beats.
