@@ -10,9 +10,9 @@ categories: Algorithm
 author : Loui
 ---
 
-	ï»?
-	[130. [Programmers??KAKAO 2019 :Finding Path Game]]
-	- this problem?™s point was the way to make tree.
+	ï»¿
+	[130. [Programmersâ€“ KAKAO 2019 :Finding Path Game]]
+	- this problemâ€™s point was the way to make tree.
 	- I spent 3 hours or so to make tree.
 	- I have been stuck since I barely came up with a method to make tree. the given vector sholud be splited before making tree.
 	- see the code.

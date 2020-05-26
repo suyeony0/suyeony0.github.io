@@ -62,7 +62,7 @@ author : Loui
 	}
 	
 	int main() {
-		solution("{{20,111},{111}}");
+		//solution("{{20,111},{111}}");
 		return 0;
 	}
 	
