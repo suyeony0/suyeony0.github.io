@@ -3,13 +3,6 @@ markdown: kramdown
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 <<<<<<< HEAD
-
- kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    default_lang: html
-    css_class   : 'syntax'
-=======
  
 # Markdown Processors
 kramdown:
