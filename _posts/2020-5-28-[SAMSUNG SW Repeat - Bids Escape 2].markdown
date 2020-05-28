@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```c++
 	[1. SAMSUNG SW : Bids Escape 2]
 	- I spent 1 hour and half for this problem again!
 	- it was hard to match the restriction for me.
@@ -142,5 +143,5 @@ author : Loui
 		return 0;
 	
 	}
-	
+```
 {% endhighlight %}
