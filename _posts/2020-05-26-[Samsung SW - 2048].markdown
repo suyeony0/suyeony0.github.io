@@ -1,0 +1,226 @@
+---
+layout: post
+title: [Samsung SW - 2048]
+data: 2020-05-26
+description: txt to markdown
+thumbnail: person1.jpeg
+categories: Algorithm
+
+# Information for the author block
+author : Loui
+---
+
+{% raw %}
+	﻿[102. [BACKJOON – SAMSUNG SW : 2048]]
+	- I used BFS, but BFS is not the matter. move function was the main point.
+	- I made each direction’s function respectively. so I solved faster than before.
+	- it took 1 hour and half.
+	- see the code.
+	#include<iostream>
+	#include<vector>
+	#include<algorithm>
+	#include<fstream>
+	#include<queue>
+	#include<climits>
+	using namespace std;
+	
+	vector<vector<int>> makeTable() {
+		std::ifstream in("C:\\Users\\gjsgu\\Desktop\\Algorithm\\test_case\\test_case_for_2048.txt");
+		int N;
+		int c;
+		if (in.is_open()) {
+			cout << "test_case is opened." << endl;
+			in >> N;
+		}
+		
+		vector<vector<int>> table(N,vector<int>(N,0));
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N;) {
+				in >> c;
+				table[i][j++] = c;
+			}
+		}
+		return table;
+	}
+	vector<vector<int>> makeTable2() {
+		int N;
+		int c;
+		cin >> N;
+		vector<vector<int>> table(N,vector<int>(N,0));
+		for (int i = 0; i < N; i++) {
+			for (int j = 0; j < N;) {
+				cin >> c;
+				table[i][j++] = c;
+			}
+		}
+		return table;
+	
+	}
+	
+	void printTable(vector<vector<int>> & table) {
+		for (vector<int> row : table) {
+			for (int i : row) {
+				cout << i << " ";
+			}
+			cout << endl;
+		}
+	}
+	
+	int findMax(vector<vector<int>>& table) {
+		int maximum = 0;
+		for (vector<int> row : table) 
+			maximum = max(maximum, *max_element(row.begin(), row.end()));
+		return maximum;
+	}
+	/*
+	3
+	2 2 2
+	4 4 4
+	8 8 8
+	*/
+	
+	// these functions are the main point of this problem.
+	// move left and right start from column but move up and down start from row.
+	
+	vector<vector<int>> move_left(vector<vector<int>> table) {
+		int cur_val;
+		vector<vector<int>> visit(table.size(), vector<int>(table.size(), 0));
+		for (int col = 1; col < table[0].size(); col++) { 
+			for (int row = 0; row < table.size(); row++) {
+				cur_val = table[row][col];
+				if (cur_val == 0) continue;
+				int j = col-1;
+				while (table[row][j] == 0 && j>0) j--; // finding a cell is not value 0.
+				table[row][col] = 0;
+				//if they have a same value.
+				if (table[row][j] == cur_val && visit[row][j]==0) {
+					table[row][j] *= 2;
+					visit[row][j] = 1;
+				}
+				//if there is no value to be concerned and the cell is not visited yet.
+				else if (j==0 && table[row][j]==0 && visit[row][j]==0) 	table[row][0] = cur_val;
+				
+				//if they have different values or the cell is already visited.
+				else if (table[row][j] != cur_val || visit[row][j]) table[row][j + 1] = cur_val;
+			}
+		}
+		return table;
+	}
+	vector<vector<int>> move_right(vector<vector<int>> table) {
+		int cur_val;
+		vector<vector<int>> visit(table.size(), vector<int>(table.size(), 0));
+		for (int col = table[0].size()-2; col>=0; col--) {
+			for (int row = 0; row < table.size(); row++) {
+				cur_val = table[row][col];
+				if (cur_val == 0) continue;
+				//cout << " row : " << row << " col : " << col << " cur_val : " << cur_val << endl;
+				int j = col + 1;
+				while (table[row][j] == 0 && j < table[0].size()-1) j++; // finding a cell is not value 0.
+				table[row][col] = 0;
+				//if they have a same value.
+				if (table[row][j] == cur_val && visit[row][j] == 0) {
+					table[row][j] *= 2;
+					visit[row][j] = 1;
+				}
+				//if there is no value to be concerned and the cell is not visited yet.
+				else if (j == table[0].size()-1 && table[row][j] == 0 && visit[row][j] == 0) table[row][table[0].size()-1] = cur_val;
+	
+				//if they have different values or the cell is already visited.
+				else if (table[row][j] != cur_val || visit[row][j]) table[row][j - 1] = cur_val;
+				
+			}
+		}
+		return table;
+	}
+	
+	
+	vector<vector<int>> move_up(vector<vector<int>> table) {
+		int cur_val;
+		vector<vector<int>> visit(table.size(), vector<int>(table.size(), 0));
+		for (int row = 1; row<table.size(); row++) {
+			for (int col=0; col < table[0].size(); col++) {
+				cur_val = table[row][col];
+				if (cur_val == 0) continue;
+				int i = row - 1;
+				while (table[i][col] == 0 && i >0) i--; // finding a cell is not value 0.
+				table[row][col] = 0;
+				//if they have a same value.
+				if (table[i][col] == cur_val && visit[i][col] == 0) {
+					table[i][col] *= 2;
+					visit[i][col] = 1;
+				}
+				//if there is no value to be concerned and the cell is not visited yet.
+				else if (i == 0 && table[i][col] == 0 && visit[i][col] == 0) table[0][col] = cur_val;
+	
+				//if they have different values or the cell is already visited.
+				else if (table[i][col] != cur_val || visit[i][col]) table[i+1][col] = cur_val;
+	
+			}
+		}
+		return table;
+	}
+	vector<vector<int>> move_down(vector<vector<int>> table) {
+		int cur_val;
+		vector<vector<int>> visit(table.size(), vector<int>(table.size(), 0));
+		for (int row = table.size()-2; row>=0; row--) {
+			for (int col = 0; col < table[0].size(); col++) {
+				cur_val = table[row][col];
+				if (cur_val == 0) continue;
+				//cout << " row : " << row << " col : " << col << " cur_val : " << cur_val << endl;
+				int i = row + 1;
+				while (table[i][col] == 0 && i < table.size()-1) i++; // finding a cell is not value 0.
+				table[row][col] = 0;
+				//if they have a same value.
+				if (table[i][col] == cur_val && visit[i][col] == 0) {
+					table[i][col] *= 2;
+					visit[i][col] = 1;
+				}
+				//if there is no value to be concerned and the cell is not visited yet.
+				else if (i == table.size()-1 && table[i][col] == 0 && visit[i][col] == 0) table[table.size()-1][col] = cur_val;
+	
+				//if they have different values or the cell is already visited.
+				else if (table[i][col] != cur_val || visit[i][col]) table[i - 1][col] = cur_val;
+	
+			}
+		}
+		return table;
+	}
+	int BFS(vector<vector<int>> table) {
+		queue <pair<vector<vector<int>>,int>> que;
+		que.push(make_pair(table, 0));
+		vector<vector<int>> cur_table;
+		int depth;
+		int maximum = 0;
+		while (!que.empty()) {
+			cur_table = que.front().first;
+			depth = que.front().second;
+			que.pop();
+			//printTable(cur_table);
+			//cout <<"depth : "<<depth<<endl;
+			//if the depth is 5, finding the maximum value of it.
+			if (depth == 5) { 
+				maximum = max(maximum, findMax(cur_table));
+				continue;
+			}
+			//for 4 directions, moving the current table.
+			que.push(make_pair(move_left(cur_table), depth + 1));
+			que.push(make_pair(move_right(cur_table), depth + 1));
+			que.push(make_pair(move_up(cur_table), depth + 1));
+			que.push(make_pair(move_down(cur_table), depth + 1));	
+		}
+		return maximum;
+	}
+	
+	int main() {
+		
+		//vector<vector<int>> table = makeTable();
+		vector<vector<int>> table = makeTable2();
+		//printTable(table);
+		// cout << endl;
+		int answer=BFS(table);
+		cout << answer;
+		return 0;
+	}
+	
+	
+{% endraw %}
