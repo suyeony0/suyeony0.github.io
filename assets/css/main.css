@@ -5,7 +5,8 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url(https://github.com/suyeony0/suyeony0.github.io/edit/master/css/syntax.css);
+@import url(https://github.com/suyeony0/suyeony0.github.io/css/syntax.css);
+<link rel="stylesheet" href="https://suyeony0.github.io/css/syntax.css"/>
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 html {
   font-family: sans-serif;
