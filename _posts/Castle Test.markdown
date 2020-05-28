@@ -4,7 +4,7 @@ title: [Samsung SW - Castle Wall]
 data: 2020-05-26
 description: txt to markdown
 thumbnail: person1.jpeg
-categories: Algorithm
+categories: CS_Study
 
 # Information for the author block
 author : Loui
