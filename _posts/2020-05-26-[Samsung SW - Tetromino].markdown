@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Tetromino]
 data: 2020-05-26
 description: txt to markdown
-thumbnail: building1.jpeg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block

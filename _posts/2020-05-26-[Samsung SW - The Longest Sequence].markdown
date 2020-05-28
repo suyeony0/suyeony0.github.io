@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - The Longest Sequence]
 data: 2020-05-26
 description: txt to markdown
-thumbnail: work1.jpeg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
