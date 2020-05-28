@@ -5,12 +5,7 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-  
->>>>>>> 78b63dcf6f3bc9fc74119f03f9a785eaf24d9f7b
 # Jekyll Defaults
 title: Loui's Record
 email: gjsgud2@gmail.com
