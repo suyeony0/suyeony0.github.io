@@ -1,7 +1,7 @@
 ---
 layout: post
 title: [KAKAO 2020 - Lock and Key]
-data: 2020-05-26
+date: 2020-5-28
 description: txt to markdown
 thumbnail: person1.jpeg
 categories: Algorithm

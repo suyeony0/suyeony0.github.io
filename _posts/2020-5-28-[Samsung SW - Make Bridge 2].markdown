@@ -1,7 +1,7 @@
 ---
 layout: post
 title: [Samsung SW - Make Bridge 2]
-data: 2020-05-26
+date: 2020-5-28
 description: txt to markdown
 thumbnail: person1.jpeg
 categories: Algorithm

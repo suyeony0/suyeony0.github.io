@@ -1,7 +1,7 @@
 ---
 layout: post
 title: [Samsung SW - Z]
-data: 2020-05-26
+date: 2020-5-28
 description: txt to markdown
 thumbnail: food1.jpg
 categories: Algorithm
@@ -12,7 +12,7 @@ author : Loui
 
 {% raw %}
 
-	﻿[188. [SAMSUNG SW – Z]
+	�?188. [SAMSUNG SW ??Z]
 	- it was a binary search problem. Actually, it was a quaternary search.
 	- we can divide whole square to 4 district, top_left, top_right, bottom_left and bottom_right.
 	- and each value follows below rule.
