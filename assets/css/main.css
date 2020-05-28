@@ -5,6 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://github.com/suyeony0/suyeony0.github.io/edit/master/css/syntax.css);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 html {
   font-family: sans-serif;
@@ -14,7 +15,7 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
-@import url(https://github.com/suyeony0/suyeony0.github.io/edit/master/css/syntax.css);
+
 
 /**
  * Remove default margin.
