@@ -3,14 +3,14 @@ layout: post
 title: [SAMSUNG SW Repeat - Snake]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-`
+{% raw %}
 
 	[3. SAMSUNG SW ? Snake]
 	- it was a simulation problem. there was a trick that the snake have to enlarge the head first and check whether the tail sholud be shrink or not.
@@ -88,5 +88,4 @@ author : Loui
 		return 0;
 	}
 	
-`
-
+{% endraw %}
