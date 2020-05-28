@@ -9,7 +9,6 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
->>>>>>> f2b1d416370c7584dac2e60ebbd577ebb8d6e181
 
 # Jekyll Defaults
 title: Loui's Record
