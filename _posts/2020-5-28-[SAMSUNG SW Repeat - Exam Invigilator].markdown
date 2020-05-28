@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
 	[4. SAMSUNG SW : Exam Invigilator]
 	- there was a trap that we have to consider data type. since there was no limit of sum of total invigilators.
 	- so I set answer`s data type as long long
@@ -50,5 +51,5 @@ author : Loui
 		cout << answer;
 		return 0;
 	}
-	
+
 {% endhighlight %}
