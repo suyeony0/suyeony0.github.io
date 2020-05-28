@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿
 	[90. [429] N-ary Tree Level Order Traversal – split given tree based on levels]
 	- I think there are two method to solve the problem. one is to use two queues, the other is to use only one queue and to count how many nodes we have to consider in a level 
@@ -73,4 +74,4 @@ author : Loui
 	};
 	
 	
-```
+{% endhighlight %}

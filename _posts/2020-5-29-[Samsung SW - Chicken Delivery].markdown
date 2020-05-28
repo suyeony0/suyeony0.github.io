@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[117. [BACKJOON – SAMSUNG SW : Chicken Delivery]]
 	- DFS was needed to choose which chicken house will be alive.
 	- BFS was a significant problem, since when I used queue for BFS, time limit exceeded occurred.
@@ -104,4 +105,4 @@ author : Loui
 	
 	
 	
-```
+{% endhighlight %}

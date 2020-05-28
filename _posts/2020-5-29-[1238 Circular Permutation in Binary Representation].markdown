@@ -3,14 +3,15 @@ layout: post
 title: [1238 Circular Permutation in Binary Representation]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[91. [1238] Circular Permutation in Binary Representation – return a permutation such that p[i] and p[i+1] differ by only one bit in their binary representation]
 	- My algorithm is below.
 	> 1. put string “0” and “1” into vector table as a initial values. since n’s least limit is 1.
@@ -69,4 +70,4 @@ author : Loui
 	};
 	
 	
-```
+{% endhighlight %}

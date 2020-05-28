@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Castle Defence]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[171. [SAMSUNG - SW : Castle Defence]
 	- it was also a simulation problem.
 	- there was a limitation of way to kill an enemy by an archer. because of that, it was quite confused.
@@ -154,4 +155,4 @@ author : Loui
 	
 	
 	
-```
+{% endhighlight %}

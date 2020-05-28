@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Knight Tour]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[193. [SAMSUNG SW – Knight Tour]
 	- this problem was so easy for me. I just had to check the condition is possible or not.
 	- I record possible end position using first postion and for each iteration, I checked a current position can be reached from previous position. that’s it.
@@ -82,4 +83,4 @@ author : Loui
 	
 	}
 	
-```
+{% endhighlight %}

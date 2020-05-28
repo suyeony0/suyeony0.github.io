@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[88.  [912] Sort an Array – just sorting an array]
 	- I implement merge sort. But the speed was suck! 5.17% beats.
 	- so I impelment quick sort as well. But the speed was just 16.25% beats.
@@ -73,4 +74,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

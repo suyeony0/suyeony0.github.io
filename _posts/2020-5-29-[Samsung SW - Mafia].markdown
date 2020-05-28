@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Mafia]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[189. [SAMSUNG SW – Mafia]
 	- I felt that I have to read Question more deeply. since I’ve missed a restriction that if rest number of people is even, mafia turn. Otherwise, citizen’s turn.
 	- because of that, I spent so much time.
@@ -95,4 +96,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

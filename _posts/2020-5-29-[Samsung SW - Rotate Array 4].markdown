@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Rotate Array 4]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[181. [SAMSUNG SW – Rotate Array 4]
 	- this was a simulation problem.
 	- I had to rotate part of given 2D array clock-wisely, and caclutate minimum value among each row.
@@ -87,4 +88,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

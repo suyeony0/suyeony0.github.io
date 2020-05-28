@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Baby Shark]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[143. [SAMSUNG – SW : Baby Shark]]
 	- BFS problem, there is an order of BFS. so I had to sort shells I will visit for each depth.
 	- and they gave quite a lot of condition, like time, shark size, eating condition, etc.
@@ -115,4 +116,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

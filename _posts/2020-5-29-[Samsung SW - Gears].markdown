@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Gears]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[113. [BACKJOON – SAMSUNG SW : Gears ]]
 	- I think there are at least 2 method to solve this problem. one is DFS and another one is just to use many if-condintion clause.
 	- I chose the latter one.
@@ -127,4 +128,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

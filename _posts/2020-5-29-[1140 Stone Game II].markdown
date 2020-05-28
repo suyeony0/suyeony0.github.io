@@ -3,14 +3,15 @@ layout: post
 title: [1140 Stone Game II]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[97/ [1140] Stone Game II – return the most stones alex can win]
 	- Finally, I’ve solved this problem!!! I took almost 5 hours…
 	- I refered to discussion about (sum+helper())/2
@@ -110,4 +111,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

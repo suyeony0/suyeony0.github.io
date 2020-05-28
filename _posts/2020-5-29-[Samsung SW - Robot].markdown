@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Robot]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[197. [SAMSUNG SW – Robot]
 	- It was a simulation problem with some restriction.
 	- we have to maintain 3D boolean visit array to check whether we visit the shell with a certain direction.
@@ -112,4 +113,4 @@ author : Loui
 	
 	
 	
-```
+{% endhighlight %}

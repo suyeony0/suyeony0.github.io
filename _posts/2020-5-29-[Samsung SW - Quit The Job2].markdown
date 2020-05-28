@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Quit The Job2]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[183. [SAMSUNG SW – Quit The Job 2]
 	- it has been a while since I’ve met DP problem.
 	- it was not that ambiguous and complex, but one condition has held my back
@@ -52,4 +53,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

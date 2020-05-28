@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2019 - Candidate Key]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[128. [Programmers– KAKAO 2019 :Candidate Key]]
 	- it was fxxkcing difficult for me. Indeed, it was not that difficult. but I spent so much time.
 	- since I had to make all the possible combination first. it was okay even though I spent 1 hour or so.
@@ -140,4 +141,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

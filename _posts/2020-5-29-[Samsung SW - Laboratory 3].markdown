@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Laboratory 3]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[147. [SAMSUNG – SW : Laboratory 3 ]]
 	- huh… so much edge case!
 	- I used DFS for permutation of viruses and BFS for contagion.
@@ -145,4 +146,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

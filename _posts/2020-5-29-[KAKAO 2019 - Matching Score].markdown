@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2019 - Matching Score]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[131. [Programmers– KAKAO 2019 :Matching Score]]
 	- I hate fucking parsing string!!! there is too many condition to check.
 	- I spent almost 4 hour to parse this fucking problem.
@@ -164,4 +165,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

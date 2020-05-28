@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Treasure]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[185. [SAMSUNG SW – Treasure]
 	- this problem had a trick that if we use next_permutation, time limit exceeded occur.
 	- so we have to find an algorithm but the algorithm was not that hard.
@@ -46,4 +47,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿
 	[120. [Programmers– KAKAO 2020 : Converting Parenthesis]]
 	- this problem’s main point was to follow given rule to make valid parenthesis.
@@ -94,4 +95,4 @@ author : Loui
 	
 	
 	
-```
+{% endhighlight %}

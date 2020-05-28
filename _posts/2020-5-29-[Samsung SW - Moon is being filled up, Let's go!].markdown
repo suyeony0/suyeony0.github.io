@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Moon is being filled up, Let's go!]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿#include<iostream>
 	#include<vector>
 	#include<unordered_map>
@@ -103,4 +104,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

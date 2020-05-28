@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Downhill]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[195. [SAMSUNG SW – Downhill]
 	- it was an easy simulation problem. just using memozation is the key to satisfy time limit.
 	- see the code.
@@ -64,4 +65,4 @@ author : Loui
 	
 	}
 	
-```
+{% endhighlight %}

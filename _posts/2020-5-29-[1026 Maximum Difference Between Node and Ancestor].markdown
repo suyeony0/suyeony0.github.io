@@ -3,14 +3,15 @@ layout: post
 title: [1026 Maximum Difference Between Node and Ancestor]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[86. [1026] Maximum Difference Between Node and Ancestor – find the greatest difference between an ancestor and decendant]
 	- In my algorithm, I should’ve used both DFS and BFS for brute-force.
 	- The algorithm is quite vivid. For each node, I check differeces between the current node and its decendants.
@@ -66,4 +67,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

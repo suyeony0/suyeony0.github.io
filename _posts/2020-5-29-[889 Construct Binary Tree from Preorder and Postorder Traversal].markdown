@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[79 [889] Construct Binary Tree from Preorder and Postorder Traversal – make a binary tree using the given pre and postorder traversals]
 	- My first algorithm is that the right next node of current node in preoder traversal is root’s left child and the left next node of current node in post traversal is root’s right child.
 	- But it’s wrong.
@@ -39,4 +40,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

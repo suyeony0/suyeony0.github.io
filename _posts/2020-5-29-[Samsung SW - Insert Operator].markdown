@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Insert Operator]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[110. [BACKJOON – SAMSUNG SW : Insert Operator]]
 	- by using next_permutation, we can solve this problem very easily.
 	- but there was a trap, the function next_permutation ant in ascending order. 
@@ -113,4 +114,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

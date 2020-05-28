@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Attach Sugar Paper]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[172. [SAMSUNG - SW : Attach Sugar Paper]
 	- below code is my wrong algorithm. I used BFS to find maximu size of block we can attach with current connected block. but it consider just first max block. so it’s wrong.
 	- see the code.
@@ -187,4 +188,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

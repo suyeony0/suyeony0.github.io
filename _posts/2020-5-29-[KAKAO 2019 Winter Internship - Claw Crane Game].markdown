@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Claw Crane Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[175. [KAKAO 2019 – Winter Internship : Claw Crane Game]
 	- this was so easy. I think I don’t need comment for this problem.
 	- see the code.
@@ -58,4 +59,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

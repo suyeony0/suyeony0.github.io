@@ -3,14 +3,15 @@ layout: post
 title: [841 Keys and Rooms]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[87. [841] Keys and Rooms – each room has a list of keys to enter rooms. return true if it is possible to enter every room]
 	- Algorithm is below.
 	> 1. when I enter a room, inserting every key into queue and recording all the key into can_visit. Finally, removing all the key in the room.
@@ -44,4 +45,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

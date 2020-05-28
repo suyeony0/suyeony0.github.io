@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2018 - Friends 4 Blocks]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿
 	[137. [Programmers– KAKAO 2018 :Friends 4 Blocks]]
 	- it was a slicing problem. 
@@ -110,4 +111,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

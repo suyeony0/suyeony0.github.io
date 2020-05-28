@@ -3,14 +3,15 @@ layout: post
 title: [406 Queue Reconstruction by Height]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[89. [406] Queue Reconstruction by Height – standing people by given a height rule]
 	- a person have a height and a number which represents the number of person who have a height higher than or equal to the person. by using it, we have sort the given array.
 	- this problem was quite difficult. Algorithm didn’t happen in my brain.
@@ -56,4 +57,4 @@ author : Loui
 	};
 	
 	
-```
+{% endhighlight %}

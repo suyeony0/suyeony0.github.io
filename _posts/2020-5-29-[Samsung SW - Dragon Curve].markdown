@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Dragon Curve]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[116. [BACKJOON – SAMSUNG SW : Dragon Curve]]
 	- this problem’s main point was the way to make the dragon curve with generation.
 	- I used a stack to record previous directions and take it all when new generation was started with rotating the directions 90 degrees.
@@ -109,4 +110,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

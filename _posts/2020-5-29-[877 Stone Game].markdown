@@ -3,14 +3,15 @@ layout: post
 title: [877 Stone Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[85. [877] Stone Game – determine whether alex wins the game or not]
 	- the game rule is below.
 	> 1. player can choose either given array’s first or last element.
@@ -40,4 +41,4 @@ author : Loui
 	};
 	
 	
-```
+{% endhighlight %}

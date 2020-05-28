@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2018 - Harvet Fest Traffic]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[133. [Programmers– KAKAO 2018 :Harvest Fest Traffic]]
 	- time handling is the key of this problem.
 	- finding an efficient algorithm for maximum number of traffic during one second was quite hard but not a terrible.
@@ -65,4 +66,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

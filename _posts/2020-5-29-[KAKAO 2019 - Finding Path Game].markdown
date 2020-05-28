@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2019 - Finding Path Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿
 	[130. [Programmers– KAKAO 2019 :Finding Path Game]]
 	- this problem’s point was the way to make tree.
@@ -107,4 +108,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

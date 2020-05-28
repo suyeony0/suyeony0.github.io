@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Monitoring]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[114. [BACKJOON – SAMSUNG SW : Monitoring ]]
 	- just following rules, removing blind spot is the main point of this problem.
 	- DFS is needed.
@@ -196,4 +197,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

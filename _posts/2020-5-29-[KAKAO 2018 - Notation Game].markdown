@@ -3,14 +3,15 @@ layout: post
 title: [KAKAO 2018 - Notation Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[156. [KAKAO – 2018 : Notation Game]]
 	- this was final problem of KAKAO. By solving this problem, I’ve solved all the KAKAO coding test problem and part of SAMSUNG SW :)
 	- the way to make string for given notation is the key point of this problem. 
@@ -47,4 +48,4 @@ author : Loui
 	    return answer;
 	}
 	
-```
+{% endhighlight %}

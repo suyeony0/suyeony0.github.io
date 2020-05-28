@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Goodbye Finedust!]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[144. [SAMSUNG – SW : Goodbye Finedust!]]
 	- it was a simulation problem, but not DFS and BFS.
 	- following given rules not hard, but have to be careful of robot’s position whether robot is at leftside or middle or rightside.
@@ -141,4 +142,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

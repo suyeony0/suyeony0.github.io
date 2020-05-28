@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - A Monkey Wants To Be A Horse]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[196. [SAMSUNG SW – A Monkey Wants To Be A Horse]
 	- I tried to solve this problem using DFS and DP, but I failed. since there was K value that is the number of the monkey can move like the horse.
 	- see the first code.
@@ -173,4 +174,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

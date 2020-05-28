@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Making Bridge]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	[202. [SAMSUNG SW ? Making Bridge]
 	- It was a minimum spanning tree problem.
 	- when I solved this problem. I thought time limit exceeded might have occurred. but it¡¯s not.
@@ -103,4 +104,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

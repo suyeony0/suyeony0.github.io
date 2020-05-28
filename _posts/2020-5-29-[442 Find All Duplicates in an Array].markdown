@@ -3,14 +3,15 @@ layout: post
 title: [442 Find All Duplicates in an Array]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[81. [442] Find All Duplicates in an Array – find numbers which occur twice]
 	- If I just have to problem without concerning memory ans time consuming, it is easy.
 	- But the point is to use only O(1) memory and O(n) time.
@@ -30,4 +31,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

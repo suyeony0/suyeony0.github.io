@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Break A Wall and Move]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[203. [SAMSUNG SW – Break A Wall and Move]
 	- It was a simulation problem to find the shortest path from start to end position.
 	- I used DFS first, but I failed since there is no insurance that a path I found is minimum path when we use DFS.
@@ -79,4 +80,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[184. [SAMSUNG SW – Chess Board Re-Painting]
 	- it was a slicing and brute force problem. but understading the problem is pretty hard. since they took a word “Square”. I’ve been confused whether the “Square” is chess board’s small 1x1 square or 8x8 whole square.
 	- except that there was nothing to make me confused.
@@ -75,4 +76,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

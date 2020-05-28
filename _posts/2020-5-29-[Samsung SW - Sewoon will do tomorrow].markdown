@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Sewoon will do tomorrow]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[161. [SAMSUNG - SW : Sewoon will do tomorrow]
 	- I used DP to check whether there is ovelapped day, but runtime error occurred. I couldn’t find the reason, so I changed my algorithm to easier way.
 	- see the first code.
@@ -114,4 +115,4 @@ author : Loui
 		return 0;//정상종료시 반드시 0을 리턴해야합니다.
 	}
 	
-```
+{% endhighlight %}

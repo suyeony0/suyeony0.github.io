@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Start and Link]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿
 	[111. [BACKJOON – SAMSUNG SW : Start and Link]]
 	- at first, I solved using next_permuation but time limit exceeded occurred.
@@ -216,4 +217,4 @@ author : Loui
 	}
 	
 	
-```
+{% endhighlight %}

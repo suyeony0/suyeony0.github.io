@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Ladder Rigging]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿
 	[115. [BACKJOON – SAMSUNG SW : Ladder Rigging]]
 	- I spent 5 hour to reach the limit.
@@ -102,4 +103,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

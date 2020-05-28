@@ -10,7 +10,8 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[94. [973] K Closest Points to Origin – calculate Euclidean distance of given coordinates and find K CLosets Points to Origin]
 	- I used map. key is Euclidean Distance and value is the coordinates.
 	- Since there might be same Euclidean Distance but different coordinates. I should’ve used vector<vector<int>> as a value of the map.
@@ -42,4 +43,4 @@ author : Loui
 	    }
 	};
 	
-```
+{% endhighlight %}

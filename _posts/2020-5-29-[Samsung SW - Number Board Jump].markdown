@@ -3,14 +3,15 @@ layout: post
 title: [Samsung SW - Number Board Jump]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% raw %}
+
 	﻿[204. [SAMSUNG SW – Number Board Jump]
 	- it was just a DFS problem. there was no restriction so easy.
 	- see the code.
@@ -64,4 +65,4 @@ author : Loui
 	
 	}
 	
-```
+{% endhighlight %}
