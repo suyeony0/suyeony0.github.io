@@ -3,18 +3,18 @@ layout: post
 title: [SAMSUNG SW Repeat - Exam Invigilator]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
+`
 
 	[4. SAMSUNG SW ? Exam Invigilator]
 	- there was a trap that we have to consider data type. since there was no limit of sum of total invigilators.
-	- so I set answer¡¯s data type as long long
+	- so I set answer`s data type as long long
 	- I spent 23 minutes.
 	- see the code.
 	#include<iostream>
@@ -52,4 +52,5 @@ author : Loui
 		return 0;
 	}
 	
-{% endraw %}
+`
+
