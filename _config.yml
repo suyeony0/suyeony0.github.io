@@ -3,12 +3,6 @@ markdown: kramdown
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 <<<<<<< HEAD
- 
-# Markdown Processors
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
 
 # Jekyll Defaults
 title: Loui's Record
