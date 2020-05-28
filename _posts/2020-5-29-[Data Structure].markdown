@@ -4,7 +4,7 @@ title: [Data Structure]
 date: 2020-5-29
 description: txt to markdown
 thumbnail: work1.jpg
-categories: Algorithm
+categories: CS_Study
 
 # Information for the author block
 author : Loui
