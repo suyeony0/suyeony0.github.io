@@ -4,7 +4,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-<<<<<<< HEAD
 
 # Jekyll Defaults
 title: Loui's Record
