@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[173. [SAMSUNG - SW : Baseball]
 	- What the heck? I spent 4 hours…
 	- I first misunderstood the problem. since they gave me a rule that once I decide an order of players, I can’t change it even if inning is changed. but I thought I have to find optimum score we can get using find all the path we can reach. so I did brute force for every inning. 
@@ -124,4 +125,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Brainfuck Interpreter]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[174. [SAMSUNG - SW : Brainfuck Interpreter]
 	- like the name, it was a fucking interpreter.
 	- they gave an ambiguous rule about infinite loop. because of that, I struggled to solve it hard.
@@ -141,4 +142,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - KyeongJae and DaeHwan's Stone Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[168. [SAMSUNG - SW : KyeonJae and DaeHwan’s Stone Game]
 	- we can’t use DFS for this problem due to time complexity.
 	- so we must find a rule, the rule was if abs(r-b)<2 then, DH win, otherwise KyeongJae win.
@@ -32,4 +33,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

@@ -3,7 +3,7 @@ layout: post
 title: [959 Regions Cut By Slashes]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[77. [959] Regions Cut By Slashes – return how many distinct regions appear after dividing whole square by /, \]
 	- I solved this problem using BFS. But the result was time limit exceeded.
 	- 1. make the given array 3 time widen. Because to recognize distinct region, we need at least 3 time wider array.
@@ -113,4 +114,5 @@ author : Loui
 	
 	
 	
+```
 {% endhighlight %}

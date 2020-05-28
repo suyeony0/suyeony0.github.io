@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Castle Wall]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[205. [SAMSUNG SW – Castle Wall]
 	- this was so hard. they gave walls of the castle using numeric value, actually binary value!
 	- so reaching the given condition was so hard.
@@ -100,4 +101,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

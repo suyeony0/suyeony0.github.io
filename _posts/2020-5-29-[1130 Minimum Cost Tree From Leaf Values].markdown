@@ -3,7 +3,7 @@ layout: post
 title: [1130 Minimum Cost Tree From Leaf Values]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[78. [1130] Minimum Cost Tree From Leaf Values – find minimum sum of non-leaf node using the given leaves.]
 	- Atually, this problem was super difficult for me. First at all, I thought I sholud have construted a real tree. But it’s quite insane jobs.
 	- so I tried to make dp but it was not that easy. Finally, I refered to discussion.
@@ -77,4 +78,5 @@ author : Loui
 	    }
 	};
 	
+```
 {% endhighlight %}

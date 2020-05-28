@@ -3,7 +3,7 @@ layout: post
 title: [1043 Partition Array for Maximum Sum]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[83. [1043] Partition Array for Maximum Sum – partition the given array into subarrays of length  at most given K. each subarray’s value will be changed the greatest value in the subarrays. return the largest sum of the given arrays after partitioning]
 	- what the heck? this problem is not a midium level. I think!, Yes, I may not good at DP problem :).
 	- Anyway, I tried to solve this problem 2d DP.
@@ -112,4 +113,5 @@ author : Loui
 	    }
 	};
 	
+```
 {% endhighlight %}

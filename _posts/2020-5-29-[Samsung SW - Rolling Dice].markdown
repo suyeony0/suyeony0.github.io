@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Rolling Dice]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[104. [BACKJOON – SAMSUNG SW : Rolling Dice]]
 	- I spent less than 1 hour. it was not that hard to solve.
 	- see the code.
@@ -111,4 +112,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

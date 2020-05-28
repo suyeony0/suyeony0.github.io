@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Lyrics Searcing]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[122. [Programmers– KAKAO 2020 : Lyrics Searcing]]
 	- I had solved correctly, but time limit exceeded occurred. so I had to change my algorithm for efficiency.
 	- below code is before changing the code.
@@ -186,4 +187,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

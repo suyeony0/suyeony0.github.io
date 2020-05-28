@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Haji Prediction]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[162. [SAMSUNG - SW : Haji Prediction]
 	- they gave an algorithm and I should dertermine whethere the algorithm would end or not.
 	- so I recorded numbers appeared during algorithm and if recorded number appear again, break the while syntax and return false.
@@ -52,4 +53,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

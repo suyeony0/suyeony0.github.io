@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Sring Compression]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[119. [Programmers– KAKAO 2020 : String Compression]]
 	- we need to be careful when we handle how many substring occurred.
 	- I used std::to_string to convert int to string.
@@ -64,4 +65,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

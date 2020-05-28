@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Compression]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[153. [KAKAO – 2018 : Compression]] 
 	- For two days from last problem, I had no time to solve algorithm until today.
 	- And this problem was quite confusing. Making dictionary was the hardest thing.
@@ -74,4 +75,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

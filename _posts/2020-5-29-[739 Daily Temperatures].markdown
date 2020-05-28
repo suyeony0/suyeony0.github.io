@@ -3,7 +3,7 @@ layout: post
 title: [739 Daily Temperatures]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[93. [739] Daily Temperatures – determine how many days we have to wait so that a temperatur is wamer than today.]
 	- Algorithm is below.
 	> 1. make stack and push the last element in the given vector T as a pair with count 0 : (T[i],0)
@@ -43,4 +44,5 @@ author : Loui
 	    }
 	};
 	
+```
 {% endhighlight %}

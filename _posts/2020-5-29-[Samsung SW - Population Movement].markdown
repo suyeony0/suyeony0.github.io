@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Population Movement]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[141. [SAMSUNG – SW : Population Movement]]
 	- handling visit table and BFS is the point.
 	- To avoid time limit exceeded, i need to have a habit using call by reference.
@@ -126,4 +127,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

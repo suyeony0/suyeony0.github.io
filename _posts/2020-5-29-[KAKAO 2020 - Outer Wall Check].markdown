@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Outer Wall Check]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[124. [Programmers– KAKAO 2020 : Outer Wall Check]]
 	- I first used DFS to implement a brutr force, but time limit exceeded occurred.
 	- see the DFS code.
@@ -159,4 +160,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

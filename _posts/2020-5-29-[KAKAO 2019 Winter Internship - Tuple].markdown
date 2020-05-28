@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Tuple]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[176. [KAKAO 2019 – Winter Internship : Tuple]
 	- just testing that I know the use of vector and find algorithm.
 	- string parsing was the key point. 
@@ -68,4 +69,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

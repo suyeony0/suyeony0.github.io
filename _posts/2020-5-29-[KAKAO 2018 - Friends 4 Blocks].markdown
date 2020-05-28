@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Friends 4 Blocks]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿
 	[137. [Programmers– KAKAO 2018 :Friends 4 Blocks]]
 	- it was a slicing problem. 
@@ -110,4 +111,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

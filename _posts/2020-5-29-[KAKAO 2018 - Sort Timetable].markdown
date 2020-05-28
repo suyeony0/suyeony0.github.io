@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Sort Timetable]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[155. [KAKAO – 2018 : Sort Filename]] 
 	- it was an easy problem, but setting a range of For syntax made a small error. To solve the error, I spent 30 minutes.
 	- during revise my algorithm, I made my algorithm worse about time complexity, actually I didn’t need to change set to vector, but I have no idea what’s wrong at the time. 
@@ -89,4 +90,5 @@ author : Loui
 	
 	
 	
+```
 {% endhighlight %}

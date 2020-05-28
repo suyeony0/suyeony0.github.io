@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Moving Log]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[199. [SAMSUNG SW – Moving Log]
 	- this was a simulation problem to find the shortest path to move a log.
 	- the log’s size is 3, I mean horizontally. so there was a few restriction. but those was okay.
@@ -124,4 +125,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

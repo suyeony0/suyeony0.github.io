@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿
 	[130. [Programmers– KAKAO 2019 :Finding Path Game]]
 	- this problem’s point was the way to make tree.
@@ -107,4 +108,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

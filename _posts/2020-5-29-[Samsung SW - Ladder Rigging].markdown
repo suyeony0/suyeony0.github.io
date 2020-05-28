@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿
 	[115. [BACKJOON – SAMSUNG SW : Ladder Rigging]]
 	- I spent 5 hour to reach the limit.
@@ -102,4 +103,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

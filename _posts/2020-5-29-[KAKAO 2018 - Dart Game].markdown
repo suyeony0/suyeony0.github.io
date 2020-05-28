@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Dart Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[140. [Programmers– KAKAO 2018 :Dart Game]]
 	- String parsing and caculate using given rule is the way to solve this problem.
 	- parsing part was pretty naughty. since I had to check all the index of the string. but given string was short. So I could follow where an index is and there was no time issue either.
@@ -80,4 +81,5 @@ author : Loui
 	    return answer;
 	}
 	
+```
 {% endhighlight %}

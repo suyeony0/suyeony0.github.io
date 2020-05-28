@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[104. [BACKJOON – SAMSUNG SW : Exam Invigilator]]
 	- this exam’s trap is the range of number. since tue maximum number of people is 1,000,000 * 1,000,000 and the minimum number of that an invigilator can handle is 1.
 	- so we have to use long long (int) for the answer and double for the table having the number of people in a class.
@@ -82,4 +83,5 @@ author : Loui
 	}
 	
 	
+```
 {% endhighlight %}

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Z]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[188. [SAMSUNG SW – Z]
 	- it was a binary search problem. Actually, it was a quaternary search.
 	- we can divide whole square to 4 district, top_left, top_right, bottom_left and bottom_right.
@@ -67,4 +68,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

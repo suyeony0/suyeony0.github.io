@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Snake]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[102. [BACKJOON – SAMSUNG SW : Snake]]
 	- I confused due to apple’s corordinate. they gave the corordiantes strating from row 1 and column 1 not 0 and 0.
 	- to follow tail, I used queue.
@@ -134,4 +135,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

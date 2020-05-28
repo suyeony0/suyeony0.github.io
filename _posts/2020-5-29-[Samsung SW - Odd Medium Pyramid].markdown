@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Odd Medium Pyramid]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[166. [SAMSUNG - SW : Odd Medium Pyramid]
 	- run time error occurred. I think there is a trick. it’s not a brute force.
 	- see the first code.
@@ -71,4 +72,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿#include<iostream>
 	#include<algorithm>
 	#include<climits>
@@ -65,4 +66,5 @@ author : Loui
 		return 0;
 	}
 	
+```
 {% endhighlight %}

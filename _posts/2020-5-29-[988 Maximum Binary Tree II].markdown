@@ -11,6 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
+```cpp
 	﻿[92. [998] Maximum Binary Tree II – insert the given value into max heap]
 	- Algorithm is below.
 	> 1. if root is exist and root->val > given value, call the helper function with giving root->right as a parameter.
@@ -33,4 +34,5 @@ author : Loui
 	    }
 	};
 	
+```
 {% endhighlight %}
