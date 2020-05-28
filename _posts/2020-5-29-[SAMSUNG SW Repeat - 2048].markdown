@@ -5,7 +5,7 @@ date: 2020-5-29
 description: txt to markdown
 thumbnail: person1.jpeg
 categories: SAMSUNG_SW
-
+ 
 # Information for the author block
 author : Loui
 ---
@@ -16,7 +16,7 @@ author : Loui
 
 	[2. SAMSUNG SW : 2048]
 	- this was a simulation problem and it was like just previous problem : `Bids Escape 2`. Since we can just tilt the board and can not move each number of shell.
-	- I used DFS and I implemented every direction¡¯s move.
+	- I used DFS and I implemented every directionÂ¡Â¯s move.
 	- I spent 28 minutes and 26 seconds.
 	- see the code.
 	#include<iostream>
