@@ -14,7 +14,7 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
-
+@import "/css/syntax.css"
 
 /**
  * Remove default margin.
