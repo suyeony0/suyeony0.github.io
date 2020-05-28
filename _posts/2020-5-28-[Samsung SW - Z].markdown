@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Z]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: food1.jpeg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
