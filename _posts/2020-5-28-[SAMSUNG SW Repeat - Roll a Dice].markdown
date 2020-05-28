@@ -10,7 +10,7 @@ categories: SAMSUNG_SW
 author : Loui
 ---
 
-```cpp
+```c++
 	[5. SAMSUNG SW : Roll a Dice]
 	- it was a simulation problem. implementing Dice was quite tricky. In my case, I made 4 x 3 array to represent the dice.
 	- they gave us number of order to move the dice, but the diretions started with 1 not 0, so there was a small confusing.
