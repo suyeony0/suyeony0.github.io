@@ -3,7 +3,7 @@ layout: post
 title: [SAMSUNG SW Repeat - Bids Escape 2]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
