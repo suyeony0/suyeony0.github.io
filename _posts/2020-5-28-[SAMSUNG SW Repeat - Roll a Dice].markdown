@@ -3,7 +3,7 @@ layout: post
 title: [SAMSUNG SW Repeat - Roll a Dice]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: person1.jpeg
 categories: SAMSUNG_SW
 
 # Information for the author block
