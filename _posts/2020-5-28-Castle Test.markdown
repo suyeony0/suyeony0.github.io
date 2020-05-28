@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% raw %}
-	�?205. [SAMSUNG SW ??Castle Wall]
+	ï»?205. [SAMSUNG SW ??Castle Wall]
 	- this was so hard. they gave walls of the castle using numeric value, actually binary value!
 	- so reaching the given condition was so hard.
 	- I used BFS, and bit operation.
