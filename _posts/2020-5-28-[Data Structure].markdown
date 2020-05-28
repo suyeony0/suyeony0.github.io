@@ -1,7 +1,7 @@
 ---
 layout: post
 title: [Data Structure]
-data: 2020-05-26
+data: 2020-05-28
 description: Basic Data Structure
 thumbnail: food1.jpg
 categories: CS_Study
