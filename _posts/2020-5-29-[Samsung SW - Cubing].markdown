@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Cubing]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[118. [BACKJOON – SAMSUNG SW : Cubing]]
 	- it was not a solving algorhthm! I think it was just a time consuming work actually.
 	- making cube and make it move following the given rules. was suck!

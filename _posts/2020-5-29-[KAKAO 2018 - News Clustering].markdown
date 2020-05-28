@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2018 - News Clustering]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[134. [Programmers– KAKAO 2018 :News Clustering]]
 	- it was just string parsing and make intersection and union set. so not that hard.
 	- see the code.

@@ -3,15 +3,14 @@ layout: post
 title: [1123 Lowest Common Ancestor of Deepest Leaves]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿- find the deepest level from root. If the deepest depth is same, then the root is the answer.
 	- if the depth is different. determine which one has deeper depth between left and right child.
 	- and doing recursive with the child who has deeper detph.

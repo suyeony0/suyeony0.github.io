@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Pool]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[191. [SAMSUNG SW – Pool]
 	- it has been quite long time since I met this kind of a high level problem.
 	- it was a simulation problem. but it was hard to make it satisfy all the rule.

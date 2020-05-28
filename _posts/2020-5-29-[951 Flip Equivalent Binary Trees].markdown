@@ -3,15 +3,14 @@ layout: post
 title: [951 Flip Equivalent Binary Trees]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[when we choose any node and swap left and right subtrees, we call it a flip operation. 
 	 Write a function whether two given trees are flip equivalent.]
 	- no matter a tree is filped or not, its children have to be same or just changed the order.

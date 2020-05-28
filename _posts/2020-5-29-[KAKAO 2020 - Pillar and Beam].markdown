@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[123. [Programmers– KAKAO 2020 : Pillar and Beam]]
 	- it was a quite dirty and time spending work.
 	- I had to implement all the possible condition by given rules.

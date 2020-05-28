@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[125. [Programmers– KAKAO 2020 : Moving Block]]
 	- At first, I used DFS to implement brute force, but I failed lots of test case and time limit exceeded occurred.
 	- see the code.

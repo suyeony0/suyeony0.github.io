@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Robot Vacuum Cleaner]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[109. [BACKJOON – SAMSUNG SW : Robot Vacuum Cleaner]]
 	- this problem’s hardest point was to determine when cleaning is end.
 	- without it, not that hard, just followed given rules.

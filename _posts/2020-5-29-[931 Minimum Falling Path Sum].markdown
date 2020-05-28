@@ -3,15 +3,14 @@ layout: post
 title: [931 Minimum Falling Path Sum]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[96 [931] Minimum Falling Path Sum – find minimum sum of given rules]
 	- At first, I used DFS to consider all the path possible. but time limit exceeded occurred.
 	- see the code.

@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - A  connect processor]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[98. [Samsung SW – A : connect processor]]
 	- I spent almost 5 hours for debugging…
 	- see the code.

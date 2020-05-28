@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[198. [SAMSUNG SW – Jump]
 	- Recently, I’ve been solving lots of simulation problem. so this problem was easy for me.
 	- I used DFS since I had to find all the path to end position and for that DFS using memozation is the easiest way, I think.

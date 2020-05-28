@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Stepping Stones]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[179. [KAKAO 2019 – Winter Internship : Stepping Stones]
 	- this problem also has efficiency test. my first try pass all the accuracy test, but not efficiency test.
 	- see my first code.

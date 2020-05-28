@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Banned User]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[177. [KAKAO 2019 – Winter Internship : Banned User]
 	- doing permutation was the key point.
 	- thanks to time limit was not that restric. I’ve solved easily using DFS – permutation.

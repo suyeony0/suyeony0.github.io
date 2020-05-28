@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2020 - Lock and Key]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[121. [Programmers– KAKAO 2020 : Lock and Key]]
 	- implementing slicing using C++ is quite hard for me.
 	- I made slicing to determine whether the given key is valid or not. 

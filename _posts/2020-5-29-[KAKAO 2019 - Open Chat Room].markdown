@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2019 - Open Chat Room]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[126. [Programmers– KAKAO 2019 :Open Chat Room]]
 	- it was an easy problem, but I needed to handle complex unordered_map structure. it was quite confusing.
 	- see the code.

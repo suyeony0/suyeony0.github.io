@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Chicken Delivery]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[117. [BACKJOON – SAMSUNG SW : Chicken Delivery]]
 	- DFS was needed to choose which chicken house will be alive.
 	- BFS was a significant problem, since when I used queue for BFS, time limit exceeded occurred.

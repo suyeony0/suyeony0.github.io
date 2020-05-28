@@ -3,15 +3,14 @@ layout: post
 title: [46 Permutations]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[100. [46] Permutations – find all the possible permutation]
 	- The function next_permutation return true if there is next permutation, and revise given vector to next 
 	permutation. but the function can’t handle negative value.

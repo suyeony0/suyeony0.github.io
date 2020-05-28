@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[99. [695] Max Area of Island] – return a maximum size of island]
 	- just use DFS or BFS. Emprically, DFS is faster than BFS.
 	- see the code.

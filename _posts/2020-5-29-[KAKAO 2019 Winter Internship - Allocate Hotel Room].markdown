@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Allocate Hotel Room]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[178. [KAKAO 2019 – Winter Internship : Allocate Hotel Room]
 	- this problem has efficiency test. the key was the union-find structure.
 	- but without knowing union-find structure, we colud solve it. I’ve solved this problem using recursion with unorderd_map.

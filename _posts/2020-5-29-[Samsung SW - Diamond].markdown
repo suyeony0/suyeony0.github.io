@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Diamond]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[158. [SAMSUNG - SW : Diamond]
 	  I’ve misunderstood. but it wasn’t only me. so it’s SAMSUNG’s problem haha.
 	- using set and map, I made an algorithm easily. there was no DFS, DP, etc, but just caculation.

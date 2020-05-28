@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2019 - Muji's Muckbang Live]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[129. [Programmers– KAKAO 2019 :Muji’s Muckbang Live]]
 	- this problem has efficiency test as well.
 	- as you guess, I passed accuracy tests but not efficiency tests.

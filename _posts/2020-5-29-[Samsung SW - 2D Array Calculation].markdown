@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - 2D Array Calculation]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿
 	[145. [SAMSUNG – SW :2D Array Calculation]]
 	- this was weird. when I used unordered_map, abort occurred at 9% of submission.

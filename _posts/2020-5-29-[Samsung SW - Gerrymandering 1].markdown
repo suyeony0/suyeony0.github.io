@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Gerrymandering 1]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[182. [SAMSUNG SW – Gerrymandering 1]
 	- Checking two districts are connected each other or not was the main point of this problem.
 	- To split district, I used permutation – DFS, and to check connection, I used queue.

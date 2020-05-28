@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2018 - Cache]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[138. [Programmers– KAKAO 2018 :Cache]]
 	- Honestly. it was shame I couldn’t solve this problem directly due to LRU.
 	- Making LRU is quite fresh in a bad way. so I spent 20~30 minutes.

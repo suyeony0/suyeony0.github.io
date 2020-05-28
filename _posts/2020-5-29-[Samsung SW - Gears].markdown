@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[113. [BACKJOON – SAMSUNG SW : Gears ]]
 	- I think there are at least 2 method to solve this problem. one is DFS and another one is just to use many if-condintion clause.
 	- I chose the latter one.

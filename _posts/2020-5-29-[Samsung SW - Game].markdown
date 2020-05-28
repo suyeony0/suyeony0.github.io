@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[190. [SAMSUNG SW – Game]
 	- It was a typical simulation problem. but tricks were there.
 	- First trick was we had to use memorization to avoid time limit abort.

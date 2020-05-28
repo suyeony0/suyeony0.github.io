@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - 2048]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[102. [BACKJOON – SAMSUNG SW : 2048]]
 	- I used BFS, but BFS is not the matter. move function was the main point.
 	- I made each direction’s function respectively. so I solved faster than before.

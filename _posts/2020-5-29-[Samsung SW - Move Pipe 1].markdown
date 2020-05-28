@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[170. [SAMSUNG - SW : Move Pipe 1]
 	- it was a simulation problem. given possible directions to move, I had to move the pipe to (N,N).
 	- I used DFS and memorization using visit vector.

@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Making Maze]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[194. [SAMSUNG SW – Making Maze]
 	- this was a simulation problem with a different start position.
 	- if player move over the limit of array, he can’t make a maze.

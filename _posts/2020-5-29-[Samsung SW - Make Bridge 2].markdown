@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Make Bridge 2]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[182. [SAMSUNG SW – Making Bridge 2]
 	- At first, I used brute force using permutation but it was hard to check all island was connected.
 	- see the first code.

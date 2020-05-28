@@ -3,15 +3,14 @@ layout: post
 title: [1219 Path with Maximum Gold]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[84. [1219] Path with Maximum Gold – find a path to get maximum gold]
 	- I used DFS to solve this problem. the algorithm is quite intutive. I think the explanation is not needed. just cafeful to use visit array.
 	- but time limit exceeded occurred.

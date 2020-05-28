@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[110. [BACKJOON – SAMSUNG SW : Insert Operator]]
 	- by using next_permutation, we can solve this problem very easily.
 	- but there was a trap, the function next_permutation ant in ascending order. 

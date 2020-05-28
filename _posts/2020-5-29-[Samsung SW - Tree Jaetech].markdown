@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[142. [SAMSUNG – SW : Tree Jaetech]]
 	- I think, Samsung’s simulation problem is quite dirty.
 	- they present super rigid time limit. 

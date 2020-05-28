@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Palindrome per Word]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[165. [SAMSUNG - SW : Palindrome per Word]
 	- I used DFS and memorization, but time limit exceeded occurred.
 	- For each k, I count how many valid palindrome per word string appear.

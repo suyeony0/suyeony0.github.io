@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2017 - Coloring Book]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[180. [KAKAO 2017 : Coloring Book]
 	- this was a simulation problem. I solved using BFS.
 	- it’s quite long time since I used BFS lastly. so It took much more time.

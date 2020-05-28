@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2018 - Secret Map]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[139. [Programmers– KAKAO 2018 :Secret Map]]
 	- Handling bitset is the main point of this problem.
 	- So It was easy for me :)

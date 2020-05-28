@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2019 - Block Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[132. [Programmers– KAKAO 2019 :Block Game]]
 	- Even though it was level 4 problem, it was easy for me.
 	- I was happy it was not a fucking string parsing :)

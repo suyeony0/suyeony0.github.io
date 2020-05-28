@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Chess]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿#include<iostream>
 	#include<vector>
 	

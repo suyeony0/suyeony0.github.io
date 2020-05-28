@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿
 	[115. [BACKJOON – SAMSUNG SW : Ladder Rigging]]
 	- I spent 5 hour to reach the limit.

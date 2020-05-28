@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[144. [SAMSUNG – SW : Goodbye Finedust!]]
 	- it was a simulation problem, but not DFS and BFS.
 	- following given rules not hard, but have to be careful of robot’s position whether robot is at leftside or middle or rightside.

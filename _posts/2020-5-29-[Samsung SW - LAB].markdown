@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - LAB]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿	[108. [BACKJOON – SAMSUNG SW : LAB]]
 	- At first, I tried brute force. But it took so much time so I sholud’ve changed the algorithm
 	- the brute force algorithm is below.

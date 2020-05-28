@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Dice Yut Play]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[151. [SAMSUNG – SW : Dice Yut Play]] 
 	- this was the last problem of SAMSUNG SW in Baekjoon. But sadly, my algorithm didn’t work well. so I refered to below URL.
 	https://eine.tistory.com/entry/%EB%B0%B1%EC%A4%80-17825%EB%B2%88-%EC%A3%BC%EC%82%AC%EC%9C%84-%EC%9C%B7%EB%86%80%EC%9D%B4-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4

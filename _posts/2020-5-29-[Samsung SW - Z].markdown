@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[188. [SAMSUNG SW – Z]
 	- it was a binary search problem. Actually, it was a quaternary search.
 	- we can divide whole square to 4 district, top_left, top_right, bottom_left and bottom_right.

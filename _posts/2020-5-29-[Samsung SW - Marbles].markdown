@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - Marbles]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[101. [BACKJOON – SAMSUNG SW : Marbles]]
 	- I spent 6 hours…
 	- At first, I used DFS but some test case was not solved.

@@ -10,8 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[204. [SAMSUNG SW – Number Board Jump]
 	- it was just a DFS problem. there was no restriction so easy.
 	- see the code.

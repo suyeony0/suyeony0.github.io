@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2018 - Shuttle Bus]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[136. [Programmers– KAKAO 2018 :Shuttle Bus]]
 	- handling time is always naughty for me lol :).
 	- I changed all the bus schedule to unit of minute. <- is this english right? haha.

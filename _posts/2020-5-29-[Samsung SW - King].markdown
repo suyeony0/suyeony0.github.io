@@ -3,15 +3,14 @@ layout: post
 title: [Samsung SW - King]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿
 	[187. [SAMSUNG SW – KING]
 	- it was an easy simulation problem. I had to just follow given moving order.

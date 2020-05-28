@@ -3,15 +3,14 @@ layout: post
 title: [KAKAO 2018 - Automatic Completion]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% raw %}
-
+{% highlight c++ %}
 	﻿[154. [KAKAO – 2018 : Automatic Completion]] 
 	- it was a string parisng problem. so I used Trie tree to make dictionary.
 	- when I insert a string into the dictionary, I recorded how many word can be parsed from the node with a name has_word.
