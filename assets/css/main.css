@@ -797,7 +797,7 @@ button.download {
       height: 450px; } }
 
 .post-wrap {
-  max-width: 710px;
+  max-width: 1000px;
   padding: 10px 10px 50px 10px;
   margin: auto; }
   .post-wrap h1 {
