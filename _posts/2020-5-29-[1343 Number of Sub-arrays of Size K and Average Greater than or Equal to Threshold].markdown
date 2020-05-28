@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[82. [1343] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold – find the number of sub-array of size K that has an average greater than or equal to given threshold]
 	- Algorithm is below
 	> 1. From first of the given array, add K-1 elements. => cur_sum
@@ -33,5 +35,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

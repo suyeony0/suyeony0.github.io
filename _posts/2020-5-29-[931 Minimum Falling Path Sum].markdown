@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[96 [931] Minimum Falling Path Sum – find minimum sum of given rules]
 	- At first, I used DFS to consider all the path possible. but time limit exceeded occurred.
 	- see the code.
@@ -52,5 +54,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

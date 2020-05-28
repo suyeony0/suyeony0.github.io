@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Making Bridge]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	[202. [SAMSUNG SW ? Making Bridge]
 	- It was a minimum spanning tree problem.
@@ -104,5 +106,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Gears]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[113. [BACKJOON – SAMSUNG SW : Gears ]]
 	- I think there are at least 2 method to solve this problem. one is DFS and another one is just to use many if-condintion clause.
@@ -128,5 +130,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Break A Wall and Move]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[203. [SAMSUNG SW – Break A Wall and Move]
 	- It was a simulation problem to find the shortest path from start to end position.
@@ -80,5 +82,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

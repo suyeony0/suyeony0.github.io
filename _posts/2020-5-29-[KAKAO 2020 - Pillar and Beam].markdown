@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Pillar and Beam]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[123. [Programmers– KAKAO 2020 : Pillar and Beam]]
 	- it was a quite dirty and time spending work.
@@ -103,5 +105,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

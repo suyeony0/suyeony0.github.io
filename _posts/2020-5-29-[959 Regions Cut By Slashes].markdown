@@ -3,7 +3,7 @@ layout: post
 title: [959 Regions Cut By Slashes]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[77. [959] Regions Cut By Slashes – return how many distinct regions appear after dividing whole square by /, \]
 	- I solved this problem using BFS. But the result was time limit exceeded.
@@ -114,5 +116,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Automatic Completion]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[154. [KAKAO – 2018 : Automatic Completion]] 
 	- it was a string parisng problem. so I used Trie tree to make dictionary.
@@ -91,5 +93,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

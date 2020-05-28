@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Claw Crane Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[175. [KAKAO 2019 – Winter Internship : Claw Crane Game]
 	- this was so easy. I think I don’t need comment for this problem.
@@ -59,5 +61,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

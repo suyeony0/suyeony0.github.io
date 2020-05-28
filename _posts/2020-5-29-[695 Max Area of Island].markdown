@@ -3,7 +3,7 @@ layout: post
 title: [695 Max Area of Island]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[99. [695] Max Area of Island] – return a maximum size of island]
 	- just use DFS or BFS. Emprically, DFS is faster than BFS.
@@ -44,5 +46,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

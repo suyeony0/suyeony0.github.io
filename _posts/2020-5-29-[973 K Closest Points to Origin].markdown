@@ -3,7 +3,7 @@ layout: post
 title: [973 K Closest Points to Origin]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[94. [973] K Closest Points to Origin – calculate Euclidean distance of given coordinates and find K CLosets Points to Origin]
 	- I used map. key is Euclidean Distance and value is the coordinates.
@@ -43,5 +45,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

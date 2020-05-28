@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[89. [406] Queue Reconstruction by Height – standing people by given a height rule]
 	- a person have a height and a number which represents the number of person who have a height higher than or equal to the person. by using it, we have sort the given array.
 	- this problem was quite difficult. Algorithm didn’t happen in my brain.
@@ -57,5 +59,6 @@ author : Loui
 	};
 	
 	
+{% endraw %}
 {% endhighlight %}
 

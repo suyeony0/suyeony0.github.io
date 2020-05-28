@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Z]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[188. [SAMSUNG SW – Z]
 	- it was a binary search problem. Actually, it was a quaternary search.
@@ -68,5 +70,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

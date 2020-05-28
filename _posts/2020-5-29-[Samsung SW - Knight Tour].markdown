@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Knight Tour]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[193. [SAMSUNG SW – Knight Tour]
 	- this problem was so easy for me. I just had to check the condition is possible or not.
@@ -83,5 +85,6 @@ author : Loui
 	
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 - Candidate Key]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[128. [Programmers– KAKAO 2019 :Candidate Key]]
 	- it was fxxkcing difficult for me. Indeed, it was not that difficult. but I spent so much time.
@@ -141,5 +143,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

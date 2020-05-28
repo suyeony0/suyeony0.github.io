@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Sring Compression]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[119. [Programmers– KAKAO 2020 : String Compression]]
 	- we need to be careful when we handle how many substring occurred.
@@ -65,5 +67,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

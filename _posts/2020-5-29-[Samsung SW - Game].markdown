@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[190. [SAMSUNG SW – Game]
 	- It was a typical simulation problem. but tricks were there.
 	- First trick was we had to use memorization to avoid time limit abort.
@@ -73,5 +75,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

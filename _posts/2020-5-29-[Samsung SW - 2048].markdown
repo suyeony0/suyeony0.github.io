@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - 2048]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[102. [BACKJOON – SAMSUNG SW : 2048]]
 	- I used BFS, but BFS is not the matter. move function was the main point.
@@ -224,5 +226,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Chess Board Re-Painting]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[184. [SAMSUNG SW – Chess Board Re-Painting]
 	- it was a slicing and brute force problem. but understading the problem is pretty hard. since they took a word “Square”. I’ve been confused whether the “Square” is chess board’s small 1x1 square or 8x8 whole square.
@@ -76,5 +78,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

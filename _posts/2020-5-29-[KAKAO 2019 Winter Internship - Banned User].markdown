@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Banned User]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[177. [KAKAO 2019 – Winter Internship : Banned User]
 	- doing permutation was the key point.
@@ -70,5 +72,6 @@ author : Loui
 		return answer;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

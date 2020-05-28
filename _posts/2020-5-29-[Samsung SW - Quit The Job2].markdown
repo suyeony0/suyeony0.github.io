@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Quit The Job2]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[183. [SAMSUNG SW – Quit The Job 2]
 	- it has been a while since I’ve met DP problem.
@@ -53,5 +55,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

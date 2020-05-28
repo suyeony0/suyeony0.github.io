@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Addition Problem]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[167. [SAMSUNG - SW : Addition Problem]
 	- I felt like level 4 problem’s in SAMSUNG SW expert don’t ask brute force. there is always a tricked rule.
@@ -38,5 +40,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

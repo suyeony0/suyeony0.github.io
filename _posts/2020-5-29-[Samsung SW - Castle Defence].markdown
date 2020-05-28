@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Castle Defence]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[171. [SAMSUNG - SW : Castle Defence]
 	- it was also a simulation problem.
@@ -155,5 +157,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

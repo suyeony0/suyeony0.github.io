@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 - Block Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[132. [Programmers– KAKAO 2019 :Block Game]]
 	- Even though it was level 4 problem, it was easy for me.
@@ -114,5 +116,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

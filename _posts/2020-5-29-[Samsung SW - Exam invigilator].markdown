@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Exam invigilator]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[104. [BACKJOON – SAMSUNG SW : Exam Invigilator]]
 	- this exam’s trap is the range of number. since tue maximum number of people is 1,000,000 * 1,000,000 and the minimum number of that an invigilator can handle is 1.
@@ -83,5 +85,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Compression]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[153. [KAKAO – 2018 : Compression]] 
 	- For two days from last problem, I had no time to solve algorithm until today.
@@ -75,5 +77,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

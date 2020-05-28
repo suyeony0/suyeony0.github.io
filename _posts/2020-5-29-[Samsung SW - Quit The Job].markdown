@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Quit The Job]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[107. [BACKJOON – SAMSUNG SW : Quit The Job]]
 	- it was dp problem. I made dp from the last day.
@@ -80,5 +82,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

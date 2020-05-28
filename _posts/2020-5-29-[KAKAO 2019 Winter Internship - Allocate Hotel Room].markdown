@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Allocate Hotel Room]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[178. [KAKAO 2019 – Winter Internship : Allocate Hotel Room]
 	- this problem has efficiency test. the key was the union-find structure.
@@ -47,5 +49,6 @@ author : Loui
 		return answer;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

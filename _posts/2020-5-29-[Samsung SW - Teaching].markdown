@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[186. [SAMSUNG SW – Teaching]
 	- it was a selective permutation problem. all the word in antarctica start with “anta” and end with “tica”. so we teach students at least more than 5 letters. Therefore, if K<=4, return is 0.
 	- Otherwise, after teaching ‘a’, ‘c’,’ ‘I’, ‘n’, ‘t’, we have to choose which letters we teach next. I used permutation for this section.
@@ -63,5 +65,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Gerrymandering 2]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿#include<iostream>
 	#include<fstream>
@@ -181,5 +183,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[101. [BACKJOON – SAMSUNG SW : Marbles]]
 	- I spent 6 hours…
 	- At first, I used DFS but some test case was not solved.
@@ -166,5 +168,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

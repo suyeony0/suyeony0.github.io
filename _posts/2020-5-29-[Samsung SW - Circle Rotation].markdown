@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Circle Rotation]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[150. [SAMSUNG – SW : Circle Rotation]] 
 	- the trick this problem has is a circle they gave is logically same with 2D array without columns act like circle.
@@ -168,5 +170,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

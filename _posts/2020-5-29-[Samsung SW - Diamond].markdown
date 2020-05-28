@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Diamond]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[158. [SAMSUNG - SW : Diamond]
 	  I’ve misunderstood. but it wasn’t only me. so it’s SAMSUNG’s problem haha.
@@ -71,5 +73,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

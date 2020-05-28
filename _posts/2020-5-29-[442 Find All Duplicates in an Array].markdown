@@ -3,7 +3,7 @@ layout: post
 title: [442 Find All Duplicates in an Array]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[81. [442] Find All Duplicates in an Array – find numbers which occur twice]
 	- If I just have to problem without concerning memory ans time consuming, it is easy.
@@ -31,5 +33,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

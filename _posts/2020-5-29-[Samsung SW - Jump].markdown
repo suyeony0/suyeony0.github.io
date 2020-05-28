@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Jump]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[198. [SAMSUNG SW – Jump]
 	- Recently, I’ve been solving lots of simulation problem. so this problem was easy for me.
@@ -69,5 +71,6 @@ author : Loui
 	
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

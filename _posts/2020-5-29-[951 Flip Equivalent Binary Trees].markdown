@@ -3,7 +3,7 @@ layout: post
 title: [951 Flip Equivalent Binary Trees]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[when we choose any node and swap left and right subtrees, we call it a flip operation. 
 	 Write a function whether two given trees are flip equivalent.]
@@ -51,5 +53,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

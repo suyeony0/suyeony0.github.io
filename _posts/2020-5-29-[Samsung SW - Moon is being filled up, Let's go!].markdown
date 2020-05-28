@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Moon is being filled up, Let's go!]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿#include<iostream>
 	#include<vector>
@@ -104,5 +106,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

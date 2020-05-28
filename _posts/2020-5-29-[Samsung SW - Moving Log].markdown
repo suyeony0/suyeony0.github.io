@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Moving Log]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[199. [SAMSUNG SW – Moving Log]
 	- this was a simulation problem to find the shortest path to move a log.
@@ -125,5 +127,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

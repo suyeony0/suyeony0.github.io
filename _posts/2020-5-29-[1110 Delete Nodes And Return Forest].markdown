@@ -3,7 +3,7 @@ layout: post
 title: [1110 Delete Nodes And Return Forest]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[75. [1110] Delete Nodes And Return Forest – delete given node, and return roots of every subtrees.]
 	- I solved this problme using bottom-up approach.
@@ -51,5 +53,6 @@ author : Loui
 	    }
 	};  
 	
+{% endraw %}
 {% endhighlight %}
 

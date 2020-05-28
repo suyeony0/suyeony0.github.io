@@ -3,7 +3,7 @@ layout: post
 title: [889 Construct Binary Tree from Preorder and Postorder Traversal]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[79 [889] Construct Binary Tree from Preorder and Postorder Traversal – make a binary tree using the given pre and postorder traversals]
 	- My first algorithm is that the right next node of current node in preoder traversal is root’s left child and the left next node of current node in post traversal is root’s right child.
@@ -40,5 +42,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

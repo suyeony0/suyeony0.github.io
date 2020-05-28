@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Baseball]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[173. [SAMSUNG - SW : Baseball]
 	- What the heck? I spent 4 hours…
@@ -125,5 +127,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

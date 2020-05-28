@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[87. [841] Keys and Rooms – each room has a list of keys to enter rooms. return true if it is possible to enter every room]
 	- Algorithm is below.
 	> 1. when I enter a room, inserting every key into queue and recording all the key into can_visit. Finally, removing all the key in the room.
@@ -45,5 +47,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

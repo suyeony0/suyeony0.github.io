@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Ramp]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[112. [BACKJOON – SAMSUNG SW : Ramp]]
 	- there was lots of error in this problem. I mean the errors the problem has.
@@ -145,5 +147,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

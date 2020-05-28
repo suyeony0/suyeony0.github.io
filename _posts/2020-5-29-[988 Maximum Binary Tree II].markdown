@@ -3,7 +3,7 @@ layout: post
 title: [988 Maximum Binary Tree II]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[92. [998] Maximum Binary Tree II – insert the given value into max heap]
 	- Algorithm is below.
@@ -34,5 +36,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

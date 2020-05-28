@@ -3,7 +3,7 @@ layout: post
 title: [BaekJoon - 1697  Hide and Seek]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[135. [BaekJoon– 1697 : Hide and Seek]]
 	- it was just BFS problem, we just sholud be careful of memory using visit hash.
@@ -47,5 +49,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

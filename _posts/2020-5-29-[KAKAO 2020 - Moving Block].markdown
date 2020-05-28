@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Moving Block]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[125. [Programmers– KAKAO 2020 : Moving Block]]
 	- At first, I used DFS to implement brute force, but I failed lots of test case and time limit exceeded occurred.
@@ -393,5 +395,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Dart Game]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[140. [Programmers– KAKAO 2018 :Dart Game]]
 	- String parsing and caculate using given rule is the way to solve this problem.
@@ -81,5 +83,6 @@ author : Loui
 	    return answer;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

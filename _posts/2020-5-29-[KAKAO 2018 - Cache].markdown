@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Cache]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[138. [Programmers– KAKAO 2018 :Cache]]
 	- Honestly. it was shame I couldn’t solve this problem directly due to LRU.
@@ -50,5 +52,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[97/ [1140] Stone Game II – return the most stones alex can win]
 	- Finally, I’ve solved this problem!!! I took almost 5 hours…
 	- I refered to discussion about (sum+helper())/2
@@ -111,5 +113,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

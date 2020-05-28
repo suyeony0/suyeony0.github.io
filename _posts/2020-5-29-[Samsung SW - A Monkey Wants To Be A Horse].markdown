@@ -12,6 +12,8 @@ author : Loui
 
 {% highlight c++ %}
 
+{% raw %}
+
 	﻿[196. [SAMSUNG SW – A Monkey Wants To Be A Horse]
 	- I tried to solve this problem using DFS and DP, but I failed. since there was K value that is the number of the monkey can move like the horse.
 	- see the first code.
@@ -174,5 +176,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

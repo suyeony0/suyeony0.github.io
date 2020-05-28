@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - 2D Array Calculation]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿
 	[145. [SAMSUNG – SW :2D Array Calculation]]
@@ -118,5 +120,6 @@ author : Loui
 		
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

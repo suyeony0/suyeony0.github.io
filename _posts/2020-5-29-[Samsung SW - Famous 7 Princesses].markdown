@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Famous 7 Princesses]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[200. [SAMSUNG SW – Famous 7 Princesses]
 	- Wow, I have to say it was quite hard and difficult.
@@ -100,5 +102,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

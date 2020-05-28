@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Pool]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[191. [SAMSUNG SW – Pool]
 	- it has been quite long time since I met this kind of a high level problem.
@@ -78,5 +80,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

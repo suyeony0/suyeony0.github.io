@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Laboratory 3]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[147. [SAMSUNG – SW : Laboratory 3 ]]
 	- huh… so much edge case!
@@ -146,5 +148,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

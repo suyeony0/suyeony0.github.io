@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2018 - Sort Timetable]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[155. [KAKAO – 2018 : Sort Filename]] 
 	- it was an easy problem, but setting a range of For syntax made a small error. To solve the error, I spent 30 minutes.
@@ -90,5 +92,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

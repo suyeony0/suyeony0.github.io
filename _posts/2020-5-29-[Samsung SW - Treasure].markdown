@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Treasure]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[185. [SAMSUNG SW – Treasure]
 	- this problem had a trick that if we use next_permutation, time limit exceeded occur.
@@ -47,5 +49,6 @@ author : Loui
 	}
 	
 	
+{% endraw %}
 {% endhighlight %}
 

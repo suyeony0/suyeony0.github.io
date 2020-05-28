@@ -3,7 +3,7 @@ layout: post
 title: [969 Pancake Sorting]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[76. [969] Pancake Sorting – find the order of indexs to reverse the given vector from vector.begin() so that the vector is sorted]
 	- the flip begin from A[0]. so we have to sort from A.end() descendantly.
@@ -38,5 +40,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 

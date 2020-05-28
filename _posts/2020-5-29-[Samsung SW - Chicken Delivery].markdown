@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Chicken Delivery]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[117. [BACKJOON – SAMSUNG SW : Chicken Delivery]]
 	- DFS was needed to choose which chicken house will be alive.
@@ -105,5 +107,6 @@ author : Loui
 	
 	
 	
+{% endraw %}
 {% endhighlight %}
 

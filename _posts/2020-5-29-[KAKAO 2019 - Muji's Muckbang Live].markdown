@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 - Muji's Muckbang Live]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[129. [Programmers– KAKAO 2019 :Muji’s Muckbang Live]]
 	- this problem has efficiency test as well.
@@ -149,5 +151,6 @@ author : Loui
 		return 0;
 	}
 	
+{% endraw %}
 {% endhighlight %}
 

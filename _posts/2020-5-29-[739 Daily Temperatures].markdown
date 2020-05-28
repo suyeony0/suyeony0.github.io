@@ -3,7 +3,7 @@ layout: post
 title: [739 Daily Temperatures]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,6 +11,8 @@ author : Loui
 ---
 
 {% highlight c++ %}
+
+{% raw %}
 
 	﻿[93. [739] Daily Temperatures – determine how many days we have to wait so that a temperatur is wamer than today.]
 	- Algorithm is below.
@@ -44,5 +46,6 @@ author : Loui
 	    }
 	};
 	
+{% endraw %}
 {% endhighlight %}
 
