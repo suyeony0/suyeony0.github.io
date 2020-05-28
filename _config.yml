@@ -2,10 +2,11 @@
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
   syntax_highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 <<<<<<< HEAD
-
+  
 # Jekyll Defaults
 title: Loui's Record
 email: gjsgud2@gmail.com
