@@ -1,0 +1,44 @@
+---
+layout: post
+title: [877 Stone Game]
+data: 2020-05-26
+description: txt to markdown
+thumbnail: person1.jpeg
+categories: Algorithm
+
+# Information for the author block
+author : Loui
+---
+
+{% raw %}
+
+	﻿[85. [877] Stone Game – determine whether alex wins the game or not]
+	- the game rule is below.
+	> 1. player can choose either given array’s first or last element.
+	> 2. player tries to collect most stone(number) and acts optimally.
+	- we should determine alex can win or not given array.
+	- I use DFS to solve this problem. Since each player tries to get more stone than the opponent, we should do brute-force. 
+	- At first, I use the start iterator like below
+	> piles.erase(start);
+	- but it occurred a heap-buffer-overflow, I don’t know why actually. So I changed the code to use the current function’s pile vector.
+	- Finally, I could solve this problem. but the speed was just 49.95% beats.
+	- see the code.
+	class Solution {
+	public:
+	    bool DFS(vector<int> piles, vector<int>::iterator start,vector<int> alex_lee,int turn){
+	        bool answer=false;
+	        if(piles.empty())
+	            return alex_lee[0]>alex_lee[1];
+	        alex_lee[(turn++)%2]+=*start;
+	        if(piles.begin()==start)
+	            piles.erase(piles.begin());    
+	        else piles.erase(next(piles.end(),-1));
+	        return DFS(piles,piles.begin(),alex_lee,turn) || DFS(piles,next(piles.end(),-1),alex_lee,turn);   
+	    }
+	    bool stoneGame(vector<int>& piles) {
+	        return DFS(piles,piles.begin(),vector<int>{2,0},0) || DFS(piles,next(piles.end(),-1),vector<int>{2,0},0);
+	    }
+	};
+	
+	
+{% endraw %}
