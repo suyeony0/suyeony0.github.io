@@ -1,17 +1,19 @@
 ---
 layout: post
 title: [SAMSUNG SW Repeat - Bids Escape 2]
-date: 2020-5-28
+date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: building1.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
-```c++
+```cpp
+
+{% raw %}
+
 	[1. SAMSUNG SW : Bids Escape 2]
 	- I spent 1 hour and half for this problem again!
 	- it was hard to match the restriction for me.
@@ -143,5 +145,7 @@ author : Loui
 		return 0;
 	
 	}
+	
+{% endraw %}
 ```
-{% endhighlight %}
+

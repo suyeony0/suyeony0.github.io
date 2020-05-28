@@ -3,14 +3,14 @@ layout: post
 title: [KAKAO 2020 - Sring Compression]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -68,5 +68,5 @@ author : Loui
 	}
 	
 {% endraw %}
-{% endhighlight %}
+```
 

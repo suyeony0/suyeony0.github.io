@@ -1,16 +1,19 @@
 ---
 layout: post
 title: [SAMSUNG SW Repeat - Snake]
-date: 2020-5-28
+date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: person1.jpeg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
+
+{% raw %}
+
 	[3. SAMSUNG SW : Snake]
 	- it was a simulation problem. there was a trick that the snake have to enlarge the head first and check whether the tail sholud be shrink or not.
 	- one more trivial trick is the given apple`s position start with (1,1) not (0,0).
@@ -87,4 +90,6 @@ author : Loui
 		return 0;
 	}
 	
-{% endhighlight %}
+{% endraw %}
+```
+

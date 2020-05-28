@@ -3,14 +3,14 @@ layout: post
 title: [Samsung SW - Tetromino]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -125,5 +125,5 @@ author : Loui
 	}
 	
 {% endraw %}
-{% endhighlight %}
+```
 

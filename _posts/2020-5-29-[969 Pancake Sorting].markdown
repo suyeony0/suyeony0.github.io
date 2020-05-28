@@ -10,7 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -41,5 +41,5 @@ author : Loui
 	};
 	
 {% endraw %}
-{% endhighlight %}
+```
 

@@ -3,14 +3,14 @@ layout: post
 title: [406 Queue Reconstruction by Height]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -60,5 +60,5 @@ author : Loui
 	
 	
 {% endraw %}
-{% endhighlight %}
+```
 

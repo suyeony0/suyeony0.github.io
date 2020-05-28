@@ -1,16 +1,18 @@
 ---
 layout: post
 title: [SAMSUNG SW Repeat - Exam Invigilator]
-date: 2020-5-28
+date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
+
+{% raw %}
 
 	[4. SAMSUNG SW : Exam Invigilator]
 	- there was a trap that we have to consider data type. since there was no limit of sum of total invigilators.
@@ -51,5 +53,7 @@ author : Loui
 		cout << answer;
 		return 0;
 	}
+	
+{% endraw %}
+```
 
-{% endhighlight %}

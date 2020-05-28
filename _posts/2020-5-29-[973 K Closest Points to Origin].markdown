@@ -3,14 +3,14 @@ layout: post
 title: [973 K Closest Points to Origin]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -46,5 +46,5 @@ author : Loui
 	};
 	
 {% endraw %}
-{% endhighlight %}
+```
 

@@ -3,14 +3,14 @@ layout: post
 title: [Samsung SW - 3 Dimentional Farmer]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -370,5 +370,5 @@ author : Loui
 	}
 	
 {% endraw %}
-{% endhighlight %}
+```
 

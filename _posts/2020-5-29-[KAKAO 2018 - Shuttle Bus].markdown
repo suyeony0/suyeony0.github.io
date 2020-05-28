@@ -3,14 +3,14 @@ layout: post
 title: [KAKAO 2018 - Shuttle Bus]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -68,5 +68,5 @@ author : Loui
 	}
 	
 {% endraw %}
-{% endhighlight %}
+```
 

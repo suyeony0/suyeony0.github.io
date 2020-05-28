@@ -3,14 +3,14 @@ layout: post
 title: [841 Keys and Rooms]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -48,5 +48,5 @@ author : Loui
 	};
 	
 {% endraw %}
-{% endhighlight %}
+```
 

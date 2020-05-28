@@ -3,14 +3,14 @@ layout: post
 title: [Samsung SW - Palindrome per Word]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
 author : Loui
 ---
 
-{% highlight c++ %}
+```cpp
 
 {% raw %}
 
@@ -158,5 +158,5 @@ author : Loui
 	}
 	
 {% endraw %}
-{% endhighlight %}
+```
 
