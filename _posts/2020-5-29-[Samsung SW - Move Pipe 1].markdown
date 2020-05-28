@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Move Pipe 1]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[170. [SAMSUNG - SW : Move Pipe 1]
 	- it was a simulation problem. given possible directions to move, I had to move the pipe to (N,N).
 	- I used DFS and memorization using visit vector.
@@ -129,5 +129,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

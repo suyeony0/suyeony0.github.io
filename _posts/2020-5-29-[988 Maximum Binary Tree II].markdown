@@ -3,7 +3,7 @@ layout: post
 title: [988 Maximum Binary Tree II]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[92. [998] Maximum Binary Tree II – insert the given value into max heap]
 	- Algorithm is below.
 	> 1. if root is exist and root->val > given value, call the helper function with giving root->right as a parameter.
@@ -34,5 +34,5 @@ author : Loui
 	    }
 	};
 	
-```
 {% endhighlight %}
+

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - New Game 2]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[149. [SAMSUNG – SW : New Game 2]] 
 	- it was a stack handling problem. each shell of 2d array has stack for recoding pieces.
 	- see the code.
@@ -135,5 +135,5 @@ author : Loui
 	
 	
 	
-```
 {% endhighlight %}
+

@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2020 - Coverting Parenthesis]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿
 	[120. [Programmers– KAKAO 2020 : Converting Parenthesis]]
 	- this problem’s main point was to follow given rule to make valid parenthesis.
@@ -95,5 +95,5 @@ author : Loui
 	
 	
 	
-```
 {% endhighlight %}
+

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - King]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿
 	[187. [SAMSUNG SW – KING]
 	- it was an easy simulation problem. I had to just follow given moving order.
@@ -57,5 +57,5 @@ author : Loui
 	
 	}
 	
-```
 {% endhighlight %}
+

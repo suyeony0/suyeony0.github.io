@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[185. [SAMSUNG SW – Treasure]
 	- this problem had a trick that if we use next_permutation, time limit exceeded occur.
 	- so we have to find an algorithm but the algorithm was not that hard.
@@ -47,5 +47,5 @@ author : Loui
 	}
 	
 	
-```
 {% endhighlight %}
+

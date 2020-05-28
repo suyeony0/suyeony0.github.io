@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Chocolate and Raisin]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[157. [SAMSUNG - SW : Chocolate and Raisin]
 	- it was D4 problem. I mean it was quite hard to solve.
 	- time was the most difficult one to reach the given condition.
@@ -83,5 +83,5 @@ author : Loui
 	}
 	
 	
-```
 {% endhighlight %}
+

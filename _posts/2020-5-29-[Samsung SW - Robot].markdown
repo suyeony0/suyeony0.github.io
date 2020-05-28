@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[197. [SAMSUNG SW – Robot]
 	- It was a simulation problem with some restriction.
 	- we have to maintain 3D boolean visit array to check whether we visit the shell with a certain direction.
@@ -113,5 +113,5 @@ author : Loui
 	
 	
 	
-```
 {% endhighlight %}
+

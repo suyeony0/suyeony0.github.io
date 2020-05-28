@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[152. [KAKAO – 2018 : The Song Just Before]] 
 	- WOW! I have barely solved this problem. At first, I used vector to record notes of a song, but in that case, it would be harder to check whether my song is in there than using string.
 	- so I changed algorithm. I spent 2 hours or so, I think.
@@ -146,5 +146,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

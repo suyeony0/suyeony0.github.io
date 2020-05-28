@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 - Open Chat Room]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[126. [Programmers– KAKAO 2019 :Open Chat Room]]
 	- it was an easy problem, but I needed to handle complex unordered_map structure. it was quite confusing.
 	- see the code.
@@ -72,5 +72,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

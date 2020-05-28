@@ -3,7 +3,7 @@ layout: post
 title: [1306 Jump Game III]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[95. [1306] Jump Game III – determine whether we can reach the index I with value 0 from start position with given rules.]
 	- I used map to record which index I have to visit so as to visit current value. That is, map’s key is we want to visit, and map’s value is an index we need to visit the index.
 	- refer to the picture below.
@@ -49,5 +49,5 @@ author : Loui
 	    }
 	};
 	
-```
 {% endhighlight %}
+

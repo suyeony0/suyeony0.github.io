@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Teaching]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[186. [SAMSUNG SW – Teaching]
 	- it was a selective permutation problem. all the word in antarctica start with “anta” and end with “tica”. so we teach students at least more than 5 letters. Therefore, if K<=4, return is 0.
 	- Otherwise, after teaching ‘a’, ‘c’,’ ‘I’, ‘n’, ‘t’, we have to choose which letters we teach next. I used permutation for this section.
@@ -63,5 +63,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

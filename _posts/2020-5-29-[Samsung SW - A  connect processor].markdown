@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - A  connect processor]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[98. [Samsung SW – A : connect processor]]
 	- I spent almost 5 hours for debugging…
 	- see the code.
@@ -165,5 +165,5 @@ author : Loui
 		return 0;//정상종료시 반드시 0을 리턴해야합니다.
 	}	
 	
-```
 {% endhighlight %}
+

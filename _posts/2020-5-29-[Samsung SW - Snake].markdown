@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[102. [BACKJOON – SAMSUNG SW : Snake]]
 	- I confused due to apple’s corordinate. they gave the corordiantes strating from row 1 and column 1 not 0 and 0.
 	- to follow tail, I used queue.
@@ -135,5 +135,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Tetromino]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[106. [BACKJOON – SAMSUNG SW : Tetromino]]
 	- I struggled to implement slinding. I spent 1 hour or so.
 	- it was a quite dirty problem, since I had to make all the possible tetromino with my own hands.
@@ -122,5 +122,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

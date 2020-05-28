@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Fishing King]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: person1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[146. [SAMSUNG – SW :Fishing King]]
 	- I have a so much curiousity of SAMSUNG’s simulation algorithm test cases.
 	- this problem also has some weird things.
@@ -147,5 +147,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

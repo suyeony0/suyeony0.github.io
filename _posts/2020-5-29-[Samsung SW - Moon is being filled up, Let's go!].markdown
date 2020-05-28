@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿#include<iostream>
 	#include<vector>
 	#include<unordered_map>
@@ -104,5 +104,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

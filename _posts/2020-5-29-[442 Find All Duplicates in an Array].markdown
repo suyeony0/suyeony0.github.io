@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[81. [442] Find All Duplicates in an Array – find numbers which occur twice]
 	- If I just have to problem without concerning memory ans time consuming, it is easy.
 	- But the point is to use only O(1) memory and O(n) time.
@@ -31,5 +31,5 @@ author : Loui
 	    }
 	};
 	
-```
 {% endhighlight %}
+

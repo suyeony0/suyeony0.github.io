@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[131. [Programmers– KAKAO 2019 :Matching Score]]
 	- I hate fucking parsing string!!! there is too many condition to check.
 	- I spent almost 4 hour to parse this fucking problem.
@@ -165,5 +165,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

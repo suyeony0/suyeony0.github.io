@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Add Parenthesis]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[169. [SAMSUNG - SW : Add Parenthesis]
 	- wow… I spent 4 hours and half…
 	- I misunderstood the problem. I thought I had to consider all the possible pair of parenthesis without limitation of operator a parenthesis can have.
@@ -72,5 +72,5 @@ author : Loui
 	
 	
 	
-```
 {% endhighlight %}
+

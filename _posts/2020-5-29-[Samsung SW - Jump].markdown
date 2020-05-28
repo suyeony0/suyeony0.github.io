@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Jump]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: building1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[198. [SAMSUNG SW – Jump]
 	- Recently, I’ve been solving lots of simulation problem. so this problem was easy for me.
 	- I used DFS since I had to find all the path to end position and for that DFS using memozation is the easiest way, I think.
@@ -69,5 +69,5 @@ author : Loui
 	
 	}
 	
-```
 {% endhighlight %}
+

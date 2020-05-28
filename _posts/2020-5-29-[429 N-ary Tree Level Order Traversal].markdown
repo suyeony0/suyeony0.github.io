@@ -3,7 +3,7 @@ layout: post
 title: [429 N-ary Tree Level Order Traversal]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿
 	[90. [429] N-ary Tree Level Order Traversal – split given tree based on levels]
 	- I think there are two method to solve the problem. one is to use two queues, the other is to use only one queue and to count how many nodes we have to consider in a level 
@@ -74,5 +74,5 @@ author : Loui
 	};
 	
 	
-```
 {% endhighlight %}
+

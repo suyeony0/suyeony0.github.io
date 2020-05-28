@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[182. [SAMSUNG SW – Making Bridge 2]
 	- At first, I used brute force using permutation but it was hard to check all island was connected.
 	- see the first code.
@@ -354,5 +354,5 @@ author : Loui
 	}
 	
 	
-```
 {% endhighlight %}
+

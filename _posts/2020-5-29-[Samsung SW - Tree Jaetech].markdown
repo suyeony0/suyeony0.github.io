@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Tree Jaetech]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[142. [SAMSUNG – SW : Tree Jaetech]]
 	- I think, Samsung’s simulation problem is quite dirty.
 	- they present super rigid time limit. 
@@ -146,5 +146,5 @@ author : Loui
 	}
 	
 	
-```
 {% endhighlight %}
+

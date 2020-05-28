@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿
 	[137. [Programmers– KAKAO 2018 :Friends 4 Blocks]]
 	- it was a slicing problem. 
@@ -111,5 +111,5 @@ author : Loui
 	}
 	
 	
-```
 {% endhighlight %}
+

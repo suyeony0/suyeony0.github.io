@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Banned User]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[177. [KAKAO 2019 – Winter Internship : Banned User]
 	- doing permutation was the key point.
 	- thanks to time limit was not that restric. I’ve solved easily using DFS – permutation.
@@ -70,5 +70,5 @@ author : Loui
 		return answer;
 	}
 	
-```
 {% endhighlight %}
+

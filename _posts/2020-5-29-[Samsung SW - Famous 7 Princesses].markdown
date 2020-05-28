@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Famous 7 Princesses]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[200. [SAMSUNG SW – Famous 7 Princesses]
 	- Wow, I have to say it was quite hard and difficult.
 	- I thought it was a simulation problem, so if I had used DFS or BFS, I could’ve solved this problem. 
@@ -100,5 +100,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

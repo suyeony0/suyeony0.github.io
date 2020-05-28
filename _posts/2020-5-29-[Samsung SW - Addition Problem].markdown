@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Addition Problem]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[167. [SAMSUNG - SW : Addition Problem]
 	- I felt like level 4 problem’s in SAMSUNG SW expert don’t ask brute force. there is always a tricked rule.
 	- this problem has trick as well. the key calculation was (b-a) * (n-2) +1.
@@ -38,5 +38,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

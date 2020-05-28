@@ -3,7 +3,7 @@ layout: post
 title: [1110 Delete Nodes And Return Forest]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[75. [1110] Delete Nodes And Return Forest – delete given node, and return roots of every subtrees.]
 	- I solved this problme using bottom-up approach.
 	- First at all, using postorder search and if a current node has to be deleted, insert their children into answer vector, and come back to parents node, finally delete the node.
@@ -51,5 +51,5 @@ author : Loui
 	    }
 	};  
 	
-```
 {% endhighlight %}
+

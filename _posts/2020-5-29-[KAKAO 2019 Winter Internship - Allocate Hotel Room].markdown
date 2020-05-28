@@ -3,7 +3,7 @@ layout: post
 title: [KAKAO 2019 Winter Internship - Allocate Hotel Room]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[178. [KAKAO 2019 – Winter Internship : Allocate Hotel Room]
 	- this problem has efficiency test. the key was the union-find structure.
 	- but without knowing union-find structure, we colud solve it. I’ve solved this problem using recursion with unorderd_map.
@@ -47,5 +47,5 @@ author : Loui
 		return answer;
 	}
 	
-```
 {% endhighlight %}
+

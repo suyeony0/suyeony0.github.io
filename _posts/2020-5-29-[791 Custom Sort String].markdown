@@ -3,7 +3,7 @@ layout: post
 title: [791 Custom Sort String]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: work1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[80. [791] Custom Sort String – given sorted array S in a custm way, sort array T so that it is sorted like array S]
 	  Intuition is below
 	> 1. count each letter in the array T into an unordered_map count.
@@ -43,5 +43,5 @@ author : Loui
 	    }
 	};
 	
-```
 {% endhighlight %}
+

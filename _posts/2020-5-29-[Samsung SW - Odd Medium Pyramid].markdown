@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[166. [SAMSUNG - SW : Odd Medium Pyramid]
 	- run time error occurred. I think there is a trick. it’s not a brute force.
 	- see the first code.
@@ -72,5 +72,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

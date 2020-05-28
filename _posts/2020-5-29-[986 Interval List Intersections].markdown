@@ -3,7 +3,7 @@ layout: post
 title: [986 Interval List Intersections]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: breakfast-orange-lemon-oranges-large.jpg
+thumbnail: city2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[986] Interval List Intersections – Given two sorted closed interval, return the intersection of these two lists.]
 	- At first try, I use map to record interval of two lists into one store with using vector in the map for checking every interval’s end.
 	- I think I just need O(total interval of A and B + map.size()). But time limit exceeded occurs.
@@ -72,5 +72,5 @@ author : Loui
 	    }
 	};
 	
-```
 {% endhighlight %}
+

@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - 3 Dimentional Farmer]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: food1.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[164. [SAMSUNG - SW : 3 Dimentional Farmer]
 	- I did brute force at first, but time was problem, so I made binary search tree, but same problem 
 	occurred. I think I should’ve balanced binary search tree.
@@ -367,5 +367,5 @@ author : Loui
 		return 0;
 	}
 	
-```
 {% endhighlight %}
+

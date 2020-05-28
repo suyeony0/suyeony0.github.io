@@ -3,7 +3,7 @@ layout: post
 title: [1318 Minimum Flips to Make a OR b Equal to c]
 date: 2020-5-29
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% highlight c++ %}
-```cpp
+
 	﻿[94. [1318] Minimum Flips to Make a OR b Equal to c – return how many filps we need to make a OR b == c]
 	- Algorithm is below.
 	> 1. given a,b and c, convert these to bitset.
@@ -41,5 +41,5 @@ author : Loui
 	    }
 	};
 	
-```
 {% endhighlight %}
+
