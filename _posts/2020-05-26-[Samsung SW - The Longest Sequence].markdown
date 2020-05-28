@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - The Longest Sequence]
 data: 2020-05-26
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: work1.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,7 +11,7 @@ author : Loui
 ---
 
 {% raw %}
-	ï»¿
+	ï»?
 	[160. [SAMSUNG - SW : The Longest Sequence]
 	-At first, I used next_permutation for brute force. but time limit exceeded occurred.
 	- see the first code.

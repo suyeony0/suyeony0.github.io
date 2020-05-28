@@ -3,7 +3,7 @@ layout: post
 title: [Samsung SW - Treasure]
 data: 2020-05-26
 description: txt to markdown
-thumbnail: person1.jpeg
+thumbnail: city2.jpeg
 categories: Algorithm
 
 # Information for the author block
@@ -11,10 +11,10 @@ author : Loui
 ---
 
 {% raw %}
-	ï»¿[185. [SAMSUNG SW â€“ Treasure]
+	ï»?185. [SAMSUNG SW ??Treasure]
 	- this problem had a trick that if we use next_permutation, time limit exceeded occur.
 	- so we have to find an algorithm but the algorithm was not that hard.
-	- we should just mulitply aâ€™s minimum value with bâ€™s maximum value for each round.
+	- we should just mulitply a?™s minimum value with b?™s maximum value for each round.
 	- see the code.
 	#include<iostream>
 	#include<vector>
