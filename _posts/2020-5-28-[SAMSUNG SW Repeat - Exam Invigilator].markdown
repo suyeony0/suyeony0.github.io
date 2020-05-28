@@ -12,7 +12,7 @@ author : Loui
 
 {% raw %}
 
-	[4. SAMSUNG SW ? Exam Invigilator]
+	[4. SAMSUNG SW : Exam Invigilator]
 	- there was a trap that we have to consider data type. since there was no limit of sum of total invigilators.
 	- so I set answer`s data type as long long
 	- I spent 23 minutes.

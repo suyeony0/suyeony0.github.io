@@ -3,7 +3,7 @@ layout: post
 title: [SAMSUNG SW Repeat - Bids Escape 2]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: building1.jpg
+thumbnail: city2.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
@@ -12,7 +12,7 @@ author : Loui
 
 {% raw %}
 
-	[1. SAMSUNG SW ? Bids Escape 2]
+	[1. SAMSUNG SW : Bids Escape 2]
 	- I spent 1 hour and half for this problem again!
 	- it was hard to match the restriction for me.
 	- see the code.
