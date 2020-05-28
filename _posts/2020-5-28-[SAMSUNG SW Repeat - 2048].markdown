@@ -3,14 +3,14 @@ layout: post
 title: [SAMSUNG SW Repeat - 2048]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: building1.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% highlight c++ %}
 	[2. SAMSUNG SW : 2048]
 	- this was a simulation problem and it was like just previous problem : `Bids Escape 2`. Since we can just tilt the board and can not move each number of shell.
 	- I used DFS and I implemented every direction¡¯s move.
@@ -150,4 +150,4 @@ author : Loui
 	
 	}
 	
-```
+{% endhighlight %}

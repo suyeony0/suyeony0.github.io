@@ -3,14 +3,14 @@ layout: post
 title: [SAMSUNG SW Repeat - Roll a Dice]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% highlight c++ %}
 	[5. SAMSUNG SW : Roll a Dice]
 	- it was a simulation problem. implementing Dice was quite tricky. In my case, I made 4 x 3 array to represent the dice.
 	- they gave us number of order to move the dice, but the diretions started with 1 not 0, so there was a small confusing.
@@ -94,4 +94,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}

@@ -3,14 +3,14 @@ layout: post
 title: [SAMSUNG SW Repeat - Exam Invigilator]
 date: 2020-5-28
 description: txt to markdown
-thumbnail: food1.jpg
+thumbnail: person1.jpeg
 categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
 ---
 
-```cpp
+{% highlight c++ %}
 	[4. SAMSUNG SW : Exam Invigilator]
 	- there was a trap that we have to consider data type. since there was no limit of sum of total invigilators.
 	- so I set answer`s data type as long long
@@ -51,4 +51,4 @@ author : Loui
 		return 0;
 	}
 	
-```
+{% endhighlight %}
