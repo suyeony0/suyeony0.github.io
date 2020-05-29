@@ -10,13 +10,13 @@ categories: Algorithm
 author : Loui
 ---
 
-```cpp
+```cpp 
 
 {% raw %}
 
 	[202. [SAMSUNG SW ? Making Bridge]
 	- It was a minimum spanning tree problem.
-	- when I solved this problem. I thought time limit exceeded might have occurred. but it¡¯s not.
+	- when I solved this problem. I thought time limit exceeded might have occurred. but itÂ¡Â¯s not.
 	- First, I named all the district respectively.
 	- Second, for each shell that is one of a district, find minimum path to another district using BFS.
 	- see the code.
