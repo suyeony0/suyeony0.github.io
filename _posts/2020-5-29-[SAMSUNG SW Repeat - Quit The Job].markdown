@@ -6,7 +6,7 @@ description: txt to markdown
 thumbnail: food2.jpg
 categories: SAMSUNG_SW
 
-# Information for the author block
+# Information for the author block 
 author : Loui
 ---
 
@@ -16,7 +16,7 @@ author : Loui
 
 	[7. SAMSUNG SW : Quit The Job]
 	- it was a dp problem. the trick is that starting with the last day, get greater value between (acummulated valud of nextday of current day) and (current day + next possible counsel day).
-	- the logic is that we could take current maximum(dp[i+1]) value without counseling today or take next possible counseling day¡¯s pay with counseling today(table[i]+dp[next_possible_day]).
+	- the logic is that we could take current maximum(dp[i+1]) value without counseling today or take next possible counseling dayÂ¡Â¯s pay with counseling today(table[i]+dp[next_possible_day]).
 	- I spent 8 minutes and 25 seconds.
 	- see the code.
 	#include<iostream>
