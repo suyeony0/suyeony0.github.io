@@ -4,7 +4,7 @@ title: [SAMSUNG SW Repeat - Robot Vaccum]
 date: 2020-5-29
 description: txt to markdown
 thumbnail: person1.jpeg
-categories: CS_Study
+categories: SAMSUNG_SW
 
 # Information for the author block
 author : Loui
