@@ -9,15 +9,15 @@ categories: SAMSUNG_SW
 # Information for the author block
 author : Loui
 ---
-
+ 
 ```cpp
 
 {% raw %}
 
 	[12. SAMSUNG SW : Ramp]
 	- it was a simulation problem. but there were lots of edge condition. so I had to be careful.
-	- when I met higher land than current, I should¡¯ve checked previos lands I passed with how many sequencial plain lands had been. 
-	- when I met lower land than current, I sholud¡¯ve check post lands I would pass with how moany sequencial plain lands would be.
+	- when I met higher land than current, I shouldÂ¡Â¯ve checked previos lands I passed with how many sequencial plain lands had been. 
+	- when I met lower land than current, I sholudÂ¡Â¯ve check post lands I would pass with how moany sequencial plain lands would be.
 	- I spent 30 minutes.
 	- see the code.
 	#include<iostream>
