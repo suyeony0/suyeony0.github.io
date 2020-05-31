@@ -9,13 +9,13 @@ categories: SAMSUNG_SW
 # Information for the author block
 author : Loui
 ---
-
+ 
 ```cpp
 
 {% raw %}
 
 	[13. SAMSUNG SW : Watch - CCTV]
-	- it was a combination problem. Implementing combination was not a big deal but removing blind spots using current cctvs¡¯ direction is quite hard.
+	- it was a combination problem. Implementing combination was not a big deal but removing blind spots using current cctvsÂ¡Â¯ direction is quite hard.
 	- so I made a function that remove blind spots of given direction with position (x,y)
 	- And I gave all the possible direction for each cctv type.
 	- I spent 34 minutes and 56 seconds.
