@@ -3,7 +3,7 @@ layout: post
 title: [SAMSUNG SW Repeat - Laboratory 3]
 date: 2020-6-4
 description: txt to markdown
-thumbnail: city2.jpg
+thumbnail: building1.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block

@@ -3,7 +3,7 @@ layout: post
 title: [SAMSUNG SW Repeat - New Game 2]
 date: 2020-6-4
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: work1.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block

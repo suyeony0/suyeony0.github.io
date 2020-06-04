@@ -3,7 +3,7 @@ layout: post
 title: [SAMSUNG SW Repeat - Gerraymandering 3]
 date: 2020-6-4
 description: txt to markdown
-thumbnail: food2.jpg
+thumbnail: breakfast-orange-lemon-oranges-large.jpg
 categories: SAMSUNG_SW
 
 # Information for the author block
