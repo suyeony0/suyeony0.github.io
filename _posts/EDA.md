@@ -1,0 +1,1160 @@
+---
+layout: post
+title: [429 N-ary Tree Level Order Traversal]
+date: 2020-5-29
+description: txt to markdown
+thumbnail: city2.jpg
+categories: DataMining
+
+# Information for the author block
+author : Loui
+---
+
+
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+    Go to this URL in a browser: https://accounts.google.com/o/oauth2/auth?client_id=947318989803-6bn6qk8qdgf4n4g3pfee6491hc0brc4i.apps.googleusercontent.com&redirect_uri=urn%3aietf%3awg%3aoauth%3a2.0%3aoob&response_type=code&scope=email%20https%3a%2f%2fwww.googleapis.com%2fauth%2fdocs.test%20https%3a%2f%2fwww.googleapis.com%2fauth%2fdrive%20https%3a%2f%2fwww.googleapis.com%2fauth%2fdrive.photos.readonly%20https%3a%2f%2fwww.googleapis.com%2fauth%2fpeopleapi.readonly
+    
+    Enter your authorization code:
+    ··········
+    Mounted at /content/drive
+
+
+
+```
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+    /usr/local/lib/python3.6/dist-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
+      import pandas.util.testing as tm
+
+
+
+```
+df=pd.read_csv('/content/drive/My Drive/Public Data/Crona Virus Prediction/Data/CoronaFrom0302.csv',parse_dates=['stateDt'],encoding='UTF-8',engine='python')
+df_sex=pd.read_csv('/content/drive/My Drive/Public Data/Crona Virus Prediction/Data/CoronaWithSex.csv',parse_dates=['createDt'],encoding='UTF-8',engine='python')
+```
+
+resultCode	결과코드	2	1	00	결과코드  
+resultMsg	결과메세지	50	1	NORMAL SERVICE	결과메시지  
+numOfRows	???�이지 결과 ??4	1	10	???�이지???�출 ?�이???? 
+pageNo	?�이지 ??4	1	1	?�이지 ?? 
+totalCount	?�체 결과 ??4	1	2	?�체 결과 ?? 
+SEQ	게시글번호(?�진???�별,?�령�?고유�?	30	1	134	게시글번호(?�진???�별,?�령�?고유�?  
+GUBUN	구분(?�별, ?�령�?	30	1	0-9	구분(?�별, ?�령�?  
+CONF_CASE	?�진??30	1	132	?�진?? 
+CONF_CASE_RATE	?�진�?30	1	1.25	?�진�? 
+DEATH	?�망??30	1	0	?�망?? 
+DEATH_RATE	?�망�?30	1	0.00	?�망�? 
+CRITICAL_RATE	치명�?30	1	0	치명�? 
+CREATE_DT	?�록?�시분초	30	1	2020-04-13 10:22:29.663	?�록?�시분초  
+UPDATE_DT	?�정?�시분초 	30	1	null	?�정?�시분초   
+????��구분 : ?�수(1), ?�션(0)  
+
+
+결과코드	resultCode	2	?�수	00	결과코드  
+결과메시지	resultMsg	50	?�수	OK	결과메시지  
+???�이지 결과 ??numOfRows	4	?�수	10	???�이지 결과 ?? 
+?�이지 번호	pageNo	4	?�수	1	?�이지번호  
+?�체 결과 ??totalCount	4	?�수	3	?�체 결과 ?? 
+게시글번호(감염?�황 고유�?	SEQ	30	?�수	74	게시글번호(감염?�황 고유�?  
+기�???STATE_DT	30	?�수	20200315	기�??? 
+기�??�간	STATE_TIME	30	?�수	00:00	기�??�간  
+?�진????DECIDE_CNT	15	?�수	8162	?�진???? 
+격리?�제 ??CLEAR_CNT	15	?�수	834	격리?�제 ?? 
+검?�진????EXAM_CNT	15	?�수	16272	검?�진???? 
+?�망????DEATH_CNT	15	?�수	75	?�망???? 
+치료�??�자 ??CARE_CNT	15	?�수	7253	치료�??�자 ?? 
+결과 ?�성 ??RESUTL_NEG_CNT	15	?�수	243778	결과 ?�성 ?? 
+?�적 검????ACC_EXAM_CNT	15	?�수	268212	?�적 검???? 
+?�적 검???�료 ??ACC_EXAM_COMP_CNT	15	?�수	251940	?�적 검???�료 ?? 
+?�적 ?�진�?ACC_DEF_RATE	30	?�수	3.2396602365	?�적 ?�진�? 
+?�록?�시분초	CREATE_DT	30	?�수	2020-03-15 10:01:22.000	?�록?�시분초  
+?�정?�시분초	UPDATE_DT	30	?�수	null	?�정?�시분초  
+
+
+```
+df=df.iloc[:94]
+df.drop('updateDt',axis=1,inplace=True)
+df_sex.drop('updateDt',axis=1,inplace=True)
+df['month']=df['stateDt'].dt.month
+df['day']=df['stateDt'].dt.day
+df_sex['month']=df_sex['createDt'].dt.month
+df_sex['day']=df_sex['createDt'].dt.day
+df.drop('stateDt',axis=1,inplace=True)
+df_sex.drop('createDt',axis=1,inplace=True)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>accDefRate</th>
+      <th>accExamCnt</th>
+      <th>accExamCompCnt</th>
+      <th>careCnt</th>
+      <th>clearCnt</th>
+      <th>createDt</th>
+      <th>deathCnt</th>
+      <th>decideCnt</th>
+      <th>examCnt</th>
+      <th>resutlNegCnt</th>
+      <th>seq</th>
+      <th>stateDt</th>
+      <th>stateTime</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>89</th>
+      <td>4.397235</td>
+      <td>164740.0</td>
+      <td>142908.0</td>
+      <td>6134.0</td>
+      <td>108.0</td>
+      <td>55:44.4</td>
+      <td>42.0</td>
+      <td>6284.0</td>
+      <td>21832.0</td>
+      <td>136624.0</td>
+      <td>65.0</td>
+      <td>2020-03-06</td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th>90</th>
+      <td>4.622748</td>
+      <td>146541.0</td>
+      <td>124731.0</td>
+      <td>5643.0</td>
+      <td>88.0</td>
+      <td>15:12.1</td>
+      <td>35.0</td>
+      <td>5766.0</td>
+      <td>21810.0</td>
+      <td>118965.0</td>
+      <td>64.0</td>
+      <td>2020-03-05</td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>4.919986</td>
+      <td>136707.0</td>
+      <td>108293.0</td>
+      <td>5255.0</td>
+      <td>41.0</td>
+      <td>21:44.4</td>
+      <td>32.0</td>
+      <td>5328.0</td>
+      <td>28414.0</td>
+      <td>102965.0</td>
+      <td>63.0</td>
+      <td>2020-03-04</td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>5.329140</td>
+      <td>125851.0</td>
+      <td>90296.0</td>
+      <td>4750.0</td>
+      <td>34.0</td>
+      <td>46:53.5</td>
+      <td>28.0</td>
+      <td>4812.0</td>
+      <td>35555.0</td>
+      <td>85484.0</td>
+      <td>62.0</td>
+      <td>2020-03-03</td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>5.557315</td>
+      <td>109591.0</td>
+      <td>75792.0</td>
+      <td>4159.0</td>
+      <td>31.0</td>
+      <td>52:38.4</td>
+      <td>22.0</td>
+      <td>4212.0</td>
+      <td>33799.0</td>
+      <td>71580.0</td>
+      <td>61.0</td>
+      <td>2020-03-02</td>
+      <td>0:00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```
+temp=df.copy()
+temp2=df_sex.copy()
+temp=df[df.month!=3]
+temp=temp.iloc[:62]
+temp2=df_sex.iloc[11:]
+
+death_rate=pd.pivot_table(temp2,index=['month','day'],aggfunc='mean')
+death_rate.reset_index(inplace=True)
+
+temp2=pd.pivot_table(temp2,index=['month','day'],aggfunc=sum)
+temp2.reset_index(inplace=True)
+train=pd.merge(temp,temp2,how='left',on=['month','day'])
+train=train[train.death.isnull()==False]
+train.drop(['seq_x','seq_y'],axis=1,inplace=True)
+train['deathRate']=death_rate['deathRate']
+train['confCaseRate']=death_rate['confCaseRate']
+train['criticalRate']=death_rate['criticalRate']
+train.drop('confCase',axis=1,inplace=True)
+train.drop(['confCaseRate','death','createDt'],axis=1,inplace=True)
+train.drop(['stateTime'],axis=1,inplace=True)
+train.dropna(inplace=True)
+train.head()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>accDefRate</th>
+      <th>accExamCnt</th>
+      <th>accExamCompCnt</th>
+      <th>careCnt</th>
+      <th>clearCnt</th>
+      <th>deathCnt</th>
+      <th>decideCnt</th>
+      <th>examCnt</th>
+      <th>resutlNegCnt</th>
+      <th>month</th>
+      <th>day</th>
+      <th>criticalRate</th>
+      <th>deathRate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.305152</td>
+      <td>902901.0</td>
+      <td>876603.0</td>
+      <td>774.0</td>
+      <td>10398.0</td>
+      <td>269.0</td>
+      <td>11441.0</td>
+      <td>26298.0</td>
+      <td>865162.0</td>
+      <td>5</td>
+      <td>30</td>
+      <td>2.870909</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.324947</td>
+      <td>885120.0</td>
+      <td>860563.0</td>
+      <td>770.0</td>
+      <td>10363.0</td>
+      <td>269.0</td>
+      <td>11402.0</td>
+      <td>24557.0</td>
+      <td>849161.0</td>
+      <td>5</td>
+      <td>29</td>
+      <td>3.003333</td>
+      <td>16.750000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.340429</td>
+      <td>868666.0</td>
+      <td>846296.0</td>
+      <td>735.0</td>
+      <td>10340.0</td>
+      <td>269.0</td>
+      <td>11344.0</td>
+      <td>22370.0</td>
+      <td>834952.0</td>
+      <td>5</td>
+      <td>28</td>
+      <td>3.291818</td>
+      <td>18.181818</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.354267</td>
+      <td>852876.0</td>
+      <td>831815.0</td>
+      <td>701.0</td>
+      <td>10295.0</td>
+      <td>269.0</td>
+      <td>11265.0</td>
+      <td>21061.0</td>
+      <td>820550.0</td>
+      <td>5</td>
+      <td>27</td>
+      <td>3.360000</td>
+      <td>18.181818</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.373205</td>
+      <td>839475.0</td>
+      <td>817431.0</td>
+      <td>681.0</td>
+      <td>10275.0</td>
+      <td>269.0</td>
+      <td>11225.0</td>
+      <td>22044.0</td>
+      <td>806206.0</td>
+      <td>5</td>
+      <td>26</td>
+      <td>3.410909</td>
+      <td>18.181818</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```
+train.sort_values(by=['month','day'],inplace=True)
+train.head()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>accDefRate</th>
+      <th>accExamCnt</th>
+      <th>accExamCompCnt</th>
+      <th>careCnt</th>
+      <th>clearCnt</th>
+      <th>deathCnt</th>
+      <th>decideCnt</th>
+      <th>examCnt</th>
+      <th>resutlNegCnt</th>
+      <th>month</th>
+      <th>day</th>
+      <th>criticalRate</th>
+      <th>deathRate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>53</th>
+      <td>2.175074</td>
+      <td>494711.0</td>
+      <td>479202.0</td>
+      <td>3246.0</td>
+      <td>6973.0</td>
+      <td>204.0</td>
+      <td>10423.0</td>
+      <td>15509.0</td>
+      <td>468779.0</td>
+      <td>4</td>
+      <td>9</td>
+      <td>4.179091</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>2.142478</td>
+      <td>503051.0</td>
+      <td>487753.0</td>
+      <td>3125.0</td>
+      <td>7117.0</td>
+      <td>208.0</td>
+      <td>10450.0</td>
+      <td>15298.0</td>
+      <td>477303.0</td>
+      <td>4</td>
+      <td>10</td>
+      <td>4.195455</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>2.111162</td>
+      <td>510479.0</td>
+      <td>496409.0</td>
+      <td>3026.0</td>
+      <td>7243.0</td>
+      <td>211.0</td>
+      <td>10480.0</td>
+      <td>14070.0</td>
+      <td>485929.0</td>
+      <td>4</td>
+      <td>11</td>
+      <td>4.214545</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>2.098903</td>
+      <td>514621.0</td>
+      <td>500833.0</td>
+      <td>2930.0</td>
+      <td>7368.0</td>
+      <td>214.0</td>
+      <td>10512.0</td>
+      <td>13788.0</td>
+      <td>490321.0</td>
+      <td>4</td>
+      <td>12</td>
+      <td>4.220000</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>2.085081</td>
+      <td>518743.0</td>
+      <td>505352.0</td>
+      <td>2873.0</td>
+      <td>7447.0</td>
+      <td>217.0</td>
+      <td>10537.0</td>
+      <td>13391.0</td>
+      <td>494815.0</td>
+      <td>4</td>
+      <td>13</td>
+      <td>4.232727</td>
+      <td>18.182727</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```
+cols = train.columns
+fig, axes= plt.subplots(nrows=2, ncols=3)
+fig.set_size_inches(30,10)
+
+for axe in axes[0]:
+  plt.sca(axe)
+  plt.xticks(rotation=30,ha='right')
+for axe in axes[1]:
+  plt.sca(axe)
+  plt.xticks(rotation=30,ha='right')
+
+
+
+sns.barplot(data=train,x='accDefRate',y='deathCnt',ax=axes[0][0])
+sns.barplot(data=train,x='accExamCnt',y='deathCnt',ax=axes[0][1])
+sns.barplot(data=train,x='accExamCompCnt',y='deathCnt',ax=axes[0][2])
+sns.barplot(data=train,x='clearCnt',y='deathCnt',ax=axes[1][0])
+sns.barplot(data=train,x='deathCnt',y='deathCnt',ax=axes[1][1])
+
+```
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x7f11c79f3b38>
+
+
+
+
+![png](EDA_files/EDA_8_1.png)
+
+
+
+```
+fig, axes= plt.subplots(nrows=2, ncols=3)
+fig.set_size_inches(30,10)
+
+for axe in axes[0]:
+  plt.sca(axe)
+  plt.xticks(rotation=30,ha='right')
+for axe in axes[1]:
+  plt.sca(axe)
+  plt.xticks(rotation=30,ha='right')
+
+sns.barplot(data=train,x='decideCnt',y='deathCnt',ax=axes[0][0])
+sns.barplot(data=train,x='examCnt',y='deathCnt',ax=axes[0][1])
+sns.barplot(data=train,x='resutlNegCnt',y='deathCnt',ax=axes[0][2])
+sns.barplot(data=train,x='month',y='deathCnt',ax=axes[1][0])
+sns.barplot(data=train,x='day',y='deathCnt',ax=axes[1][1])
+sns.barplot(data=train,x='criticalRate',y='deathCnt',ax=axes[1][2])
+
+```
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x7f11cd93abe0>
+
+
+
+
+![png](EDA_files/EDA_9_1.png)
+
+
+
+```
+fig, axes= plt.subplots(ncols=2)
+fig.set_size_inches(30,10)
+for axe in axes:
+  plt.sca(axe)
+  plt.xticks(rotation=30,ha='right')
+sns.barplot(data=train,x='deathRate',y='deathCnt',ax=axes[0])
+sns.barplot(data=train,x='careCnt',y='deathCnt',ax=axes[1])
+```
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x7f11cdce14a8>
+
+
+
+
+![png](EDA_files/EDA_10_1.png)
+
+
+
+```
+corrMat=train.corr()
+mask=np.array(corrMat)
+mask[np.tril_indices_from(mask)]=False
+
+fig, ax = plt.subplots()
+fig.set_size_inches(20,10)
+sns.heatmap(corrMat,mask=mask,vmax=0.8,square=True,annot=True)
+```
+
+
+
+
+    <matplotlib.axes._subplots.AxesSubplot at 0x7f11c9b0afd0>
+
+
+
+
+![png](EDA_files/EDA_11_1.png)
+
+
+
+```
+train.head()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>accDefRate</th>
+      <th>accExamCnt</th>
+      <th>accExamCompCnt</th>
+      <th>careCnt</th>
+      <th>clearCnt</th>
+      <th>deathCnt</th>
+      <th>decideCnt</th>
+      <th>examCnt</th>
+      <th>resutlNegCnt</th>
+      <th>month</th>
+      <th>day</th>
+      <th>criticalRate</th>
+      <th>deathRate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>53</th>
+      <td>2.175074</td>
+      <td>494711.0</td>
+      <td>479202.0</td>
+      <td>3246.0</td>
+      <td>6973.0</td>
+      <td>204.0</td>
+      <td>10423.0</td>
+      <td>15509.0</td>
+      <td>468779.0</td>
+      <td>4</td>
+      <td>9</td>
+      <td>4.179091</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>2.142478</td>
+      <td>503051.0</td>
+      <td>487753.0</td>
+      <td>3125.0</td>
+      <td>7117.0</td>
+      <td>208.0</td>
+      <td>10450.0</td>
+      <td>15298.0</td>
+      <td>477303.0</td>
+      <td>4</td>
+      <td>10</td>
+      <td>4.195455</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>2.111162</td>
+      <td>510479.0</td>
+      <td>496409.0</td>
+      <td>3026.0</td>
+      <td>7243.0</td>
+      <td>211.0</td>
+      <td>10480.0</td>
+      <td>14070.0</td>
+      <td>485929.0</td>
+      <td>4</td>
+      <td>11</td>
+      <td>4.214545</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>2.098903</td>
+      <td>514621.0</td>
+      <td>500833.0</td>
+      <td>2930.0</td>
+      <td>7368.0</td>
+      <td>214.0</td>
+      <td>10512.0</td>
+      <td>13788.0</td>
+      <td>490321.0</td>
+      <td>4</td>
+      <td>12</td>
+      <td>4.220000</td>
+      <td>18.182727</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>2.085081</td>
+      <td>518743.0</td>
+      <td>505352.0</td>
+      <td>2873.0</td>
+      <td>7447.0</td>
+      <td>217.0</td>
+      <td>10537.0</td>
+      <td>13391.0</td>
+      <td>494815.0</td>
+      <td>4</td>
+      <td>13</td>
+      <td>4.232727</td>
+      <td>18.182727</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+##Modeling
+
+
+```
+import lightgbm as lgb
+from sklearn.model_selection import train_test_split
+
+x_train,x_test,y_train,y_test = train_test_split(train.drop(['deathCnt','criticalRate','deathRate'],axis=1),train['deathCnt'],test_size=0.1)
+lgb_train=lgb.Dataset(x_train,label=y_train)
+lgb_test=lgb.Dataset(x_test,label=y_test)
+
+params = {'learning_rate': 0.03, 
+          'boosting': 'gbdt', 
+          'objective': 'regression', 
+          'metric': 'rmse', 
+          }
+model=lgb.train(params,lgb_train,1000,valid_sets=lgb_test,early_stopping_rounds=30,verbose_eval=True)
+```
+
+    [1]	valid_0's rmse: 14.7302
+    Training until validation scores don't improve for 30 rounds.
+    [2]	valid_0's rmse: 14.3666
+    [3]	valid_0's rmse: 14.0176
+    [4]	valid_0's rmse: 13.689
+    [5]	valid_0's rmse: 13.3676
+    [6]	valid_0's rmse: 13.0705
+    [7]	valid_0's rmse: 12.7748
+    [8]	valid_0's rmse: 12.5023
+    [9]	valid_0's rmse: 12.2311
+    [10]	valid_0's rmse: 11.9861
+    [11]	valid_0's rmse: 11.7378
+    [12]	valid_0's rmse: 11.5145
+    [13]	valid_0's rmse: 11.2879
+    [14]	valid_0's rmse: 11.0922
+    [15]	valid_0's rmse: 10.8927
+    [16]	valid_0's rmse: 10.7138
+    [17]	valid_0's rmse: 10.5215
+    [18]	valid_0's rmse: 10.3388
+    [19]	valid_0's rmse: 10.1812
+    [20]	valid_0's rmse: 10.0321
+    [21]	valid_0's rmse: 9.87099
+    [22]	valid_0's rmse: 9.71833
+    [23]	valid_0's rmse: 9.58823
+    [24]	valid_0's rmse: 9.46786
+    [25]	valid_0's rmse: 9.33412
+    [26]	valid_0's rmse: 9.22547
+    [27]	valid_0's rmse: 9.10408
+    [28]	valid_0's rmse: 9.00636
+    [29]	valid_0's rmse: 8.8965
+    [30]	valid_0's rmse: 8.8012
+    [31]	valid_0's rmse: 8.71776
+    [32]	valid_0's rmse: 8.62422
+    [33]	valid_0's rmse: 8.55475
+    [34]	valid_0's rmse: 8.46355
+    [35]	valid_0's rmse: 8.40553
+    [36]	valid_0's rmse: 8.31908
+    [37]	valid_0's rmse: 8.25397
+    [38]	valid_0's rmse: 8.16951
+    [39]	valid_0's rmse: 8.11495
+    [40]	valid_0's rmse: 8.03254
+    [41]	valid_0's rmse: 7.97149
+    [42]	valid_0's rmse: 7.89096
+    [43]	valid_0's rmse: 7.83215
+    [44]	valid_0's rmse: 7.7852
+    [45]	valid_0's rmse: 7.70366
+    [46]	valid_0's rmse: 7.65134
+    [47]	valid_0's rmse: 7.57173
+    [48]	valid_0's rmse: 7.52765
+    [49]	valid_0's rmse: 7.45
+    [50]	valid_0's rmse: 7.40106
+    [51]	valid_0's rmse: 7.32524
+    [52]	valid_0's rmse: 7.28392
+    [53]	valid_0's rmse: 7.20996
+    [54]	valid_0's rmse: 7.16426
+    [55]	valid_0's rmse: 7.09203
+    [56]	valid_0's rmse: 7.04812
+    [57]	valid_0's rmse: 6.97759
+    [58]	valid_0's rmse: 6.94017
+    [59]	valid_0's rmse: 6.87136
+    [60]	valid_0's rmse: 6.83046
+    [61]	valid_0's rmse: 6.76327
+    [62]	valid_0's rmse: 6.72832
+    [63]	valid_0's rmse: 6.66275
+    [64]	valid_0's rmse: 6.62473
+    [65]	valid_0's rmse: 6.56071
+    [66]	valid_0's rmse: 6.52812
+    [67]	valid_0's rmse: 6.46564
+    [68]	valid_0's rmse: 6.43036
+    [69]	valid_0's rmse: 6.36934
+    [70]	valid_0's rmse: 6.33901
+    [71]	valid_0's rmse: 6.27946
+    [72]	valid_0's rmse: 6.2468
+    [73]	valid_0's rmse: 6.18864
+    [74]	valid_0's rmse: 6.15739
+    [75]	valid_0's rmse: 6.13178
+    [76]	valid_0's rmse: 6.07329
+    [77]	valid_0's rmse: 6.04596
+    [78]	valid_0's rmse: 5.98888
+    [79]	valid_0's rmse: 5.96511
+    [80]	valid_0's rmse: 5.90944
+    [81]	valid_0's rmse: 5.88424
+    [82]	valid_0's rmse: 5.82991
+    [83]	valid_0's rmse: 5.80789
+    [84]	valid_0's rmse: 5.7549
+    [85]	valid_0's rmse: 5.73172
+    [86]	valid_0's rmse: 5.68001
+    [87]	valid_0's rmse: 5.65965
+    [88]	valid_0's rmse: 5.60921
+    [89]	valid_0's rmse: 5.58795
+    [90]	valid_0's rmse: 5.53873
+    [91]	valid_0's rmse: 5.51849
+    [92]	valid_0's rmse: 5.47046
+    [93]	valid_0's rmse: 5.45242
+    [94]	valid_0's rmse: 5.40558
+    [95]	valid_0's rmse: 5.38709
+    [96]	valid_0's rmse: 5.34137
+    [97]	valid_0's rmse: 5.32478
+    [98]	valid_0's rmse: 5.28019
+    [99]	valid_0's rmse: 5.26335
+    [100]	valid_0's rmse: 5.21984
+    [101]	valid_0's rmse: 5.20461
+    [102]	valid_0's rmse: 5.19023
+    [103]	valid_0's rmse: 5.14673
+    [104]	valid_0's rmse: 5.13365
+    [105]	valid_0's rmse: 5.09125
+    [106]	valid_0's rmse: 5.07822
+    [107]	valid_0's rmse: 5.03688
+    [108]	valid_0's rmse: 5.02458
+    [109]	valid_0's rmse: 4.98427
+    [110]	valid_0's rmse: 4.97284
+    [111]	valid_0's rmse: 4.93355
+    [112]	valid_0's rmse: 4.92247
+    [113]	valid_0's rmse: 4.88415
+    [114]	valid_0's rmse: 4.87374
+    [115]	valid_0's rmse: 4.8364
+    [116]	valid_0's rmse: 4.82646
+    [117]	valid_0's rmse: 4.79005
+    [118]	valid_0's rmse: 4.78059
+    [119]	valid_0's rmse: 4.7451
+    [120]	valid_0's rmse: 4.73623
+    [121]	valid_0's rmse: 4.70162
+    [122]	valid_0's rmse: 4.69332
+    [123]	valid_0's rmse: 4.678
+    [124]	valid_0's rmse: 4.64402
+    [125]	valid_0's rmse: 4.63648
+    [126]	valid_0's rmse: 4.62234
+    [127]	valid_0's rmse: 4.58899
+    [128]	valid_0's rmse: 4.58217
+    [129]	valid_0's rmse: 4.56917
+    [130]	valid_0's rmse: 4.53645
+    [131]	valid_0's rmse: 4.53034
+    [132]	valid_0's rmse: 4.51843
+    [133]	valid_0's rmse: 4.48634
+    [134]	valid_0's rmse: 4.4809
+    [135]	valid_0's rmse: 4.47005
+    [136]	valid_0's rmse: 4.43859
+    [137]	valid_0's rmse: 4.43379
+    [138]	valid_0's rmse: 4.42396
+    [139]	valid_0's rmse: 4.39312
+    [140]	valid_0's rmse: 4.38895
+    [141]	valid_0's rmse: 4.3589
+    [142]	valid_0's rmse: 4.34995
+    [143]	valid_0's rmse: 4.34638
+    [144]	valid_0's rmse: 4.31693
+    [145]	valid_0's rmse: 4.30894
+    [146]	valid_0's rmse: 4.30593
+    [147]	valid_0's rmse: 4.27709
+    [148]	valid_0's rmse: 4.27
+    [149]	valid_0's rmse: 4.26754
+    [150]	valid_0's rmse: 4.23929
+    [151]	valid_0's rmse: 4.23307
+    [152]	valid_0's rmse: 4.23114
+    [153]	valid_0's rmse: 4.20348
+    [154]	valid_0's rmse: 4.19809
+    [155]	valid_0's rmse: 4.19665
+    [156]	valid_0's rmse: 4.16958
+    [157]	valid_0's rmse: 4.16498
+    [158]	valid_0's rmse: 4.16401
+    [159]	valid_0's rmse: 4.13753
+    [160]	valid_0's rmse: 4.13369
+    [161]	valid_0's rmse: 4.13316
+    [162]	valid_0's rmse: 4.10726
+    [163]	valid_0's rmse: 4.10413
+    [164]	valid_0's rmse: 4.10403
+    [165]	valid_0's rmse: 4.07871
+    [166]	valid_0's rmse: 4.07626
+    [167]	valid_0's rmse: 4.07656
+    [168]	valid_0's rmse: 4.0518
+    [169]	valid_0's rmse: 4.05
+    [170]	valid_0's rmse: 4.05068
+    [171]	valid_0's rmse: 4.02649
+    [172]	valid_0's rmse: 4.0253
+    [173]	valid_0's rmse: 4.02634
+    [174]	valid_0's rmse: 4.0027
+    [175]	valid_0's rmse: 4.00209
+    [176]	valid_0's rmse: 3.97937
+    [177]	valid_0's rmse: 3.9805
+    [178]	valid_0's rmse: 3.98043
+    [179]	valid_0's rmse: 3.95824
+    [180]	valid_0's rmse: 3.9597
+    [181]	valid_0's rmse: 3.96015
+    [182]	valid_0's rmse: 3.93847
+    [183]	valid_0's rmse: 3.94025
+    [184]	valid_0's rmse: 3.94118
+    [185]	valid_0's rmse: 3.92
+    [186]	valid_0's rmse: 3.92208
+    [187]	valid_0's rmse: 3.90147
+    [188]	valid_0's rmse: 3.90288
+    [189]	valid_0's rmse: 3.90523
+    [190]	valid_0's rmse: 3.88511
+    [191]	valid_0's rmse: 3.88695
+    [192]	valid_0's rmse: 3.88956
+    [193]	valid_0's rmse: 3.86991
+    [194]	valid_0's rmse: 3.87216
+    [195]	valid_0's rmse: 3.87501
+    [196]	valid_0's rmse: 3.85583
+    [197]	valid_0's rmse: 3.85846
+    [198]	valid_0's rmse: 3.86152
+    [199]	valid_0's rmse: 3.84282
+    [200]	valid_0's rmse: 3.84579
+    [201]	valid_0's rmse: 3.84906
+    [202]	valid_0's rmse: 3.83081
+    [203]	valid_0's rmse: 3.83411
+    [204]	valid_0's rmse: 3.83757
+    [205]	valid_0's rmse: 3.81976
+    [206]	valid_0's rmse: 3.82329
+    [207]	valid_0's rmse: 3.827
+    [208]	valid_0's rmse: 3.80964
+    [209]	valid_0's rmse: 3.81333
+    [210]	valid_0's rmse: 3.81731
+    [211]	valid_0's rmse: 3.79958
+    [212]	valid_0's rmse: 3.80373
+    [213]	valid_0's rmse: 3.80764
+    [214]	valid_0's rmse: 3.79109
+    [215]	valid_0's rmse: 3.79548
+    [216]	valid_0's rmse: 3.79952
+    [217]	valid_0's rmse: 3.78258
+    [218]	valid_0's rmse: 3.7872
+    [219]	valid_0's rmse: 3.79134
+    [220]	valid_0's rmse: 3.77556
+    [221]	valid_0's rmse: 3.78038
+    [222]	valid_0's rmse: 3.76437
+    [223]	valid_0's rmse: 3.7685
+    [224]	valid_0's rmse: 3.77351
+    [225]	valid_0's rmse: 3.75789
+    [226]	valid_0's rmse: 3.76209
+    [227]	valid_0's rmse: 3.76728
+    [228]	valid_0's rmse: 3.75278
+    [229]	valid_0's rmse: 3.75708
+    [230]	valid_0's rmse: 3.76242
+    [231]	valid_0's rmse: 3.7466
+    [232]	valid_0's rmse: 3.75101
+    [233]	valid_0's rmse: 3.75644
+    [234]	valid_0's rmse: 3.74253
+    [235]	valid_0's rmse: 3.74701
+    [236]	valid_0's rmse: 3.75256
+    [237]	valid_0's rmse: 3.73735
+    [238]	valid_0's rmse: 3.7429
+    [239]	valid_0's rmse: 3.72806
+    [240]	valid_0's rmse: 3.73265
+    [241]	valid_0's rmse: 3.73827
+    [242]	valid_0's rmse: 3.72532
+    [243]	valid_0's rmse: 3.72995
+    [244]	valid_0's rmse: 3.71737
+    [245]	valid_0's rmse: 3.72313
+    [246]	valid_0's rmse: 3.7278
+    [247]	valid_0's rmse: 3.71394
+    [248]	valid_0's rmse: 3.71975
+    [249]	valid_0's rmse: 3.72447
+    [250]	valid_0's rmse: 3.71242
+    [251]	valid_0's rmse: 3.7183
+    [252]	valid_0's rmse: 3.70499
+    [253]	valid_0's rmse: 3.71084
+    [254]	valid_0's rmse: 3.71561
+    [255]	valid_0's rmse: 3.70261
+    [256]	valid_0's rmse: 3.70849
+    [257]	valid_0's rmse: 3.71329
+    [258]	valid_0's rmse: 3.70207
+    [259]	valid_0's rmse: 3.70799
+    [260]	valid_0's rmse: 3.7128
+    [261]	valid_0's rmse: 3.69986
+    [262]	valid_0's rmse: 3.70581
+    [263]	valid_0's rmse: 3.69315
+    [264]	valid_0's rmse: 3.69908
+    [265]	valid_0's rmse: 3.7039
+    [266]	valid_0's rmse: 3.69342
+    [267]	valid_0's rmse: 3.69936
+    [268]	valid_0's rmse: 3.70418
+    [269]	valid_0's rmse: 3.69244
+    [270]	valid_0's rmse: 3.69838
+    [271]	valid_0's rmse: 3.7032
+    [272]	valid_0's rmse: 3.69316
+    [273]	valid_0's rmse: 3.69912
+    [274]	valid_0's rmse: 3.68738
+    [275]	valid_0's rmse: 3.69215
+    [276]	valid_0's rmse: 3.6981
+    [277]	valid_0's rmse: 3.68663
+    [278]	valid_0's rmse: 3.69254
+    [279]	valid_0's rmse: 3.69733
+    [280]	valid_0's rmse: 3.68796
+    [281]	valid_0's rmse: 3.69387
+    [282]	valid_0's rmse: 3.68282
+    [283]	valid_0's rmse: 3.68755
+    [284]	valid_0's rmse: 3.69345
+    [285]	valid_0's rmse: 3.68266
+    [286]	valid_0's rmse: 3.6885
+    [287]	valid_0's rmse: 3.69324
+    [288]	valid_0's rmse: 3.6845
+    [289]	valid_0's rmse: 3.69032
+    [290]	valid_0's rmse: 3.69502
+    [291]	valid_0's rmse: 3.68464
+    [292]	valid_0's rmse: 3.69045
+    [293]	valid_0's rmse: 3.6803
+    [294]	valid_0's rmse: 3.68493
+    [295]	valid_0's rmse: 3.69072
+    [296]	valid_0's rmse: 3.68189
+    [297]	valid_0's rmse: 3.68763
+    [298]	valid_0's rmse: 3.69223
+    [299]	valid_0's rmse: 3.68249
+    [300]	valid_0's rmse: 3.6882
+    [301]	valid_0's rmse: 3.67868
+    [302]	valid_0's rmse: 3.68321
+    [303]	valid_0's rmse: 3.68889
+    [304]	valid_0's rmse: 3.68125
+    [305]	valid_0's rmse: 3.68574
+    [306]	valid_0's rmse: 3.69138
+    [307]	valid_0's rmse: 3.68223
+    [308]	valid_0's rmse: 3.6878
+    [309]	valid_0's rmse: 3.67885
+    [310]	valid_0's rmse: 3.68328
+    [311]	valid_0's rmse: 3.68883
+    [312]	valid_0's rmse: 3.68169
+    [313]	valid_0's rmse: 3.68608
+    [314]	valid_0's rmse: 3.69158
+    [315]	valid_0's rmse: 3.68297
+    [316]	valid_0's rmse: 3.6884
+    [317]	valid_0's rmse: 3.69276
+    [318]	valid_0's rmse: 3.68592
+    [319]	valid_0's rmse: 3.69129
+    [320]	valid_0's rmse: 3.68301
+    [321]	valid_0's rmse: 3.68729
+    [322]	valid_0's rmse: 3.69263
+    [323]	valid_0's rmse: 3.68454
+    [324]	valid_0's rmse: 3.68875
+    [325]	valid_0's rmse: 3.69406
+    [326]	valid_0's rmse: 3.68767
+    [327]	valid_0's rmse: 3.69183
+    [328]	valid_0's rmse: 3.69707
+    [329]	valid_0's rmse: 3.68929
+    [330]	valid_0's rmse: 3.69447
+    [331]	valid_0's rmse: 3.68686
+    Early stopping, best iteration is:
+    [301]	valid_0's rmse: 3.67868
+
+
+
+```
+preds=model.predict(x_test)
+compare=pd.DataFrame(y_test)
+compare['prediction']=preds
+print("lgb score : {0}".format(np.sqrt(np.mean(np.square(compare['prediction']-compare['deathCnt'])))))
+compare.head()
+```
+
+    lgb score : 3.678678677808994
+
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>deathCnt</th>
+      <th>prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>37</th>
+      <td>240.0</td>
+      <td>238.910923</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>252.0</td>
+      <td>251.980943</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>217.0</td>
+      <td>220.556367</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>237.0</td>
+      <td>234.814331</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>259.0</td>
+      <td>252.928433</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```
+
+```
