@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [COVID-19] Death Prediction
+title: COVID-19 - Death Prediction
 date: 2020-06-06
 description: Cross validation score was not that good. I have mis-predicted by 7 people.
 thumbnail: food2.jpg
