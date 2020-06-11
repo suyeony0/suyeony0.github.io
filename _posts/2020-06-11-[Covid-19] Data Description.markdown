@@ -1,9 +1,9 @@
 ---
 layout: post
-title: COVID-19 - Data Description
-date: 2020-06-06
+title: Covid-19 - Data Description
+date: 2020-06-11
 description: Data Description
-thumbnail: breakfast-orange-lemon-oranges-large.jpg 
+thumbnail: city1.jpg
 categories: DataMining
 
 # Information for the author block
@@ -12,39 +12,39 @@ author : Loui
 
 
    [df.csv]
-    ê²°ê³¼ì½”ë“œ	resultCode	2	í•„ìˆ˜	00	ê²°ê³¼ì½”ë“œ  
-    ê²°ê³¼ë©”ì‹œì§€	resultMsg	50	í•„ìˆ˜	OK	ê²°ê³¼ë©”ì‹œì§€  
-    í•œ íŽ˜ì´ì§€ ê²°ê³¼ ìˆ˜	numOfRows	4	í•„ìˆ˜	10	í•œ íŽ˜ì´ì§€ ê²°ê³¼ ìˆ˜  
-    íŽ˜ì´ì§€ ë²ˆí˜¸	pageNo	4	í•„ìˆ˜	1	íŽ˜ì´ì§€ë²ˆí˜¸  
-    ì „ì²´ ê²°ê³¼ ìˆ˜	totalCount	4	í•„ìˆ˜	3	ì „ì²´ ê²°ê³¼ ìˆ˜  
-    ê²Œì‹œê¸€ë²ˆí˜¸(ê°ì—¼í˜„í™© ê³ ìœ ê°’)	SEQ	30	í•„ìˆ˜	74	ê²Œì‹œê¸€ë²ˆí˜¸(ê°ì—¼í˜„í™© ê³ ìœ ê°’)  
-    ê¸°ì¤€ì¼	STATE_DT	30	í•„ìˆ˜	20200315	ê¸°ì¤€ì¼  
-    ê¸°ì¤€ì‹œê°„	STATE_TIME	30	í•„ìˆ˜	00:00	ê¸°ì¤€ì‹œê°„  
-    í™•ì§„ìž ìˆ˜	DECIDE_CNT	15	í•„ìˆ˜	8162	í™•ì§„ìž ìˆ˜  
-    ê²©ë¦¬í•´ì œ ìˆ˜	CLEAR_CNT	15	í•„ìˆ˜	834	ê²©ë¦¬í•´ì œ ìˆ˜  
-    ê²€ì‚¬ì§„í–‰ ìˆ˜	EXAM_CNT	15	í•„ìˆ˜	16272	ê²€ì‚¬ì§„í–‰ ìˆ˜  
-    ì‚¬ë§ìž ìˆ˜	DEATH_CNT	15	í•„ìˆ˜	75	ì‚¬ë§ìž ìˆ˜  
-    ì¹˜ë£Œì¤‘ í™˜ìž ìˆ˜	CARE_CNT	15	í•„ìˆ˜	7253	ì¹˜ë£Œì¤‘ í™˜ìž ìˆ˜  
-    ê²°ê³¼ ìŒì„± ìˆ˜	RESUTL_NEG_CNT	15	í•„ìˆ˜	243778	ê²°ê³¼ ìŒì„± ìˆ˜  
-    ëˆ„ì  ê²€ì‚¬ ìˆ˜	ACC_EXAM_CNT	15	í•„ìˆ˜	268212	ëˆ„ì  ê²€ì‚¬ ìˆ˜  
-    ëˆ„ì  ê²€ì‚¬ ì™„ë£Œ ìˆ˜	ACC_EXAM_COMP_CNT	15	í•„ìˆ˜	251940	ëˆ„ì  ê²€ì‚¬ ì™„ë£Œ ìˆ˜  
-    ëˆ„ì  í™•ì§„ë¥ 	ACC_DEF_RATE	30	í•„ìˆ˜	3.2396602365	ëˆ„ì  í™˜ì§„ë¥   
-    ë“±ë¡ì¼ì‹œë¶„ì´ˆ	CREATE_DT	30	í•„ìˆ˜	2020-03-15 10:01:22.000	ë“±ë¡ì¼ì‹œë¶„ì´ˆ  
-    ìˆ˜ì •ì¼ì‹œë¶„ì´ˆ	UPDATE_DT	30	í•„ìˆ˜	null	ìˆ˜ì •ì¼ì‹œë¶„ì´ˆ  
+    °á°úÄÚµå	resultCode	2	ÇÊ¼ö	00	°á°úÄÚµå  
+    °á°ú¸Þ½ÃÁö	resultMsg	50	ÇÊ¼ö	OK	°á°ú¸Þ½ÃÁö  
+    ÇÑ ÆäÀÌÁö °á°ú ¼ö	numOfRows	4	ÇÊ¼ö	10	ÇÑ ÆäÀÌÁö °á°ú ¼ö  
+    ÆäÀÌÁö ¹øÈ£	pageNo	4	ÇÊ¼ö	1	ÆäÀÌÁö¹øÈ£  
+    ÀüÃ¼ °á°ú ¼ö	totalCount	4	ÇÊ¼ö	3	ÀüÃ¼ °á°ú ¼ö  
+    °Ô½Ã±Û¹øÈ£(°¨¿°ÇöÈ² °íÀ¯°ª)	SEQ	30	ÇÊ¼ö	74	°Ô½Ã±Û¹øÈ£(°¨¿°ÇöÈ² °íÀ¯°ª)  
+    ±âÁØÀÏ	STATE_DT	30	ÇÊ¼ö	20200315	±âÁØÀÏ  
+    ±âÁØ½Ã°£	STATE_TIME	30	ÇÊ¼ö	00:00	±âÁØ½Ã°£  
+    È®ÁøÀÚ ¼ö	DECIDE_CNT	15	ÇÊ¼ö	8162	È®ÁøÀÚ ¼ö  
+    °Ý¸®ÇØÁ¦ ¼ö	CLEAR_CNT	15	ÇÊ¼ö	834	°Ý¸®ÇØÁ¦ ¼ö  
+    °Ë»çÁøÇà ¼ö	EXAM_CNT	15	ÇÊ¼ö	16272	°Ë»çÁøÇà ¼ö  
+    »ç¸ÁÀÚ ¼ö	DEATH_CNT	15	ÇÊ¼ö	75	»ç¸ÁÀÚ ¼ö  
+    Ä¡·áÁß È¯ÀÚ ¼ö	CARE_CNT	15	ÇÊ¼ö	7253	Ä¡·áÁß È¯ÀÚ ¼ö  
+    °á°ú À½¼º ¼ö	RESUTL_NEG_CNT	15	ÇÊ¼ö	243778	°á°ú À½¼º ¼ö  
+    ´©Àû °Ë»ç ¼ö	ACC_EXAM_CNT	15	ÇÊ¼ö	268212	´©Àû °Ë»ç ¼ö  
+    ´©Àû °Ë»ç ¿Ï·á ¼ö	ACC_EXAM_COMP_CNT	15	ÇÊ¼ö	251940	´©Àû °Ë»ç ¿Ï·á ¼ö  
+    ´©Àû È®Áø·ü	ACC_DEF_RATE	30	ÇÊ¼ö	3.2396602365	´©Àû È¯Áø·ü  
+    µî·ÏÀÏ½ÃºÐÃÊ	CREATE_DT	30	ÇÊ¼ö	2020-03-15 10:01:22.000	µî·ÏÀÏ½ÃºÐÃÊ  
+    ¼öÁ¤ÀÏ½ÃºÐÃÊ	UPDATE_DT	30	ÇÊ¼ö	null	¼öÁ¤ÀÏ½ÃºÐÃÊ  
 
     [df_sex.csv]
-    resultCode	ê²°ê³¼ì½”ë“œ	2	1	00	ê²°ê³¼ì½”ë“œ  
-    resultMsg	ê²°ê³¼ë©”ì„¸ì§€	50	1	NORMAL SERVICE	ê²°ê³¼ë©”ì‹œì§€  
-    numOfRows	í•œ íŽ˜ì´ì§€ ê²°ê³¼ ìˆ˜	4	1	10	í•œ íŽ˜ì´ì§€ë‹¹ í‘œì¶œ ë°ì´í„° ìˆ˜  
-    pageNo	íŽ˜ì´ì§€ ìˆ˜	4	1	1	íŽ˜ì´ì§€ ìˆ˜  
-    totalCount	ì „ì²´ ê²°ê³¼ ìˆ˜	4	1	2	ì „ì²´ ê²°ê³¼ ìˆ˜  
-    SEQ	ê²Œì‹œê¸€ë²ˆí˜¸(í™•ì§„ìž ì„±ë³„,ì—°ë ¹ë³„ ê³ ìœ ê°’)	30	1	134	ê²Œì‹œê¸€ë²ˆí˜¸(í™•ì§„ìž ì„±ë³„,ì—°ë ¹ë³„ ê³ ìœ ê°’)  
-    GUBUN	êµ¬ë¶„(ì„±ë³„, ì—°ë ¹ë³„)	30	1	0-9	êµ¬ë¶„(ì„±ë³„, ì—°ë ¹ë³„)  
-    CONF_CASE	í™•ì§„ìž	30	1	132	í™•ì§„ìž  
-    CONF_CASE_RATE	í™•ì§„ë¥ 	30	1	1.25	í™•ì§„ë¥   
-    DEATH	ì‚¬ë§ìž	30	1	0	ì‚¬ë§ìž  
-    DEATH_RATE	ì‚¬ë§ë¥ 	30	1	0.00	ì‚¬ë§ë¥   
-    CRITICAL_RATE	ì¹˜ëª…ë¥ 	30	1	0	ì¹˜ëª…ë¥   
-    CREATE_DT	ë“±ë¡ì¼ì‹œë¶„ì´ˆ	30	1	2020-04-13 10:22:29.663	ë“±ë¡ì¼ì‹œë¶„ì´ˆ  
-    UPDATE_DT	ìˆ˜ì •ì¼ì‹œë¶„ì´ˆ 	30	1	null	ìˆ˜ì •ì¼ì‹œë¶„ì´ˆ   
-    â€» í•­ëª©êµ¬ë¶„ : í•„ìˆ˜(1), ì˜µì…˜(0)
+    resultCode	°á°úÄÚµå	2	1	00	°á°úÄÚµå  
+    resultMsg	°á°ú¸Þ¼¼Áö	50	1	NORMAL SERVICE	°á°ú¸Þ½ÃÁö  
+    numOfRows	ÇÑ ÆäÀÌÁö °á°ú ¼ö	4	1	10	ÇÑ ÆäÀÌÁö´ç Ç¥Ãâ µ¥ÀÌÅÍ ¼ö  
+    pageNo	ÆäÀÌÁö ¼ö	4	1	1	ÆäÀÌÁö ¼ö  
+    totalCount	ÀüÃ¼ °á°ú ¼ö	4	1	2	ÀüÃ¼ °á°ú ¼ö  
+    SEQ	°Ô½Ã±Û¹øÈ£(È®ÁøÀÚ ¼ºº°,¿¬·Éº° °íÀ¯°ª)	30	1	134	°Ô½Ã±Û¹øÈ£(È®ÁøÀÚ ¼ºº°,¿¬·Éº° °íÀ¯°ª)  
+    GUBUN	±¸ºÐ(¼ºº°, ¿¬·Éº°)	30	1	0-9	±¸ºÐ(¼ºº°, ¿¬·Éº°)  
+    CONF_CASE	È®ÁøÀÚ	30	1	132	È®ÁøÀÚ  
+    CONF_CASE_RATE	È®Áø·ü	30	1	1.25	È®Áø·ü  
+    DEATH	»ç¸ÁÀÚ	30	1	0	»ç¸ÁÀÚ  
+    DEATH_RATE	»ç¸Á·ü	30	1	0.00	»ç¸Á·ü  
+    CRITICAL_RATE	Ä¡¸í·ü	30	1	0	Ä¡¸í·ü  
+    CREATE_DT	µî·ÏÀÏ½ÃºÐÃÊ	30	1	2020-04-13 10:22:29.663	µî·ÏÀÏ½ÃºÐÃÊ  
+    UPDATE_DT	¼öÁ¤ÀÏ½ÃºÐÃÊ 	30	1	null	¼öÁ¤ÀÏ½ÃºÐÃÊ   
+    ¡Ø Ç×¸ñ±¸ºÐ : ÇÊ¼ö(1), ¿É¼Ç(0)
