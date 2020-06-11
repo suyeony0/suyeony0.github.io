@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Covid-19 - Data Description
+title: COVID-19 - Data Description
 date: 2020-06-06
 description: Data Description
 thumbnail: breakfast-orange-lemon-oranges-large.jpg 
