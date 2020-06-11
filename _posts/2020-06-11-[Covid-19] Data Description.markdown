@@ -3,7 +3,7 @@ layout: post
 title: Covid-19 - Data Description
 date: 2020-06-11
 description: Data Description
-thumbnail: city1.jpg
+thumbnail: work1.jpg
 categories: DataMining
 
 # Information for the author block
