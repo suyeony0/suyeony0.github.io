@@ -2,7 +2,7 @@
 layout: post
 title: [SAMSUNG SW - Horizontal Vertical Puzzle]
 date: 2020-6-12
-description: txt to markdown
+description: txt to markdown 
 thumbnail: food2.jpg
 categories: Algorithm
 
@@ -10,9 +10,9 @@ categories: Algorithm
 author : Loui
 ---
 
-ï»?214. SAMSUNG SW : Horizontal Vertical Puzzle]
+Ã¯Â»?214. SAMSUNG SW : Horizontal Vertical Puzzle]
 - it was a permuation problem.
-- At first, I didn?™t understand what the problem required. so I spent 5 minutes or so to understand it.
+- At first, I didn?â„¢t understand what the problem required. so I spent 5 minutes or so to understand it.
 - I used DFS for permutation.
 - To check whether the puzzle table is valid, for each word in the table, I compared it to the given words.
 - if it exists, erase it, if not, return false and keep permutating.
