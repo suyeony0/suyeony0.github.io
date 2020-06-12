@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Bike Sharing - Additional Try, after 22, May.
 date: 2020-06-12
