@@ -10,7 +10,7 @@ categories: DataMining
 author : Loui
 --- 
 
-
+'''
   2020-05-14
   - 첫날 시도, feature 몇개 지움
 
@@ -246,3 +246,4 @@ author : Loui
   > XGB : 0.38881: (valid : 0.26521 
   > LGB : 0.38619 (valid : 0.24864 <= 143/3242, 0.04, 상위 4%
   > RF : 0.40118 (valid : 0.12228 )
+'''
