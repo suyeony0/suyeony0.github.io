@@ -10,12 +10,12 @@ categories: Algorithm
 author : Loui
 ---
 
-ï»¿[214. SAMSUNG SW : Horizontal Vertical Puzzle]
+ï»?214. SAMSUNG SW : Horizontal Vertical Puzzle]
 - it was a permuation problem.
-- At first, I didnâ€™t understand what the problem requires. so I spent 5 minutes or so to understand it.
+- At first, I didn?™t understand what the problem required. so I spent 5 minutes or so to understand it.
 - I used DFS for permutation.
 - To check whether the puzzle table is valid, for each word in the table, I compared it to the given words.
-- if it exists, erase it, if not, return false and keep permutate.
+- if it exists, erase it, if not, return false and keep permutating.
 - I spent 20 minutes and 49 seconds.
 - see the code.
 
