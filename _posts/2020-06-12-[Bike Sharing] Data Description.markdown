@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bike Sharing - Data Description
-date: 2020-06-11
+date: 2020-06-12
 description: Data Description
 thumbnail: city1.jpg
 categories: DataMining
