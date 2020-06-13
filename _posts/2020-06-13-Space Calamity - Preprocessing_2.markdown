@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Space Calamity - Preprocessing_2
 date: 2020-06-13
