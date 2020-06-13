@@ -11,6 +11,6 @@ author : Loui
 ---
 
 <p align="center">
-  <iframe left-margin="400" align="middle"  src="/portfolio/Space Calamity Data Description.pdf" width="1300" height="800" type='application/pdf'/>
+  <iframe align="middle"  src="/portfolio/Space Calamity Data Description.pdf" width="1300" height="800" type='application/pdf'/>
   </iframe>
 </p>
