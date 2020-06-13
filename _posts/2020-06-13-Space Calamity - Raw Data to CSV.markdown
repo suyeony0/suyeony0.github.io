@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Space Calamity - Raw Data to CSV
 date: 2020-06-13
