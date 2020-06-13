@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Space Calamity - Data Split by Time
 date: 2020-06-13
