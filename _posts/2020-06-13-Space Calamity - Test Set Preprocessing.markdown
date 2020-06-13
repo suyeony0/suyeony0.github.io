@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Space Calamity - Test Set Preprocessing
 date: 2020-06-13
