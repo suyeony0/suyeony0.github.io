@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Space Calamity - NaN Handling
 date: 2020-06-13
