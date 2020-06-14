@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Adding day length
 date: 2020-06-14
