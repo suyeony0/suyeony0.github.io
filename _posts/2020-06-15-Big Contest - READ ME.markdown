@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Big Contest - Champions League
+title: Big Contest - READ ME
 date: 2020-06-15
 description: READ ME
 thumbnail: breakfast-orange-lemon-oranges-large.jpg
