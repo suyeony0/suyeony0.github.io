@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - First Last Cnt of Day
 date: 2020-06-14
