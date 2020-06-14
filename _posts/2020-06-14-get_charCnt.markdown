@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Getting Character Count
 date: 2020-06-14
