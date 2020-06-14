@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Model Flatten
 date: 2020-06-14
