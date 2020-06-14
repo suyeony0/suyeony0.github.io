@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Restart From Scratch
 date: 2020-06-14
