@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Merging DataFrames
 date: 2020-06-14
