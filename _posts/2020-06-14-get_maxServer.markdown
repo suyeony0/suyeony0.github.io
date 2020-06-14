@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Get Max Value in Servers
 date: 2020-06-14
