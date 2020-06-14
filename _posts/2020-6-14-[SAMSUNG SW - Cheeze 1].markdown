@@ -10,7 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-﻿[216. SAMSUNG SW : Cheeze 1]
+[216. SAMSUNG SW : Cheeze 1]
 - It was a simulation problem.
 - Before make cheeze melt, I should determine shells that are adjacent to air.
 - To do that, I used BFS.
