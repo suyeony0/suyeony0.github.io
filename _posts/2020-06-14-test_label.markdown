@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Labelling Test set
 date: 2020-06-14
