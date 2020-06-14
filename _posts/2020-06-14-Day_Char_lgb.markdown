@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Day of LightGBM of Characters
 date: 2020-06-14
