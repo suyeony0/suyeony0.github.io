@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Preprocessing of Combat
 date: 2020-06-14
