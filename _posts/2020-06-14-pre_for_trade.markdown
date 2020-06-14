@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Big Contest - Preprocessing of Trade
 date: 2020-06-14
