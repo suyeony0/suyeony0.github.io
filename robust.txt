@@ -1,2 +1,3 @@
 User-agent: *
-Allow: 
+Allow: /
+Sitemap: https://suyeony0.github.io/sitemap.xml
