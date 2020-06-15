@@ -15,6 +15,8 @@ baseurl: ""
 
 # Where can people find your site?
 url: "https://suyeony0.github.io"
+plugins : 
+  - jekyll-sitemap
 # When developing, set this ^ equal to whatever localhost you're using
 
 # Socail Media links
