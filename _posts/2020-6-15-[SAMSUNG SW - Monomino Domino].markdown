@@ -10,7 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-﻿[218. SAMSUNG SW : Monomino Domino]
+[218. SAMSUNG SW : Monomino Domino]
 - WOW. I’ve suddenly encountered a <span style="color:red">super strong enemy</span>  for a long time.
 - It was a simulation problem.
 - To tell you a trap in this problem, 2 x 1 or 1 x 2 “BLOCK”
