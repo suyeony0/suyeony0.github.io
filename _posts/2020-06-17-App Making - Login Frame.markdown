@@ -27,7 +27,9 @@ author : Loui
   <![endif]-->
 </head>
 <body>
+```
 <p>### XML은 layout이고, java로 코드를 짤 때 해당 layout위에서 동작할 코드를 짠다고 생각하면 된다. 즉 layout과 java는 한쌍이라고 보면 된다.</p>
+```
 <p>### onCreate라는 함수가 main함수라고 생각하면된다.</p>
 <p>### Virtual Device 에서 내가 가상으로 사용할 핸드폰의 픽셀 및 사이즈를 고를 수 있다.</p>
 <p>**System Image 선택할때 선택 안되면, Enter 눌러서 필요 Component들을 설치해야 한다.**</p>
