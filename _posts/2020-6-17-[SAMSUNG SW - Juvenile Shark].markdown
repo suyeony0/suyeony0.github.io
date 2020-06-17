@@ -1,9 +1,9 @@
 ---
 layout: post
 title: [SAMSUNG SW - Juvenile Shark]
-date: 2020-6-16
+date: 2020-6-17
 description: txt to markdown
-thumbnail: work1.jpg
+thumbnail: food2.jpg
 categories: Algorithm
 
 # Information for the author block
@@ -12,13 +12,14 @@ author : Loui
 
 ﻿[219. SAMSUNG SW : Juvenile Shark]
 - It was a simulation problem.
-- I thought it was easy, actually until now. but I’ve trapped by something so I took so much time.
-- the trap was syncronizing fish’s position with table.
-- I had used fish’s position vector as global variable. So the program didn’t work well.
+- I thought it was easy, actually until now. but I’ve been trapped by something so I took so much time.
+- the trap was to syncronize fishes' position with table.
+- I had used fishes' position vector as global variable. So the program didn’t work well.
 - To find this trap, I spent so much time :(
-- I didn’t’ used BFS. Because of that, I think I devoured much time
+- I didn’t used BFS. Because of that, I think it devoured much time
 - I spent 2 hours and half or so.
 - see the code.
+
 
 ```cpp
 
