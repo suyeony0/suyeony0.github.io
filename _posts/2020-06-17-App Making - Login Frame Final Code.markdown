@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: App Making - Login Frame Final Code(Korean)
 date: 2020-06-17 19:00:00
@@ -27,8 +27,8 @@ author : Loui
   <![endif]-->
 </head>
 <body>
-<p># Login 프레임 만들기 최종 코드.</p>
-<p>## activity_login.xml</p>
+<p><strong>Login 프레임 만들기 최종 코드.</strong></p>
+<p><strong>activity_login.xml</strong></p>
 <p>```</p>
 <p><em>&lt;?</em><strong>xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;</strong><em>?&gt;<br />
 </em>&lt;<strong>LinearLayout<br />
@@ -188,7 +188,7 @@ android:textColor=&quot;@android:color/holo_blue_dark&quot;</strong>/&gt;<br />
 <br />
 &lt;/<strong>LinearLayout</strong>&gt;</p>
 <p>```</p>
-<p>## btn_blue.xml</p>
+<p><strong>btn_blue.xml</strong></p>
 <p>```</p>
 <p><em>&lt;?</em><strong>xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;</strong><em>?&gt;<br />
 </em>&lt;<strong>selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;<br />
