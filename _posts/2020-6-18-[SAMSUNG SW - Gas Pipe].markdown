@@ -10,7 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-﻿[221. SAMSUNG SW – Gas Pipe]
+[221. SAMSUNG SW – Gas Pipe]
 - It has been such a long time I’ve met a time limit exceed.
 - It was a simulation problem. I’ve struggle to reach the time limit.
 - Checking whether all the pipe is used consumed lots of computational time.
