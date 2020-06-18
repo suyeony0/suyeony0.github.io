@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Entire Algorithm until 18, June.
 date: 2020-06-18
