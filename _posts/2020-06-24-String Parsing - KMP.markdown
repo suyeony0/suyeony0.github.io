@@ -39,7 +39,6 @@ author : Loui
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight">
 <code>
 
-```c++
 
 void FindingFailure() {
 	failure.assign(target.size(), 0);
@@ -50,7 +49,6 @@ void FindingFailure() {
 	}
 }
 
-```
 </code>
 
 </pre></div></div>
@@ -63,7 +61,6 @@ void FindingFailure() {
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight">
 <code>
 
-```c++
 
 #include<iostream>
 #include<vector>
@@ -110,7 +107,6 @@ int main() {
 
 }
 
-```
 
 </code>
 </pre></div></div>
