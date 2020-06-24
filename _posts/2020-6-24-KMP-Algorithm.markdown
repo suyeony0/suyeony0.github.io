@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [2020-06-24-KMP-Algorithm]
+title: KMP-Algorithm
 date: 2020-6-24
 description: txt to markdown
 thumbnail: city2.jpg

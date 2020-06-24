@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [2020-06-24-KMP-Failure Funciton]
+title: KMP-Failure Funciton
 date: 2020-6-24
 description: txt to markdown
 thumbnail: person1.jpeg
@@ -9,6 +9,11 @@ categories: Algorithm
 # Information for the author block
 author : Loui
 ---
+
+```cpp
+
+{% raw %}
+
 
 void FindingFailure() {
 	failure.assign(target.size(), 0);
@@ -19,10 +24,7 @@ void FindingFailure() {
 	}
 }
 
-```cpp
 
-{% raw %}
-
-#{% endraw %}
+{% endraw %}
 ```
 
