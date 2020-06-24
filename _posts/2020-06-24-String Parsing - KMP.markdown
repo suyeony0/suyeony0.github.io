@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: String Parsing - KMP Algorithm
 date: 2020-06-24 19:25:00
