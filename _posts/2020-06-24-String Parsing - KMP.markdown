@@ -47,10 +47,7 @@ void FindingFailure() {
 	}
 }
 
-
 </span>
-
-
 
 <p>- It’s an DP algorithm, we don’t need to check previous characters if we meet same character.</p>
 <p><strong>- Actually, KMP Algorithm is almost same with the way to get failure function.</strong></p>
@@ -58,7 +55,6 @@ void FindingFailure() {
 <p>- see the whole code.</p>
 
 <span markdown="1">
-	
 
 #include<iostream>
 #include<vector>
@@ -106,7 +102,6 @@ int main() {
 }
 
 </span>
-
 
 </body>
 </html>
