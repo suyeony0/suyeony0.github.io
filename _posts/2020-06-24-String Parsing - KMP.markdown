@@ -37,7 +37,9 @@ author : Loui
 
 
 <span markdown="1">
-	
+
+```c++
+
 void FindingFailure() {
 	failure.assign(target.size(), 0);
 	int j = 0;
@@ -47,6 +49,8 @@ void FindingFailure() {
 	}
 }
 
+```
+
 </span>
 
 <p>- It’s an DP algorithm, we don’t need to check previous characters if we meet same character.</p>
@@ -55,6 +59,8 @@ void FindingFailure() {
 <p>- see the whole code.</p>
 
 <span markdown="1">
+
+```c++
 
 #include<iostream>
 #include<vector>
@@ -100,6 +106,8 @@ int main() {
 
 
 }
+
+```
 
 </span>
 
