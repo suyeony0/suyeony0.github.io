@@ -37,7 +37,7 @@ author : Loui
 
 
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight">
-
+<code>
 
 ```c++
 
@@ -51,6 +51,7 @@ void FindingFailure() {
 }
 
 ```
+</code>
 
 </pre></div></div>
 
@@ -60,6 +61,7 @@ void FindingFailure() {
 <p>- see the whole code.</p>
 
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight">
+<code>
 
 ```c++
 
@@ -110,6 +112,7 @@ int main() {
 
 ```
 
+</code>
 </pre></div></div>
 
 </body>
