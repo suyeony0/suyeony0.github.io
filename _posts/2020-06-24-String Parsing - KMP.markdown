@@ -38,6 +38,8 @@ author : Loui
 
 <span class="highlight" markdown="1">
 
+<code>
+
 ```c++
 
 void FindingFailure() {
@@ -50,6 +52,7 @@ void FindingFailure() {
 }
 
 ```
+</code>
 
 </span>
 
@@ -59,6 +62,8 @@ void FindingFailure() {
 <p>- see the whole code.</p>
 
 <span class="highlight" markdown="1">
+
+<code>
 
 ```c++
 
@@ -108,6 +113,8 @@ int main() {
 }
 
 ```
+
+</code>
 
 </span>
 
