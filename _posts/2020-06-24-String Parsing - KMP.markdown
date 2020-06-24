@@ -52,7 +52,7 @@ void FindingFailure() {
 
 ```
 
-</pre></div>/<div>
+</pre></div></div>
 
 <p>- It’s an DP algorithm, we don’t need to check previous characters if we meet same character.</p>
 <p><strong>- Actually, KMP Algorithm is almost same with the way to get failure function.</strong></p>
@@ -110,7 +110,7 @@ int main() {
 
 ```
 
-</pre></div>/<div>
+</pre></div></div>
 
 </body>
 </html>
