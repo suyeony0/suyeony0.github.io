@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: TEST
 date: 2020-06-25
