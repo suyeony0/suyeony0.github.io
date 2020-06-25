@@ -29,7 +29,6 @@ character.
 
 ```cpp
 
-{% raw %}
 
 void FindingFailure() {
 
@@ -47,7 +46,6 @@ if (target\[i\] == target\[j\]) failure\[i\] = ++j; //(1)
 
 }
 
-{% endraw %}
 
 ```
 
@@ -66,7 +64,6 @@ stopping the algorithm. **That's it!**
 
 ```cpp
 
-{% raw %}
 
 \#include\<iostream\>
 
@@ -136,6 +133,5 @@ return 0;
 
 }
 
-{% endraw %}
 
 ```
