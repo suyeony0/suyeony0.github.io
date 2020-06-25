@@ -64,7 +64,6 @@ stopping the algorithm. **That's it!**
 
 ```cpp
 
-
 \#include\<iostream\>
 
 \#include\<vector\>
@@ -132,6 +131,5 @@ cout \<\< KMP();
 return 0;
 
 }
-
 
 ```
