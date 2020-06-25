@@ -29,6 +29,8 @@ character.
 
 ```cpp
 
+{% raw %}
+
 void FindingFailure() {
 
 failure.assign(target.size(), 0);
@@ -44,6 +46,8 @@ if (target\[i\] == target\[j\]) failure\[i\] = ++j; //(1)
 }
 
 }
+
+{% endraw %}
 
 ```
 
@@ -61,6 +65,9 @@ stopping the algorithm. **That's it!**
 \- see the whole code.
 
 ```cpp
+
+{% raw %}
+
 \#include\<iostream\>
 
 \#include\<vector\>
@@ -128,5 +135,7 @@ cout \<\< KMP();
 return 0;
 
 }
+
+{% endraw %}
 
 ```
