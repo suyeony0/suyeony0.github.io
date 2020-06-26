@@ -10,11 +10,11 @@ categories: Algorithm
 author : Loui
 ---
 
-﻿[225. SAMSUNG SW – Ant]
+[225. SAMSUNG SW – Ant]
 - It was an easy simulation problem.
 - Just using double nested for syntax, we could solve it.
-- First, Getting input of a first groub of ants and Rerversing it.
-- Second, Appending a second groub of ants to the reversed first groub.
+- First, Getting input of a first group of ants and Rerversing it.
+- Second, Appending a second group of ants to the reversed first group.
 - Third, from index=0 to N1+N2-1, if we meet different direction when we compare [i] vs [i+1], swap the two ants only if [i]’s direction is right.
 - I spent 19 minutes and 38 seconds.
 - see the code.
