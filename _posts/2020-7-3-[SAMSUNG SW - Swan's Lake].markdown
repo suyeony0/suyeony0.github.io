@@ -10,7 +10,7 @@ categories: Algorithm
 author : Loui
 ---
 
-﻿[230. SAMSUNG SW – Swan’s Lake]
+[230. SAMSUNG SW – Swan’s Lake]
 - it was a BFS problem. But it has a rigid time limit.
 - My first trial was to use naïve BFS. But I’ve stuck by time.
 - Second trial was binary search. For that, I’ve preprocessed how many day will be needed to melt each ice. Then, I used binary search to find minimum day that was needed to meet two swans. But I’ve stuck by time and some test-cases were not passed.
