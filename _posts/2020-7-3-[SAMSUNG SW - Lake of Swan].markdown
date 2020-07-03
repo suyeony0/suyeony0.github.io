@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [SAMSUNG SW - Lake of Swan
+title: [SAMSUNG SW - Lake of Swan]
 date: 2020-7-3
 description: txt to markdown
 thumbnail: work1.jpg
